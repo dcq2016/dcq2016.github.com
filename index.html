@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html ng-app="weibo">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>简易微博AngularJs</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/angular.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body ng-controller="main">
+
+    <div class="header">
+        <div class="head">
+            <h1 class="logo"><img src="images/WB_logo.png" alt=""/></h1>
+            <div class="search_box">
+                <input type="text" class="search_text" placeholder="大家都在搜：中国进入中等偏高收入国家行列"/>
+                <input type="button" class="search_btn"/>
+            </div>
+            <div class="top_nav">
+                <ul>
+                    <li class="active">
+                        <em></em><a href="#">首页</a>
+                    </li>
+                    <li>
+                        <em class="em02"></em><a href="#">视频</a>
+                    </li>
+                    <li>
+                        <em class="em03"></em><a href="#">发现</a>
+                    </li>
+                    <li>
+                        <em class="em04"></em><a href="#">游戏</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user_info">
+                <div class="user_text">
+                    <em></em>邓昌青49751
+                </div>
+
+                <a href="#" class="icon01"></a>
+                <a href="#" class="icon02"></a>
+                <a href="#" class="icon03"></a>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container clearfix">
+    <!--nav-->
+    <div class="nav">
+        <ul class="top">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">我的赞</a></li>
+        </ul>
+        <ul class="mid">
+            <li><a href="#"><em class="icon_blog"></em>热门微博</a></li>
+            <div class="icon"></div>
+        </ul>
+        <ul>
+            <li><a href="#"><em class="icon_friend"></em>好友圈</a></li>
+            <li><a href="#"><em class="icon_care"></em>特别关注</a></li>
+            <li><a href="#"><em class="icon_group"></em>群微博</a></li>
+            <li><a href="#"><em class="icon_quietly"></em>悄悄关注</a></li>
+        </ul>
+
+    </div>
+    <!--nav end-->
+
+    <!--content-->
+    <div class="content">
+        <!--list-->
+        <div class="list">
+            <div class="list_send">
+                <div class="tit"><span>还可以输入<strong>140</strong>个字</span>有什么新鲜事想告诉大家?</div>
+                <textarea class="text_area"></textarea>
+                <div class="send">
+                    <input type="button" class="send_btn" value="发送"/>
+                    <a href="#" class="a1">表情</a>
+                    <a href="#" class="a2">图片</a>
+                    <a href="#" class="a3">视频</a>
+                    <a href="#" class="a4">话题</a>
+                    <a href="#" class="a5">头条文章</a>
+                </div>
+
+            </div>
+            <ul id="list_info">
+                <li ng-repeat="item in list">
+                    <img src="{{item.faceImg}}" alt=""/>
+                    <div class="info">
+                        <h3>{{item.username}}</h3>
+                        <div class="time">{{item.time*1000|date:'yyyy-MM-dd HH:mm:ss'}}</div>
+                        <div class="title">{{item.title}}</div>
+                        <p>
+                            {{item.content}}
+                        </p>
+                        <dl class="imglist">
+                            <dd ng-repeat="url in item.imgchild"><img src="{{url}}" alt=""/></dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--list end-->
+
+
+        <!--sidebar-->
+        <div class="sidebar">
+            <div class="user_face" id="user_face">
+                <div class="user_detail">
+                    <img src="{{faceInfo.url}}" alt=""/>
+                    <h2>{{faceInfo.username}}</h2>
+                </div>
+                <ul id="userinfo_list">
+                    <li>
+                        <strong>{{faceInfo.followNum}}</strong>
+                        <span>关注</span>
+                    </li>
+                    <li>
+                        <strong>{{faceInfo.fansNum}}</strong>
+                        <span>粉丝</span>
+                    </li>
+                    <li class="no">
+                        <strong>{{faceInfo.blog}}</strong>
+                        <span>微薄</span>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+            <div class="hot_info" id="hot_info">
+                <div class="title"><a href="javascript:;" class="change" ng-click="change()">换一换</a>热门话题</div>
+                <ul class="hot_info_ul">
+                    <li ng-repeat="item in arr"><span>{{item.hitNum}}</span><a href="{{item.href}}">{{item.title}}</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!--sidebar end-->
+
+    </div>
+    <!--content end-->
+</div>
+</body>
+</html>
