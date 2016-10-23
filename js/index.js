@@ -13,7 +13,7 @@ app.controller('main',function($scope,$http){
     $scope.hotTopic=null;
     $scope.list=null;
 
-    $http.get('weibodata.txt').success(function(res){
+    $http.get('/js/weibodata.txt').success(function(res){
         $scope.faceInfo=res.faceInfo;
         $scope.hotTopic=res.hotTopic;
         $scope.list=res.list;
