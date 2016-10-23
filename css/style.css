@@ -97,7 +97,8 @@ a:hover{ color:#fa7d3c;}
 .sidebar .hot_info ul{ height:144px; padding:10px 20px;}
 .sidebar .hot_info ul li{ line-height:24px;}
 .sidebar .hot_info ul li span{ float:right; color:#808080;}
-.sidebar .hot_info ul li a{ color:#666;}
+.sidebar .hot_info ul li a{ color:#333;}
+.sidebar .hot_info ul li a:hover{ color:#fa7d3c;}
 
 
 .clearfix:after{ clear:both; display:block; content:''; }
