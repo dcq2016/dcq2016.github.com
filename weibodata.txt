@@ -1,5 +1,5 @@
 ﻿{
-	faceInfo:{url:'images/5.jpg',username:'邓昌青49751',followNum:35,fansNum:999,blog:57},
+	faceInfo:{url:'images/5.jpg',username:'邓昌青49751',followNum:35,fansNum:89,blog:57},
 	hotTopic:[
 			{title:'#S6预言帝#',href:'http://www.baidu.com',hitNum:700},
 			{title:'#黄金周嗨不同#',href:'http://www.baidu.com',hitNum:45},
