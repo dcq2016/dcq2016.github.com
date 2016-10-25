@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "6";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_job.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="job">
+                    <table class="tablelist">
+                        <thead>
+                            <tr>
+                                <td class="td01">招聘职位</td>
+                                <td class="td02">招聘部门/单位</td>
+                                <td class="td03">招聘人数</td>
+                                <td class="td04">发布日期</td>
+                                <td class="td05">应聘</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">研究发展部助理</td>
+                                <td class="td02">市场部</td>
+                                <td class="td03">2人</td>
+                                <td class="td04">2015-3-6</td>
+                                <td class="td05"><a href="job_info.shtml">应聘</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+            </article>
+
+            <!--分页-->
+            <div class='Pages'>
+                <span class='p_page'>
+
+                    <a href='{$PrevPageUrl}' class='a_prev'>&lt;</a>
+                    <em class='num'>
+                        <Numeric>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>1<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>2<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>3<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>4<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>5<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>6<!--{$PageNum}--></a>
+                        </Numeric>
+                    </em>
+                    <a href='{$NextPageUrl}' class='a_next'>&gt;</a>
+                </span>
+            </div>
+            <!--分页 end-->
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

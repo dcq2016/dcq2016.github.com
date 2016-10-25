@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+   var navID = "7";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_contact.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+   <aside class="SildeBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      
+      <div class="Content">
+
+         <div class="Current">
+            <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+         </div>
+
+         <article class="contact">
+            <p>
+               广州南粤财富管理有限公司<br />
+               财富热线：020-86155880<br />
+               联系传真：020-86155880<br />
+               官方网站：www.nanyuewaelth.com<br />
+               财富地址：广州市天河区珠江新城珠江西路5号广州国际金融中心56层5603<br />
+            </p>
+
+            <!--这里到时替换成相应的百度地图-->
+            <div class="map">
+               <img src="images/temp/mapImg.jpg" alt=""/>
+            </div>
+
+
+
+         </article>
+      </div>
+
+      <!--#include file="include/sildeNews.html" -->
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

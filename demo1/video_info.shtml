@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "2";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="video">
+                <div class="title">按标签查看 ：<a href="#">企业视频</a> | <a href="#" class="aon">团队视频</a> | <a href="#">业务视频</a> | <a href="#">会议视频</a></div>
+                <div class="subtitle">理财师团队视频</div>
+                <p><img src="images/temp/videoinfoImg.jpg" alt=""/></p>
+                <div class="goback"><a href="#">返回列表</a></div>
+            </article>
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

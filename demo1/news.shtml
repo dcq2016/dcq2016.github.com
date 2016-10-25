@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "3";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_news.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="news_list">
+                <ul>
+                    <li>
+                        <a href="news_info.shtml"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><span>2016.2.6</span><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="news_info.shtml" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="news_info.shtml"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><span>2016.2.6</span><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="news_info.shtml" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><span>2016.2.6</span><a href="#">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="#" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="#">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="#" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><span>2016.2.6</span><a href="#">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="#" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../images/temp/newsImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="#">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>全球范围内推动金融理财认证和需求的因素是金融服务机构,比如我们在座的各位所供职的金融球范围内推动金融理财认识与国际金...</em>
+                            <a href="#" class="more">阅读详情</a>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+            <!--分页-->
+            <div class='Pages'>
+                <span class='p_page'>
+
+                    <a href='{$PrevPageUrl}' class='a_prev'>&lt;</a>
+                    <em class='num'>
+                        <Numeric>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>1<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>2<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>3<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>4<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>5<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>6<!--{$PageNum}--></a>
+                        </Numeric>
+                    </em>
+                    <a href='{$NextPageUrl}' class='a_next'>&gt;</a>
+                </span>
+            </div>
+            <!--分页 end-->
+
+
+        </div>
+
+        <!--#include file="include/sildeJob.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<footer class="Bottom">
+    <div class="auto"> 
+      <div class="link">
+          <div class="code">
+              <dl>
+                  <dt><img src="../images/codeImg.jpg" alt=""/></dt>
+                  <dd>
+                      <p>南粤财富</p>
+                      <p>官方微信</p>
+                  </dd>
+              </dl>
+          </div>
+
+          <div class="info">
+              <div class="address">
+                  <div class="title">财富热线</div>
+                  <div class="tel">020-86155880</div>
+                  <p>传真：020-8615586</p>
+                  <p>网站：www.nanyuewaelth.com</p>
+                  <p>财富地址：广州市天河区珠江新城珠江西路5号<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州国际金融中心56层5603</p>
+
+                  <div class="select">分支机构</div>
+                  <div class="option">
+                      <ul>
+                          <li><a href="http://www.baidu.com" target="_blank">链接地址一</a></li>
+                          <li><a href="#">链接地址二</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="list">
+                  <dl>
+                      <dt>公司概况</dt>
+                      <dd><a href="#">公司简介</a></dd>
+                      <dd><a href="#">大事记</a></dd>
+                      <dd><a href="#">团队风采</a></dd>
+                      <dd><a href="#">视频中心</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>新闻中心</dt>
+                      <dd><a href="#">媒体报道</a></dd>
+                      <dd><a href="#">行业新闻</a></dd>
+                      <dd><a href="#">公司动态</a></dd>
+                      <dd><a href="#">财富报告</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>服务介绍</dt>
+                      <dd><a href="#">固定收益类</a></dd>
+                      <dd><a href="#">证券投资类</a></dd>
+                      <dd><a href="#">股权投资类</a></dd>
+                      <dd><a href="#">创新投资类</a></dd>
+                      <dd><a href="#">跨境金融类</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>投资者俱乐部</dt>
+                      <dd><a href="#">全权家族信托服务</a></dd>
+                      <dd><a href="#">保录名校留学</a></dd>
+                      <dd><a href="#">定制贵宾体验</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>英才招聘</dt>
+                  </dl>
+                  <dl>
+                      <dt>联系我们</dt>
+                      <dd><a href="#">分支机构</a></dd>
+                      <dd><a href="#">联系方式</a></dd>
+                  </dl>
+              </div>
+          </div>
+      </div>
+
+      <div class="copyright"><span><a href="#">法律声明</a><em>|</em><a href="#">联系我们</a></span>COPYRIGHT &copy; 2015 广州南粤财富管理有限公司版权所有   技术支持 : 鸣联科技</div>
+
+</footer>
+
+<script type="text/javascript">
+    $(".select").click(function(){
+        $(".option").toggle();
+    });
+    $(".option li a").click(function(){
+        $(".option").hide();
+    });
+
+    //整站无图处理
+    jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+</script>

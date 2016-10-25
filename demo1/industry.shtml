@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+   var navID = "4";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   <div class="Current">
+      <dl>关于我们</dl>
+      <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+   </div>
+   <div class="clear"></div>
+   <aside class="SildeBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      
+      <div class="Content">
+         
+            <div class="industry">          
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/industryImg.jpg" /></a>
+                        <span><a href="#">集团产业链条</a></span>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!--分页-->
+            <div class='Pages'>
+                  <span class='p_count'>共<b>{$PageTotal}</b>页/</span><span class='p_cur'>目前:第<b>{$CurrentPage}</b>页</span>
+                  <span class='p_page'>
+                      <a href='{$FirstPageUrl}' class='a_first'>首页</a>
+                      <a href='{$PrevPageUrl}' class='a_prev'>上一页</a>
+                      <a href='{$NextPageUrl}' class='a_next'>下一页</a>
+                      <a href='{$LastPageUrl}' class='a_end'>末页</a> 
+                  </span>
+            </div>
+            <div class="Pages">
+                <a href='javascript:void(0);' class='a_first'>首页</a>
+                <a href='javascript:void(0);' class='a_prev'>>></a>
+                <em class="num"><a href="#" class="a_cur">1</a><a href="#">2</a><a href="#">3</a></em>
+                <a href='javascript:void(0);' class='a_next'>>></a>
+                <a href='javascript:void(0);' class='a_end'>末页</a> 
+             </div>            
+            <!--分页 end-->
+         	<script type="text/javascript">
+			$(".industry li").each(function(i, element) {
+                if(Number(i+1)%3==0)
+				{
+					$(this).attr("style"," margin-right:0px;");
+				}
+            });
+			</script>
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

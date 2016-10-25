@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "4";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_service.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="service">
+                <ul>
+                    <li>
+                        <a href="service_info.shtml"><img src="../images/temp/serviceImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会, 加快推动黄石
+                                市竞技体育事业和全民健身事业发展,推进大冶湖生态新区核心区建设，现由黄石
+                                市众邦体育产业开发有限公司作为该项目的建设单位。
+                            </em>
+                            <div class="appointment">
+                                <p>产品规模 : 15.6亿</p>
+                                <p>投资起点：100万</p>
+                                <a href="#" class="btn">在线预约</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="service_info.shtml"><img src="../images/temp/serviceImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会, 加快推动黄石
+                                市竞技体育事业和全民健身事业发展,推进大冶湖生态新区核心区建设，现由黄石
+                                市众邦体育产业开发有限公司作为该项目的建设单位。
+                            </em>
+                            <div class="appointment">
+                                <p>产品规模 : 15.6亿</p>
+                                <p>投资起点：100万</p>
+                                <a href="#" class="btn">在线预约</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="service_info.shtml"><img src="../images/temp/serviceImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会, 加快推动黄石
+                                市竞技体育事业和全民健身事业发展,推进大冶湖生态新区核心区建设，现由黄石
+                                市众邦体育产业开发有限公司作为该项目的建设单位。
+                            </em>
+                            <div class="appointment">
+                                <p>产品规模 : 15.6亿</p>
+                                <p>投资起点：100万</p>
+                                <a href="#" class="btn">在线预约</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="service_info.shtml"><img src="../images/temp/serviceImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会, 加快推动黄石
+                                市竞技体育事业和全民健身事业发展,推进大冶湖生态新区核心区建设，现由黄石
+                                市众邦体育产业开发有限公司作为该项目的建设单位。
+                            </em>
+                            <div class="appointment">
+                                <p>产品规模 : 15.6亿</p>
+                                <p>投资起点：100万</p>
+                                <a href="#" class="btn">在线预约</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="service_info.shtml"><img src="../images/temp/serviceImg.jpg" alt=""/></a>
+                        <div class="txt">
+                            <h2><a href="news_info.shtml">CFP系列资格认证金融理财全球卓越标准</a></h2>
+                            <em>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会, 加快推动黄石
+                                市竞技体育事业和全民健身事业发展,推进大冶湖生态新区核心区建设，现由黄石
+                                市众邦体育产业开发有限公司作为该项目的建设单位。
+                            </em>
+                            <div class="appointment">
+                                <p>产品规模 : 15.6亿</p>
+                                <p>投资起点：100万</p>
+                                <a href="#" class="btn">在线预约</a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </article>
+
+            <!--分页-->
+            <div class='Pages'>
+                <span class='p_page'>
+
+                    <a href='{$PrevPageUrl}' class='a_prev'>&lt;</a>
+                    <em class='num'>
+                        <Numeric>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>1<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>2<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>3<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>4<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>5<!--{$PageNum}--></a>
+                            <a href='{$PageUrl}' class='{$PageNumClass}' id='pageNum{$PageNum}'>6<!--{$PageNum}--></a>
+                        </Numeric>
+                    </em>
+                    <a href='{$NextPageUrl}' class='a_next'>&gt;</a>
+                </span>
+            </div>
+            <!--分页 end-->
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

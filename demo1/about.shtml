@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+   var navID = "2";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+   <aside class="SildeBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      
+      <div class="Content">
+
+         <div class="Current">
+            <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+         </div>
+
+         <article class="SinglePage">
+            <p><img src="images/temp/aboutImg.jpg"></p>
+            <p><img src="images/temp/about_Title.jpg"></p>
+
+            <p>广州南粤财富管理有限公司（简称“南粤财富”）成立于2015年12月，公司位于广州金融CBD核心区——广州国
+               际金融中心（IFC）。南粤财富由“广州南粤基金管理有限公司 ”（简称“南粤基金”）作为控股股东联合广东良
+               策金融集团共同设立。</p>
+            <p>南粤财富，作为实力雄厚的国资控股企业，拥有独特的业务资源优势，经营稳健，为投资者的资金安全提供了强有
+               力的保障。南粤财富把握丰富的项目资产端，与各大城市发展基金公司开展紧密合作，充分开发政府PPP项目及产
+               业投资基金，为第三方理财机构、南粤基金投资者俱乐部成员、高净值个人客户提供专业的投资理财服务以及推荐
+               风险可控、收益稳定的高端理财产品，使政府类基金与社会资金实现充分有效对接。</p>
+            <p>从诞生之日起，南粤财富致力于打造高端理财产品和专业财富管理平台，成为客户专属的财富管理专家。南粤财富
+               拥有一支独立、专业、敬业的理财顾问精英团队集国际化视野、国内外金融投资运营经验、良好职业素养三者于一
+               身，根据不同投资者的需求，制定出整套完善的项目评估体系，从客户角度出发，筛选出适合的产品，构建最合理
+               的投资组合。</p>
+            <p>公司本着“诚实笃信、厚德载物；风控为先，客户利益至上，促进社会资源有效配置”的南粤理念，时刻追求“创
+               新、卓越、精益求精、至臻至善”的南粤精神，愿景成为中国财富管理服务的领航者，为客户的财富的增值保驾护
+               航！公司还以关注公益慈善为核心，积极投身公益事业，牢记企业社会责任，推动社会进步。</p>
+
+
+
+         </article>
+      </div>
+
+      <!--#include file="include/sildeNews.html" -->
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

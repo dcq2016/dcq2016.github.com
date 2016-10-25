@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "4";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_service.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="message">
+
+                <div class="title">在线预约南粤财富业务 <span>ONLINE BOOKING SERVICE</span></div>
+
+                    <table>
+                        <tr>
+                            <td><input type="text" class="text" placeholder="您的姓名" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="text" placeholder="您的电话" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="text" placeholder="预约时间" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">咨询业务类别</option>
+                                    <option value="">咨询业务类别一</option>
+                                    <option value="">咨询业务类别二</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><textarea type="textarea" class="textarea" placeholder="咨询内容"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><input type="button" class="btn mr20" value="提交"> <input type="button" class="btn" value="重置"></td>
+                        </tr>
+                    </table>
+
+
+            </article>
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

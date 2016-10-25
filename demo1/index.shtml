@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+   var navID = "1";
+</script>
+</head>
+
+
+
+<body>
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+<aside class="Homeban">
+    <div class="hd">
+        <ul><li></li><li></li><li></li><li></li></ul>
+    </div>
+    <div class="bd">
+        <ul>
+            <li style=" background:url(images/temp/banner.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner.jpg) no-repeat center top;"></li>
+        </ul>
+    </div>
+    <a class="prev" href="javascript:void(0)"></a>
+    <a class="next" href="javascript:void(0)"></a>
+</aside>
+<script type="text/javascript">
+jQuery(".Homeban").slide({mainCell:".bd ul",autoPlay:true,interTime:5000});
+</script>
+
+<aside class="Home_totaler">
+    <div class="Home_totaler_r"></div>
+    <div class="Home_total">
+        <div class="Home_total_hot">
+            <span>今日要闻</span>
+            <p>NEWS</p>
+        </div>
+
+        <div class="Home_hot_txtScroll-left">
+
+            <div class="bd">
+                <ul>
+                    <li>
+                        <span>2015.12.17</span>
+                        <a href="#">南粤基金官方网站正式上线
+                            并推出最新的投资产品...</a>
+                    </li>
+                    <li>
+                        <span>2015.12.17</span>
+                        <a href="#">2南粤基金官方网站正式上线
+                            并推出最新的投资产品...</a>
+                    </li>
+                    <li>
+                        <span>2015.12.18</span>
+                        <a href="#">3南粤基金官方网站正式上线
+                            并推出最新的投资产品...</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd">
+                <a class="next"></a>
+                <a class="prev"></a>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".Home_hot_txtScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:false,scroll:1,vis:1,trigger:"click"});
+        </script>
+        
+        <div class="Home_hot_profile">
+            <div class="img"><a href="#"><img src="images/home_hotpic.jpg" alt=""/></a></div>
+            <dl class="txt">
+                <dt>企业概况</dt>
+                <dd>
+                    <p>南粤基金2015年成立,广州
+                    南粤基金管理有限公司旗下
+                    最耀眼的专业财富管理公司</p>
+                    <a href="#" class="more">MORE</a>
+                </dd>
+            </dl>
+
+        </div>
+        <div class="Home_hot_video"><a href="#"><img src="images/temp/home_videoImg.jpg" alt=""/><span class="bg"></span></a></div>
+
+        <div class="clear"></div>
+    </div>
+
+</aside>
+
+
+
+
+<!--HomeContain Start-->
+<section class="HomeContain">
+
+    <div class="Home_navlist">
+        <ul>
+            <li><a href="#"><img src="images/icon01.jpg" alt=""/>固定收益类</a></li>
+            <li><a href="#"><img src="images/icon02.jpg" alt=""/>证券投资类</a></li>
+            <li><a href="#"><img src="images/icon03.jpg" alt=""/>股权投资类</a></li>
+            <li><a href="#"><img src="images/icon04.jpg" alt=""/>创新投资类</a></li>
+            <li class="noborder"><a href="#"><img src="images/icon05.jpg" alt=""/>跨境金融类</a></li>
+        </ul>
+    </div>
+
+    <div class="Home_count">
+        <div class="Home_hotproduct">
+            <div class="title">热销产品</div>
+            <div class="picTab">
+                <div class="hd"></div>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <span>展望一生计划</span>
+                            <a href="#"><img src="images/temp/hotImg.jpg" alt=""/></a>
+                        </li>
+                        <li>
+                            <span>展望一生计划二</span>
+                            <a href="#"><img src="images/temp/hotImg.jpg" alt=""/></a>
+                        </li>
+                        <li>
+                            <span>展望一生计划三</span>
+                            <a href="#"><img src="images/temp/hotImg.jpg" alt=""/></a>
+                        </li>
+                        <li>
+                            <span>展望一生计划四</span>
+                            <a href="#"><img src="images/temp/hotImg.jpg" alt=""/></a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="prev" href="javascript:void(0)"></a>
+                <a class="next" href="javascript:void(0)"></a>
+            </div>
+            <script type="text/javascript">
+                jQuery(".picTab").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:false,scroll:1,vis:1,trigger:"click"});
+            </script>
+
+        </div>
+
+        <div class="Home_book">
+            <a href="#">
+                <img src="images/temp/bookImg.jpg" alt=""/>
+                <p>财富报告 [2015.12 期]</p>
+            </a>
+        </div>
+
+
+        <div class="Home_news" id="AutoTables1">
+            <h2>
+                <span>集团新闻</span>
+                <span>企业动态</span>
+                <span>媒体报道</span>
+            </h2>
+            <div class="list" name="AutoContent">
+                <div>
+                    
+                    <div class="imgList" id="imgList01">
+                        <div class="hd"></div>
+                        <div class="bd">
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <a class="prev" href="javascript:void(0)"></a>
+                        <a class="next" href="javascript:void(0)"></a>
+                    </div>
+                    <ul>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                    <div class="imgList" id="imgList02">
+                        <div class="hd"></div>
+                        <div class="bd">
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">22CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">22CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <a class="prev" href="javascript:void(0)"></a>
+                        <a class="next" href="javascript:void(0)"></a>
+                    </div>
+                    <ul>
+                        <li><span>2015.12.10</span><a href="#">企业动态目出炉总投资2万多亿元</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                    <div class="imgList" id="imgList03">
+                        <div class="hd"></div>
+                        <div class="bd">
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">33CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#"><img src="images/temp/home_newImg.jpg" alt=""/></a></dt>
+                                <dd>
+                                    <div class="txt">
+                                        <a href="#">33CFP系列资格认证金融理财全球卓越标准</a>
+                                        <span class="time">2015.12.10</span>
+                                        <p>全球范围内推动金融理财认证和需求的因素是金融服务机构,比 如我们在座的各位所供职的金融机构...</p>
+                                        <em><a href="#">阅读详情</a></em>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <a class="prev" href="javascript:void(0)"></a>
+                        <a class="next" href="javascript:void(0)"></a>
+                    </div>
+                    <ul>
+                        <li><span>2015.12.10</span><a href="#">媒体报道媒体报道媒体报道媒体报道</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                        <li><span>2015.12.10</span><a href="#">发改委第二批PPP项目出炉总投资2万多亿元</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            jQuery("#imgList01").slide({mainCell:".bd",autoPage:true,effect:"left",autoPlay:false,scroll:1,vis:1,trigger:"click"});
+            jQuery("#imgList02").slide({mainCell:".bd",autoPage:true,effect:"left",autoPlay:false,scroll:1,vis:1,trigger:"click"});
+            jQuery("#imgList03").slide({mainCell:".bd",autoPage:true,effect:"left",autoPlay:false,scroll:1,vis:1,trigger:"click"});
+        </script>
+
+        <div class="clear"></div>
+    </div>
+
+    <div class="Home_pic">
+        <div class="Home_picScroll_left">
+            <div class="hd">
+                <a class="next"></a>
+                <a class="prev"></a>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                    <li><a href="#" target="_blank"><img src="images/temp/Home_Img.jpg" /></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".Home_picScroll_left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:6,trigger:"click"});
+        </script>
+
+        <div class="Home_club"><a href="#"><img src="images/temp/Home_clubImg.jpg" alt=""/></a></div>
+        <div class="clear"></div>
+
+    </div>
+
+    <div class="Home_link">
+        <dl>
+            <dt></dt>
+            <dd>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+            </dd>
+        </dl>
+    </div>
+
+</section>
+<!--HomeContain end--> 
+
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+<script type="text/javascript" src="scripts/tab.js"></script>
+<script type="text/javascript">
+AutoTables("AutoTables1");
+</script>
+</body>
+</html>

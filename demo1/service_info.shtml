@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "4";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_service.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="news_info">
+                <wtl:inforarea>
+                    <h1 class="info_title">黄石奥体中心项目投资基金{$title}</h1>
+                    <div class="info_time">投资类型 : 固定收益类</div>
+                    <div class="info_txt">
+                        {$content}
+                        <p><img src="images/temp/serviceinfoImg.jpg" alt=""/></p>
+                        <table class="service_table">
+                            <tr>
+                                <td class="td01">产品名称</td>
+                                <td class="td02">南粤黄石奥体中心项目投资基金</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">产品状态</td>
+                                <td class="td02"></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">发行机构</td>
+                                <td class="td02">广州南粤城市发展投资基金管理有限公司</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">投资方向</td>
+                                <td class="td02">用于湖北黄石市奥林匹克体育中心项目的建设</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">产品期限</td>
+                                <td class="td02">年</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">投资起点</td>
+                                <td class="td02">100万</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">产品规模</td>
+                                <td class="td02">15.6亿</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">发行时间</td>
+                                <td class="td02"></td>
+                            </tr>
+                            <tr>
+                                <td class="td01">预约电话</td>
+                                <td class="td02">020-86155880</td>
+                            </tr>
+                            <tr>
+                                <td class="td01">风控方式</td>
+                                <td class="td02">
+                                    <p>1、黄石市众邦城市住房投资有限公司(国有)作为回购主体和众邦体
+                                    育公司股东，对合伙企业的股权分红和股权回购需履行按时足额支
+                                    付承诺</p>
+                                    <p>2、黄石市众邦城市住房投资有限公司提供股权质押作为担保。</p>
+                                    <p>3、股权分红款和股权回购资金由黄石市政府以财政补贴的形式安排
+                                    资金进行支付，并纳入当年财政预算。该事项需得到黄石市政府的同
+                                    意，并通过区政府常务会议的审议通过。</p>
+                                    <p>4、该事项需通过人大审议，并出具人大决议。</p>
+                                    <p>5、黄石市财政局出具财政补贴函，对股权分红款和股权回购资金进
+                                    <p>行安排。</p>
+                                    <p>产品详细描述</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td01">产品详细描述</td>
+                                <td class="td02">
+                                    <p>项目介绍：为承办好2018年在黄石举办的湖北省第十五届运动会，
+                                    加快推动黄石市竞技体育事业和全民健身事业发展，推进大冶湖生态
+                                    新区核心区建设，现由黄石市众邦体育产业开发有限公司作为该项目
+                                    的建设单位。</p>
+                                    <p>融资方介绍：黄石市众邦体育产业开发有限公司是黄石市众邦城市住
+                                    房投资有限公司为该项目建设而创立的一家公司，众邦住房属于国企，
+                                    全资股东是湖北黄石市房地产管理局</p>
+
+                                </td>
+                            </tr>
+
+
+
+                        </table>
+                    </div>
+                    <div class="goback"><a href="message.shtml" class="book">在线预约</a><a href="list_{@columnid}.aspx">返回列表</a></div>
+                </wtl:inforarea>
+
+
+            </article>
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

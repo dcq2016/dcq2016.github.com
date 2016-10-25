@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+    <script type="text/javascript">
+        var navID = "6";
+    </script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_job.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+
+
+    <aside class="SildeBar">
+        <!--#include file="include/menu_about.html" -->
+    </aside>
+    <section class="MainContent">
+
+        <div class="Content">
+
+            <div class="Current">
+                <em><a href="index.shtml">首页</a> &gt; <a href="#">关于我们</a> &gt; <span>公司介绍</span></em>
+            </div>
+
+            <article class="job_info">
+
+                <div class="desc">
+                    <p class="colorYellow">
+                        职位名称：内审主管<br />
+                        招聘部门/单位：审计稽核部<br />
+                        招聘人数：1<br />
+                        发布时间：2015-12-18<br />
+                        截止时间：2016-01-18
+                    </p>
+                    <p>
+                        <span class="colorYellow">任职资格：</span>
+                        1. “985”“211”名校法律本科以上学历，通过司法考试尤佳<br />
+                        2.  2年以上相关工作经验<br />
+                        3.  热爱公司法律事务工作，具有法律工作者的严谨性；<br />
+                        4.  勤学好问、吃苦耐劳<br />
+                        5.  良好的表达、沟通能力和团队合作精神。<br />
+                    </p>
+                    <p>
+                        <span class="colorYellow">招聘要求：</span>
+                        1、协助审核集团总部合同，参与合同的草拟<br />
+                        2、协助完善合同标准化、规范化管理体系<br />
+                        3、为集团及下属企业提供纠纷管理建议与指导，完善纠纷预警机制，防控法律风险<br />
+                        4、优化符合集团及下属企业需求的内外部法律服务工作体系，提高法律服务质量<br />
+                        5.领导交办的其他工作<br />
+                    </p>
+
+                </div>
+
+                <table class="table">
+                    <tr class="colorYellow">
+                        <td class="td01">应聘职位：</td>
+                        <td>内审主管</td>
+                    </tr>
+                    <tr>
+                        <td class="td01"><span class="form_err">*</span>应聘人姓名：</td>
+                        <td><input type="text" class="text"/></td>
+                    </tr>
+                    <tr>
+                        <td class="td01"><span class="form_err">*</span>接收邮箱：</td>
+                        <td><input type="text" class="text"/></td>
+                    </tr>
+                    <tr>
+                        <td class="td01"><span class="form_err">*</span>联系电话：</td>
+                        <td><input type="text" class="text"/></td>
+                    </tr>
+                    <tr>
+                        <td class="td01"><span class="form_err">*</span>上传简历(Word)：</td>
+                        <td><input type="file"/></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2"><input type="button" class="btn mr20" value="提交"> <input type="button" class="btn" value="重置"></td>
+                    </tr>
+
+                </table>
+
+
+            </article>
+
+        </div>
+
+        <!--#include file="include/sildeNews.html" -->
+    </section>
+    <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>
