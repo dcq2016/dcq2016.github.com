@@ -397,7 +397,7 @@ jQuery(".Homeban").slide({mainCell:".bd ul",autoPlay:true,interTime:5000});
             jQuery(".Home_picScroll_left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:6,trigger:"click"});
         </script>
 
-        <div class="Home_club"><a href="#"><img src="images/temp/Home_clubImg.jpg" alt=""/></a></div>
+        <div class="Home_club"><a href="#"><img src="images/temp/home_clubImg.jpg" alt=""/></a></div>
         <div class="clear"></div>
 
     </div>
@@ -406,12 +406,12 @@ jQuery(".Homeban").slide({mainCell:".bd ul",autoPlay:true,interTime:5000});
         <dl>
             <dt></dt>
             <dd>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
-                <a href="#"><img src="images/temp/Home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
+                <a href="#"><img src="images/temp/home_linkImg.jpg" alt=""/></a>
             </dd>
         </dl>
     </div>
