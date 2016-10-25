@@ -139,7 +139,7 @@ $(".SildeBar li:last a").attr("style","height:47px; line-height:47px; border-bot
 
          <article class="SinglePage">
             <p><img src="images/temp/aboutImg.jpg"></p>
-            <p><img src="images/temp/about_Title.jpg"></p>
+            <p><img src="images/temp/about_title.jpg"></p>
 
             <p>广州南粤财富管理有限公司（简称“南粤财富”）成立于2015年12月，公司位于广州金融CBD核心区——广州国
                际金融中心（IFC）。南粤财富由“广州南粤基金管理有限公司 ”（简称“南粤基金”）作为控股股东联合广东良
