@@ -31,7 +31,7 @@
     </header>
 
     <!--banner图切换-->
-    <section class="banner">
+    <section class="banner" id="slideBox">
         <div class="bd">
             <ul>
                 <li><img src="images/bannerImg01.jpg" alt=""/></li>
@@ -43,13 +43,24 @@
         </div>
         <div class="hd">
             <ul>
+                <!--<li></li>
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
-                <li class="active"></li>
+                <li class="active"></li>-->
             </ul>
         </div>
+        <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell:"#slideBox",
+                titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                mainCell:".bd ul",
+                effect:"leftLoop",
+                autoPage:true,//自动分页
+                autoPlay:true //自动播放
+            });
+        </script>
     </section>
 
     <!--导航列表-->
