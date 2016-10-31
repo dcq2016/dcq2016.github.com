@@ -75,7 +75,7 @@ header img{ width:9.4rem; height:2.2rem; margin-top:0.175rem;}
 .go_top a{ color:#000; padding:0 0.2rem;}
 .go_top .icon_top{ float:right; background:url(../images/icon_top.jpg) no-repeat right; padding-right:0.8rem;}
 
-footer{ padding:0.5rem 0; text-align:center;}
+footer{ padding:1rem 0 2rem; text-align:center; background:#eee;}
 footer .edition{ height:1.2rem; line-height:1.2rem;}
 footer .edition a{ display:inline-block; padding:0 0.2rem; color:#000; font-size:0.7rem;}
 footer .copyright{ line-height:1rem; font-size:0.7rem;}
