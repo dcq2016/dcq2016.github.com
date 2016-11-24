@@ -1,0 +1,2 @@
+npm install --save-dev browser-sync
+browser-sync start --server --files "**/*.css, **/*.html, *.html"

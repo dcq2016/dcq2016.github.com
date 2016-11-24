@@ -1,4 +1,4 @@
-body,ul,ol,dl,p{ margin:0; padding:0;}
+body,ul,ol,dl,p,h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
 body{ font-family:"Microsoft YaHei"; font-size:20px; color:#999;}
 ul,dl,ol{ list-style:none;}
 em{ font-style:normal;}

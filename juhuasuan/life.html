@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0,maximum-scale=1.0, minimum-scale=1.0" />
+    <title>聚划算-生活团</title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script>
+        (function(win,doc){
+            var rem=20/320*document.documentElement.clientWidth;
+            doc.documentElement.style.fontSize=rem+'px';
+            window.onresize=function(){
+                var rem=20/320*document.documentElement.clientWidth;
+                doc.documentElement.style.fontSize=rem+'px';
+            }
+        })(window,document);
+        function getStyle(obj,name){
+            return (obj.currentStyle||getComputedStyle(obj,false))[name];
+        }
+        //切换分类
+        document.addEventListener('DOMContentLoaded',function(){
+            var oCate=document.querySelector('.category_btn');
+            var oBg=document.querySelector('.classify_bg');
+            var oClassify=document.querySelector('.classify');
+            var oTab=document.querySelector('.tab');
+            var oTabTitle=oTab.children[0];
+            var aSpan=oTabTitle.children;
+            var oTabContent=oTab.children[1];
+            var oUl=oTabContent.children;
+
+            oCate.addEventListener('touchstart',function(){
+                if(getStyle(oBg,'display')=='none'){
+                    oBg.style.display='block';
+                    oClassify.style.display='block';
+                }else{
+                    oBg.style.display='none';
+                    oClassify.style.display='none';
+                }
+            },false);
+
+            for(var i=0;i<aSpan.length;i++){
+                (function(index){
+                    aSpan[i].addEventListener('touchstart',function(){
+                        for(var j=0;j<aSpan.length;j++){
+                            aSpan[j].classList.remove('active');
+                            oUl[j].classList.remove('show');
+                        }
+                        aSpan[index].classList.add('active');
+                        oUl[index].classList.add('show');
+                    },false);
+                })(i);
+            }
+
+        },false);
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <header>
+        <a href="javascript:;" class="go_back">返回</a>
+        <span class="title">杭州 生活团</span>
+        <a href="javascript:;" class="category_btn">分类</a>
+    </header>
+
+    <!--分类列表-->
+    <nav class="category_list">
+        <ul>
+            <li><a href="#">商品</a></li>
+            <li class="active"><a href="#">生活</a></li>
+            <li><a href="#">品牌</a></li>
+            <li><a href="#">聚宝盆</a></li>
+        </ul>
+    </nav>
+    <!--列表-->
+    <section class="product_list">
+        <ul>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <div class="num_buy">124人已购买</div>
+                </div>
+            </li>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <a href="#" class="pre_order">预下单</a>
+                </div>
+            </li>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <div class="num_buy">124人已购买</div>
+                </div>
+            </li>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <div class="num_buy">124人已购买</div>
+                </div>
+            </li>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <div class="num_buy">124人已购买</div>
+                </div>
+            </li>
+            <li>
+                <a class="img"><img src="images/lifeImg01.jpg" alt=""/></a>
+                <div class="info">
+                    <h2 class="name">
+                        全网超低价，仅25.9元抢正宗市场价69元荣庆和正宗
+                    </h2>
+                    <div class="price">25.90 <span class="cost_price">59.80</span></div>
+                    <div class="num_buy">124人已购买</div>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+
+    <!--分类-->
+    <div class="classify_bg"></div>
+    <section class="classify">
+        <div class="tab">
+            <div class="tab_tit">
+                <span class="active">分类</span>
+                <span>地区</span>
+            </div>
+            <div class="tab_cont">
+                <ul class="show">
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">美食</a></li>
+                    <li><a href="#">培训</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">旅游</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">摄影</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">北京</a></li>
+                    <li><a href="#">广州</a></li>
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">深圳</a></li>
+                    <li><a href="#">成都</a></li>
+                    <li><a href="#">长沙</a></li>
+                    <li><a href="#">武汉</a></li>
+                    <li><a href="#">河南</a></li>
+                    <li><a href="#">山西</a></li>
+                    <li><a href="#">甘肃</a></li>
+                    <li><a href="#">内蒙古</a></li>
+                    <li><a href="#">厦门</a></li>
+                    <li><a href="#">厦门</a></li>
+                    <li><a href="#">厦门</a></li>
+                    <li><a href="#">厦门</a></li>
+                    <li><a href="#">厦门</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

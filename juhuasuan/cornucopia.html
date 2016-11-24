@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0,maximum-scale=1.0, minimum-scale=1.0" />
+    <title>聚划算-聚宝盆</title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script>
+        (function(win,doc){
+            var rem=20/320*document.documentElement.clientWidth;
+            doc.documentElement.style.fontSize=rem+'px';
+            window.onresize=function(){
+                var rem=20/320*document.documentElement.clientWidth;
+                doc.documentElement.style.fontSize=rem+'px';
+            }
+        })(window,document);
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <header>
+        <a href="javascript:;" class="go_back">返回</a>
+        <span class="title">聚宝盆</span>
+    </header>
+
+    <!--分类列表-->
+    <nav class="category_list">
+        <ul>
+            <li><a href="product.html">商品</a></li>
+            <li><a href="life.html">生活</a></li>
+            <li><a href="brand.html">品牌</a></li>
+            <li class="active"><a href="cornucopia.html">聚宝盆</a></li>
+        </ul>
+    </nav>
+
+    <!--banner图切换-->
+    <section class="cornucopia_ban" id="slideBox">
+        <div class="bd">
+            <ul>
+                <li><img src="images/cornucopiaImg.jpg" alt=""/></li>
+                <li><img src="images/cornucopiaImg.jpg" alt=""/></li>
+                <li><img src="images/cornucopiaImg.jpg" alt=""/></li>
+                <li><img src="images/cornucopiaImg.jpg" alt=""/></li>
+                <li><img src="images/cornucopiaImg.jpg" alt=""/></li>
+            </ul>
+        </div>
+        <div class="hd">
+            <ul>
+                <!--<li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="active"></li>-->
+            </ul>
+        </div>
+        <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell:"#slideBox",
+                titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                mainCell:".bd ul",
+                effect:"leftLoop",
+                autoPage:true,//自动分页
+                autoPlay:true //自动播放
+            });
+        </script>
+    </section>
+
+    <section class="cornucopia_list">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/icon_cornucopia01.png" alt=""/>
+                    <div class="txt">
+                        <h2>聚名品</h2>
+                        <p>轻奢购物第一站</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <img src="images/icon_cornucopia02.png" alt=""/>
+                <div class="txt">
+                    <h2>聚家装</h2>
+                    <p>家装一起团 费用省一半</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/icon_cornucopia03.png" alt=""/>
+                <div class="txt">
+                    <h2>聚&nbsp;&nbsp;透</h2>
+                    <p>每晚8点 预定明日商品</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+
+
+
+</body>
+</html>

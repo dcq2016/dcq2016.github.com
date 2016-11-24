@@ -1,5 +1,7 @@
 header{ position:relative; width:100%; height:2.5rem; background:-webkit-linear-gradient(#fff,#ebebeb); text-align:center;}
-header .go_back{ position:absolute; top:0.5rem; left:0.5rem; width:3.25rem; height:1.6rem; background:url(../images/goback.png) no-repeat; background-size:100%; text-indent:-999rem;}
+header .go_back{ position:absolute; top:0.5rem; left:0.5rem; width:3.25rem; height:1.6rem; line-height:1.6rem; background:url(../images/goback.png) no-repeat; background-size:100%; font-size:0.6rem; text-align:center; color:#666;}
+header .category_btn{ position:absolute; top:0.5rem; right:0.5rem; width:2.575rem; height:1.6rem; line-height:1.6rem; background:url(../images/category_btn.png) no-repeat; background-size:100%; font-size:0.6rem; text-align:center; color:#666;}
+header .title{ display:inline-block; font-size:0.8rem; line-height:2.5rem; color:#333;}
 header img{ width:9.4rem; height:2.2rem; margin-top:0.175rem;}
 .banner{ width:16rem; height:7.45rem; position:relative;}
 .banner .bd{ position:absolute; left:0; top:0; width:100%; height:6.675rem; overflow:hidden;}
@@ -79,3 +81,105 @@ footer{ padding:1rem 0 2rem; text-align:center; background:#eee;}
 footer .edition{ height:1.2rem; line-height:1.2rem;}
 footer .edition a{ display:inline-block; padding:0 0.2rem; color:#000; font-size:0.7rem;}
 footer .copyright{ line-height:1rem; font-size:0.7rem;}
+
+/*商品列表*/
+.category_list{ height:2rem; border-bottom:1px solid #dcdcdc;}
+.category_list ul{ display:-webkit-box;}
+.category_list ul li{ -webkit-box-flex:1; border-right:1px solid #dcdcdc; text-align:center;}
+.category_list ul li:nth-child(4){ border-right:none;}
+.category_list ul li a{ display:block; height:2rem; line-height:2rem; font-size:0.65rem;}
+.category_list ul li.active a{ color:#d51938;}
+
+.product_list li{ height:4.025rem; border-bottom:1px solid #dcdcdc; padding:.5rem; overflow:hidden;}
+.product_list li .img{ float:left; width:5.625rem; height:3.625rem; border:1px solid #dcdcdc; padding:0.175rem;}
+.product_list li .img img{ width:100%; height:100%;}
+.product_list li .info{ float:left; width:7.125rem; height:3.55rem; padding-left:0.75rem;}
+.product_list li .name{ height:1.7rem; line-height:0.85rem; font-weight:normal; font-size:0.65rem; color:#000; /*white-space:nowrap; text-overflow:ellipsis;*/overflow:hidden;}
+.product_list li .name .discount{ color:#d51938;}
+.product_list li .price{ padding:0.2rem 0; color:#d51938; font-weight:bold; font-size:0.65rem;}
+.product_list li .price .cost_price{ display:inline-block; padding-left:0.25rem; color:#999; font-weight:normal; font-size:0.55rem; text-decoration:line-through;}
+.product_list li .pre_order{ padding:0.1rem 0.2rem; color:#fff; background:#ee8800; font-size:.7rem; border-radius:0.1rem;}
+.product_list li .num_buy{ font-size:0.55rem;}
+
+
+/*品牌列表*/
+.brand_list li{  height:5rem; border-bottom:1px solid #dcdcdc; padding:.7rem .5rem .7rem 1rem; overflow:hidden;}
+.brand_list li .info{ float:left; width:3.625rem; height:5rem; text-align:center;}
+.brand_list li .info .img{ width:3.5rem;}
+.brand_list li .info .img img{ width:100%;}
+
+.brand_list li .info em{ display:block; font-size:0.65rem;}
+.brand_list li .info .txt{ display:-webkit-box; font-size:1.2rem; padding-top:1rem;}
+.brand_list li .info .txt span{ display:block; -webkit-box-flex:6; font-weight:bold; color:#d51938;}
+.brand_list li .info .txt p{ -webkit-box-flex:4; font-size:0.7rem; line-height:.75rem;}
+.brand_list li .info .txt p i{ display:block; color:#d51938; font-style:normal;}
+
+
+.brand_list li .brand_img{ float:right; width:10rem; height:5rem; position:relative;}
+.brand_list li .brand_img img{ width:100%; height:100%;}
+.brand_list li .brand_img .bg{ position:absolute; bottom:0; width:100%; left:0; height:1rem; background:#333; opacity:0.5;}
+.brand_list li .brand_img .txt{ position:absolute; bottom:0; left:0.25rem; display:block; font-size:0.45rem; line-height:1rem; color:#fff;}
+
+
+/*品牌商品列表*/
+.brand_logo{ height:8rem; position:relative;}
+.brand_logo img{ width:100%; height:100%;}
+.brand_logo .bg{ position:absolute; bottom:0; width:100%; left:0; height:1rem; background:#333; opacity:0.5;}
+.brand_logo .txt{ position:absolute; bottom:0; left:0.25rem; display:block; font-size:0.65rem; line-height:1rem; color:#fff;}
+
+.brand_title{ height:1.75rem; padding:0.25rem 0.2rem; border-bottom:1px solid #dcdcdc;}
+.brand_title img{ width:3.25rem; padding-top:0.25rem;}
+.brand_title .txt{ float:right; width:3.625rem; height:0.6875rem; display:-webkit-box;}
+.brand_title .txt span{ display:block; -webkit-box-flex:6; font-size:1.2rem; font-weight:bold; color:#d51938;}
+.brand_title .txt p{ -webkit-box-flex:4; font-size:0.7rem; line-height:.75rem;}
+.brand_title .txt p i{ display:block; color:#d51938; font-style:normal;}
+
+/*聚宝盆*/
+.cornucopia_ban{ height:6.7rem; position:relative;}
+.cornucopia_ban .bd{ position:absolute; left:0; top:0; width:100%; height:5.7rem; overflow:hidden;}
+.cornucopia_ban .bd ul{ width:500%; height:5.7rem;}
+.cornucopia_ban .bd li{ float:left; width:16rem; height:5.7rem;}
+.cornucopia_ban .bd li img{ width:100%;}
+
+.cornucopia_ban .hd{ position:absolute; left:50%; bottom:0.4rem; height:0.25rem; margin-left:-1.875rem;}
+.cornucopia_ban .hd li{ float:left; width:0.25rem; height:0.25rem; background:#a9a9a9; margin:0 0.25rem; border-radius:50%; font-size:0;}
+.cornucopia_ban .hd li.on{ background:#333;}
+
+.cornucopia_list li{ height:1.95rem; padding:1rem 0.85rem; border-top:1px solid #dcdcdc; background:url(../images/icon_price.png) no-repeat right; background-size:10%;}
+.cornucopia_list li img{ float:left; width:1.95rem; height:1.95rem;}
+.cornucopia_list li .txt{ float:left; width:10rem; height:100%; padding-left:1.08rem;}
+.cornucopia_list li .txt h2{ color:#6a237f; font-size:.8rem;}
+.cornucopia_list li:nth-child(2) .txt h2{ color:#9e5f44;}
+.cornucopia_list li:nth-child(3) .txt h2{ color:#81ac5e;}
+.cornucopia_list li .txt p{ font-size:.7rem;}
+
+/*聚透商品列表*/
+.poly_list li{ height:4.025rem; border-bottom:1px solid #dcdcdc; padding:.5rem; overflow:hidden;}
+.poly_list li .img{ float:left; width:5.625rem; height:3.625rem; border:1px solid #dcdcdc; padding:0.175rem;}
+.poly_list li .img img{ width:100%; height:100%;}
+.poly_list li .info{ float:left; width:7.125rem; height:3.55rem; padding-left:0.75rem;}
+.poly_list li .name{ height:1.7rem; line-height:0.85rem; font-weight:normal; font-size:0.65rem; color:#000; overflow:hidden;}
+.poly_list li .name .discount{ color:#d51938;}
+.poly_list li .price{ position:relative; padding:0.2rem 0; color:#d51938; font-weight:bold; font-size:0.65rem;}
+.poly_list li .price .cost_price{ display:block; color:#999; font-weight:normal; font-size:0.55rem; text-decoration:line-through; padding-top:0.15rem;}
+.poly_list li .pre_order{ padding:0.1rem 0.2rem; color:#fff; background:#ee8800; font-size:.7rem; border-radius:0.1rem;}
+.poly_list li .price .open_group{ position:absolute; right:0; bottom:0; background:#39b54a; border-radius:2px; padding:0.1rem; font-weight:normal; color:#fff; font-size:0.55rem; }
+
+/*分类列表*/
+.classify_bg{ position:fixed; left:0; top:0; width:100%; height:100%; background:#000; opacity:0.5; display:none;}
+.classify{ position:fixed; top:0; right:0; width:80%; height:100%; background:#333; display:none;}
+.classify .tab{ padding:.25rem .5rem; font-size:0.7rem;}
+.classify .tab_tit{ height:2rem; line-height:2rem; border-bottom:1px solid #404040; display:-webkit-box;}
+.classify .tab_tit span{ display:block; -webkit-box-flex:1; text-align:center; color:#fff; cursor:pointer;}
+.classify .tab_tit span.active{ border-bottom:2px solid #fff;}
+.classify .tab_cont{ padding:0.25rem 0;}
+.classify .tab_cont ul{ display:none; overflow:hidden;}
+.classify .tab_cont ul.show{ display:block;}
+.classify .tab_cont li{ float:left; width:40%; height:2rem; line-height:2rem; padding-left:10%;}
+
+/*切换城市*/
+.city{ font-size:.7rem; color:#000;}
+.current_city{ height:2.15rem; line-height:2.15rem; background:url(../images/icon_adress.png) no-repeat 1rem; background-size:4.5%; padding-left:2rem;}
+.city dt{ height:2.15rem; line-height:2.15rem; background:#eee; color:#999; padding-left:1rem; border-bottom:1px solid #dedede;}
+.city dd{ margin:0;}
+.city dd p{ height:2.15rem; line-height:2.15rem; padding-left:2rem; border-bottom:1px solid #dedede;}
