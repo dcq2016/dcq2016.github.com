@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>轮播图</title>
+    <style>
+        *{ margin:0; padding:0; list-style:none;}
+        .tab{ width:16rem; height:5.5rem; position:relative; overflow:hidden;}
+        .tab ul{ position:absolute; left:0; top:0; -webkit-transform: translate3d(-16rem,0,0);}
+        .tab ul li{ float:left; width:16rem; height:5rem; line-height:5rem; font-size:1rem; color:#fff; text-align:center;}
+        .tab ol{ position:absolute; left:50%; bottom:0; width:2rem; margin-left:-1rem;}
+        .tab ol li{ float:left; width:.25rem; height:.25rem; margin:0 .125rem; background:#ccc; border-radius:50%;}
+        .tab ol li.active{ background:#f90;}
+    </style>
+    <script>
+        var rem=20;
+        (function(win,doc){
+            rem=20/320*doc.documentElement.clientWidth;
+            doc.documentElement.style.fontSize=rem+'px';
+            win.addEventListener('resize',function(){
+                rem=20/320*doc.documentElement.clientWidth;
+                doc.documentElement.style.fontSize=rem+'px';
+            },false);
+
+        })(window,document);
+
+        document.addEventListener('DOMContentLoaded',function(){
+            var oTab=document.querySelector('.tab');
+            var oUl=oTab.children[0];
+            var oOl=oTab.children[1];
+            var aLi=oUl.children;
+            var aBtn=oOl.children;
+            var iNow=1;
+
+            oUl.style.width=aLi[0].offsetWidth*aLi.length/rem+'rem';
+
+            var x=-iNow*aLi[0].offsetWidth/rem;
+            var bLock=false;
+            oUl.addEventListener('touchstart',function(ev){
+                if(bLock)return;
+                bLock=true;
+                oUl.style.WebkitTransition='none';
+                var oTouch=ev.targetTouches[0];
+                var downX=oTouch.pageX/rem;
+                var disX=downX-x;
+
+                function fnMove(ev){
+                    var oTouch=ev.targetTouches[0];
+                    x=oTouch.pageX/rem-disX;
+                    oUl.style.WebkitTransform='translate3d('+x+'rem,0,0)';
+                }
+
+                function fnEnd(ev){
+                    document.removeEventListener('touchmove',fnMove,false);
+                    document.removeEventListener('touchend',fnEnd,false);
+
+                    var oTouch=ev.changedTouches[0];
+                    var upX=oTouch.pageX/rem;
+                    if(Math.abs(upX-downX)>100/rem){
+                        if(upX<downX){
+                            iNow++;
+                        }else if(upX>downX){
+                            iNow--;
+                        }
+                    }
+
+                    x=-iNow*aLi[0].offsetWidth/rem;
+                    oUl.style.WebkitTransition='.1s all ease';
+                    oUl.style.WebkitTransform='translate3d('+x+'rem,0,0)';
+
+                    function tranEnd(){
+                        oUl.removeEventListener('transitionend',tranEnd,false);
+                        if(iNow==aLi.length-1){
+                            iNow=1;
+                            oUl.style.WebkitTransition='none';
+                            x=-iNow*aLi[0].offsetWidth/rem;
+                            oUl.style.WebkitTransform='translate3d('+x+'rem,0,0)';
+                        }else if(iNow==0){
+                            iNow=aLi.length-2;
+                            oUl.style.WebkitTransition='none';
+                            x=-iNow*aLi[0].offsetWidth/rem;
+                            oUl.style.WebkitTransform='translate3d('+x+'rem,0,0)';
+                        }
+
+
+                        for(var i=0;i<aBtn.length;i++){
+                            aBtn[i].classList.remove('active');
+                        }
+                        aBtn[iNow-1].classList.add('active');
+
+                        bLock=false;
+                    }
+
+                    oUl.addEventListener('transitionend',tranEnd,false);
+                }
+
+                document.addEventListener('touchmove',fnMove,false);
+                document.addEventListener('touchend',fnEnd,false);
+
+                ev.preventDefault();
+
+            },false);
+
+        },false);
+    </script>
+</head>
+<body>
+    <div class="tab">
+        <ul>
+            <li style="background:#90f;">3</li>
+            <li style="background:#f90;">0</li>
+            <li style="background:#0f9;">1</li>
+            <li style="background:#9f0;">2</li>
+            <li style="background:#90f;">3</li>
+            <li style="background:#f90;">0</li>
+        </ul>
+        <ol>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ol>
+
+    </div>
+</body>
+</html>
