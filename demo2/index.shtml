@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+var navID = "1"; 
+</script>
+</head>
+
+<body>
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+<aside class="Homeban">
+    <div class="hd">
+        <ul><li></li><li></li><li></li><li></li></ul>
+    </div>
+    <div class="bd">
+        <ul>
+            <li style=" background:url(images/temp/banner01.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner02.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner03.jpg) no-repeat center top;"></li>
+            <li style=" background:url(images/temp/banner04.jpg) no-repeat center top;"></li>
+
+        </ul>
+    </div>
+</aside>
+<script type="text/javascript">
+jQuery(".Homeban").slide({mainCell:".bd ul",autoPlay:true,interTime:5000});
+</script>
+
+
+<div class="Home_productWrap">
+    <div class="Home_product">
+            <div class="hd"></div>
+            <div class="bd">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/temp/Home_productImg.jpg" /></a>
+                        <div class="txt"><a href="#">HD NVR KIT SERIES</a><a href="#" class="more"></a></div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/Home_productImg.jpg" /></a>
+                        <div class="txt"><a href="#">HD NVR KIT SERIES</a><a href="#" class="more"></a></div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/Home_productImg.jpg" /></a>
+                        <div class="txt"><a href="#">HD NVR KIT SERIES</a><a href="#" class="more"></a></div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/Home_productImg.jpg" /></a>
+                        <div class="txt"><a href="#">HD NVR KIT SERIES</a><a href="#" class="more"></a></div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/temp/Home_productImg.jpg" /></a>
+                        <div class="txt"><a href="#">HD NVR KIT SERIES</a><a href="#" class="more"></a></div>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        </div>
+        <script type="text/javascript">
+		jQuery(".Home_product").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:4,trigger:"click",interTime:3000});
+        </script>
+       
+</div>
+
+
+<div class="Home_profileWrap">
+	<div class="Home_profileTitle"></div>
+	<div class="Home_profile">
+    	<div class="title">SZHENZHEN DIT SECURITY & SURVEILLANCE CO.,LTD</div>
+        <p>
+        DIT,a one stop vendor for consumer security products,founded in 2005,has been specializing in security industry for more than 10 years.As a key member enterprise of China Fire&Security Group(CFSG with stock code: 600654),who has listed in A share in China.Dit brand is becoming  more and more popular around the world and co-works with global famous partners such as MediaMart, Wal*Mart, RadioShack, BricoDepot, Maplin, Sam'sClub, Costco, ALDI, Fry's Electronics, Marko and The Home Depot.etc.It is deserved to expect that Dit will move forward with more partners and make more business happen.
+        </p>
+    </div>
+
+</div>
+
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+<script type="text/javascript">
+//AutoTables("AutoTables1");
+</script>
+</body>
+</html>

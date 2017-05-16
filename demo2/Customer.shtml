@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "6";
+var menuId="1";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   <aside class="SideBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      <div class="Current"><dl>Company profile</dl><em>Your current position：<a href="#">Home</a> > <a href="#">About us</a> > <span>Company profile</span></em></div>
+      <div class="clear"></div>
+      <div class="Content">
+      	 
+         <!--Start-->
+         <article class="Customer">
+             <ul>
+             	<!--6个-->
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/temp/CustomerImg.jpg" /></a>
+                    <span><a href="Customer_info.shtml">Customer Comments</a></span>
+                </li>
+                
+             </ul>
+         </article>
+         <!--End-->
+         
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

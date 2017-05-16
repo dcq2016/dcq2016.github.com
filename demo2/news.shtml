@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "2";
+var menuId="1";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   <aside class="SideBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      <div class="Current"><dl>Company profile</dl><em>Your current position：<a href="#">Home</a> > <a href="#">About us</a> > <span>Company profile</span></em></div>
+      <div class="clear"></div>
+      <div class="Content">
+      	 
+         <!--Start-->
+         <article class="News_List">
+             <ul>
+             	<!--6个-->
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                <li class="topImg">
+                    <a href="news_info.shtml"><img src="images/temp/newsImg.jpg" /></a>
+                    <div class="txt">
+                        <h2><a href="news_info.shtml">we devote ourselves to providing perfect quality .</a></h2>   
+                        <em>Time:2015-10-3</em>                    
+                        <p>Since the establishment of DIT,we devote ourselves to providing perfect quality products to our clients.Though the business is expanding all the time,DIT always put product quality in the first ......</p>
+                        <a href="news_info.shtml" class="more">MORE</a>
+                    </div>
+                </li>
+                
+                
+             </ul>
+         </article>
+         <!--End-->
+         
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

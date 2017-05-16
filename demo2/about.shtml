@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "2";
+var menuId="1";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   
+   <aside class="SideBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      <div class="Current"><dl>Company profile</dl><em>Your current position：<a href="#">Home</a> > <a href="#">About us</a> > <span>Company profile</span></em></div>
+      <div class="clear"></div>
+      <div class="Content">
+      	 
+         <article class="SinglePage">
+            <p>
+            	<div class="about_left">
+                	DIT is the subsidiary company under Security & Fire Group（stock code:600654）-China NO.1 security factory. KARE brand is now the most popular brand in China for government security project such as security in traffic system and police system, housing system and so on. Security & Fire Group also has very wide range business level including overseas business, which is leading the consumer consurity by DIT.<br /><br />
+            DIT is the global leading exporter for consumer security in China. we provide our products to our targeting consumers through different famous retail channels. We're rapidly growing and until now, supply <br />
+                </div>
+                <div class="about_right">
+                <img src="images/temp/aboutImg01.jpg" />
+                </div>
+                <div class="clear"></div>
+            </p>
+            <p>            
+            atest trends including P2P IP camera, digital wireless kit, HD DVR kit and other remote surveillance CCTV products for home or business use. The company's products are mainly DIY friendly use, easy to follow and plug and play instructions for surveillance use.<br />
+            </p>            
+            
+            <p>
+            	DIT was founded in 2005 from a small company and is the Member of Security & Fire Group, with its strong capital flow, factory capability (factory covering 80000 square meters and 6 building for production), integrating DIT great consumer security experience, we are becoming more and more popular in the market, DIT is the first to integrate IP camera, DVR kit and digital wireless kit to share one server to make remote monitoring. With our close relationship with different distributors or retailers and lots of new product and technonlogy launched, we believe we grow faster together with our partners and more and more magic will happen.<br /><br />
+            </p>            
+           
+            <p><img src="images/temp/aboutImg02.jpg"></p>
+            
+            
+         </article>
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

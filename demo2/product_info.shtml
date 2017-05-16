@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="scripts/jqzoom.js"></script>
+<script type="text/javascript">
+var navID = "3";
+var menuId="1";
+function $showPic(id){return document.getElementById(id)};
+$(function(){			
+   $(".jqzoom").jqueryzoom({
+		xzoom:443,
+		yzoom:351,
+		offset:8,
+		position:"right",
+		preload:1,
+		lens:1
+	});
+})
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   <aside class="SideBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      <div class="Current"><dl>Company profile</dl><em>Your current position：<a href="#">Home</a> > <a href="#">About us</a> > <span>Company profile</span></em></div>
+      <div class="clear"></div>
+      <div class="Content">
+      	 
+
+            <!--start-->
+            <div class="ProductInfo">
+                <!--ProductInfoTop-->
+            	<div class="ProductInfoTop">
+                	<div class="img">
+                    	<div class="imgBig jqzoom"><img src="images/temp/productImg02.jpg" id="BigPic" jqimg="images/temp/productImg.jpg"></div>                 
+                        <div class="imgList">
+                        	<div class="hd">
+                                <a class="next"></a>
+            					<a class="prev"></a>
+                            </div>
+                        	<div class="bd">
+                            	<ul>
+                                	<li><img src="images/temp/productImg.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	<li><img src="images/temp/productImg03.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	<li><img src="images/temp/productImg03.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	<li><img src="images/temp/productImg03.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	<li><img src="images/temp/productImg03.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	<li><img src="images/temp/productImg.jpg" onClick="$showPic('BigPic').src=this.src;$showPic('BigPic').jqimg=this.src;"></li>
+                                	
+                                </ul>
+                            </div>
+                        </div>                        
+                        <script type="text/javascript">
+						jQuery(".imgList").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click",interTime:8000});
+						</script>
+
+                    </div>
+                    
+                    <div class="ProductDesc">                    	
+                        <h2>HD NVR KIT</h2>  
+                        <div class="title">D0122MW+C5634VD</div>
+                        <p>Kit de vidéosurveillance sans fil    Moniteur sans fil digital avec écran LCD couleur de 18 cm. Fonctionne sur batterie ou adaptateur. Synchronisation automatique de lacaméra sur le moniteur. Gestion jusqu'à 4 caméras (disponibles en option) avec fonction défilement caméra ou fonction </p>
+                        <em></em>
+                    </div>
+                    
+                
+                </div>
+                
+                <!--ProductInfoTop end-->
+                
+                <!--productInfoDesc-->
+            	<div class="productInfoDesc" id="AutoTables1">
+            	<h2>
+                	<span>product Description</span>
+                	<span>Specification</span>
+                	<span>What’s Included</span>
+                	<span>Diagram</span>
+                	<span style=" border-right:none;">Download</span>                	
+                </h2>
+                <div class="productInfoContent" name="AutoContent">
+                	
+                    <!--产品特点-->
+                    <div>
+                    	<ul class="PointUl">
+                            <li>Swann’s network video recording security system with beyond 1080p high definition live viewing & playback in real-time (30 fps per channel)</li>
+                            <li>State-of-the-art digital imaging technology for 9 x the picture sharpness of traditional security systems including analog D1</li>
+                            <li>ncludes 8 x security cameras capable of generating super high definition 3 megapixels (50% more than 1080p) video with IR cut filters for powerful night vision to 100ft / 30m & a weather-resistant rating of IP66 for indoor & outdoor use.</li>
+                            <li>You can also hear what’s happening as each camera has a built-in microphone</li>
+                            <li>Set & forget by recording continuously from 8 channels for 24 days+ onto a 2TB hard drive (expandable to 6TB^) or even longer with motion detection</li>
+                            <li>Save time & have peace of mind by easily locating incident video, then transfer to external storage via USB or network</li>
+                            <li>Security in the palm of your hand with live viewing on your Smartphone or tablet including iOS (iPhone, iPad) & Android devices using the free ‘SwannView Link’ app</li>
+                            <li>View live in HD on your HDTV via HDMI or VGA connection to your LCD screen</li>
+                            <li>Professional surveillance system gives you peace of mind by being able to see the detail you need from longer distances including license plates, faces, clothing colors & more, all in super HD</li>
+                            </ul>                  
+                    </div>
+                    <!--产品特点 end-->
+                    
+                    <!--产品参数-->
+                    <div>
+                        <p>产品参数: DALRC</p>
+                        <p>产品参数: 遥控飞机</p>                    
+                        <p>产品参数: 其他</p>                    
+                    </div>
+                    <!--产品参数 end-->
+                    
+                    <!--配件-->
+                    <div>
+                        <p>配件</p>                               
+                    </div>
+                    <!--配件 end-->
+                    
+                    <!--编辑程序-->
+                    <div>
+                        <p>编辑程序</p>                                    
+                    </div>
+                    <!--编辑程序 end-->
+                    
+                    <!--手册-->
+                    <div>
+                        <p>手册</p>
+                    </div>
+                    <!--手册 end-->
+                    
+                    
+                    
+                    
+                    
+                </div>
+            
+            </div>
+                <!--productInfoDesc end-->
+				
+                      
+            </div>
+            <!--end-->
+         
+            
+		
+        
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<script type="text/javascript" src="scripts/tab.js"></script>
+<script type="text/javascript">
+AutoTables("AutoTables1");
+</script>
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<header class="Toper">
+<div class="ToperNavbg"></div>
+<div class="Top">
+   <a class="logo" href="index.shtml"></a>
+   <div class="TopArea">   	    
+        <div class="Search">
+        <a href="javascript:;" onclick="return GoSearchUrl();" class="btnStyle"></a>
+        <input name="" type="text" class="inputStyle" id="key" value="请输入关键字" onblur="if(this.value=='')this.value='请输入关键字';" onfocus="if(this.value=='请输入关键字')this.value='';" onkeydown="entersearch()"/>
+        <div class="lanuage">language</div>
+        </div> 
+        
+        <div class="clear"></div>
+   </div>
+   <nav class="MainNav">
+      <ul>
+         <li><a id="nav1" href="index.shtml">Home</a></li>
+         <li><a id="nav2" href="about.shtml">About us </a></li>
+         <li><a id="nav3" href="product.shtml">Products</a></li>
+         <li><a id="nav4" href="Support.shtml">Support</a></li>
+         <li><a id="nav5" href="#.shtml">Our Partners</a></li>
+         <li><a id="nav6" href="Customer.shtml">Customer Comments</a></li>
+      </ul>
+      <div class="clear"></div>
+   </nav>
+</div>
+</header>
+<script type="text/javascript">
+   //导航选中
+    $("#nav" + navID).addClass("onnav");
+</script>

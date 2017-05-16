@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "2";
+var menuId="1";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+
+
+<section class="Contain">
+   <aside class="SideBar">
+      <!--#include file="include/menu_about.html" -->
+   </aside>
+   <section class="MainContent">
+      <div class="Current"><dl>Company profile</dl><em>Your current position：<a href="#">Home</a> > <a href="#">About us</a> > <span>Company profile</span></em></div>
+      <div class="clear"></div>
+      <div class="Content">
+      	 
+         
+         <!--Start-->
+         <div class="News_info">          
+              <wtl:inforarea>
+              <h1 class="Info_title">{$title}</h1>
+              <h4 class="Info_time">Date：{$CreateDate,yyyy-MM-dd} </h4>
+              <div class="Info_txt">
+                  {$content}
+              </div>
+              <div class="Info_back"><a href="list_{@columnid}.aspx">go back</a></div>
+              </wtl:inforarea>
+              <p><div><wtl:Content Field="title" Type="prepage" lefttext="Prev：" Length="70" IsAutoLink="true"></wtl:Content></div><div><wtl:Content Field="title" Type="nextpage" lefttext="Next："  Length="70" IsAutoLink="true"></wtl:Content> </div></p>    
+         </div>    
+         <!--End-->
+
+      </div>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>
