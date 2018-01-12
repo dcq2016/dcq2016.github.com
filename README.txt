@@ -3,6 +3,6 @@ This is test demo
 
 git status 
 git add .
-git commit -m ":blush: :blush:update"
+git commit -m ":blush: :cn: :blush:update"
 git push  上传
 git pull  下载
