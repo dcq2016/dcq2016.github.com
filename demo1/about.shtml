@@ -240,7 +240,7 @@ $(".SildeBar li:last a").attr("style","height:47px; line-height:47px; border-bot
       </div>
 
       <div class="copyright"><span><a href="#">法律声明</a><em>|</em><a href="#">联系我们</a></span>COPYRIGHT &copy; 2016 广州南粤财富管理有限公司版权所有</div>
-
+    </div>
 </footer>
 
 <script type="text/javascript">
