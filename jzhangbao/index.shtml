@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>187-0201-5004</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="about.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="product.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="product.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="news.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="message.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="message.shtml">许可证</a></li>
+                    <li><a id="nav8" href="message.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="message.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="contact.shtml">联系我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="Homeban">
+        <div class="hd">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li style=" background:url(images/temp/banner.png) no-repeat center top;"></li>
+                <li style=" background:url(images/temp/banner02.jpg) no-repeat center top;"></li>
+            </ul>
+        </div>
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+    </aside>
+    <script type="text/javascript">
+        jQuery(".Homeban").slide({
+            mainCell: ".bd ul",
+            autoPlay: true,
+            interTime: 5000
+        });
+    </script>
+
+    <div class="advantage-wrap">
+        <div class="advantage w1200">
+            <ul class="clearfix">
+                <li class="fl type1 clearfix">
+                    <img src="images/type01.png" class="fl">
+                    <div class="advantage-des fl">
+                        <div>服务好</div>
+                        <p>专业顾问1对1沟通</p>
+                    </div>
+                </li>
+                <li class="fl type2 clearfix">
+                    <img src="images/type02.png" class="fl">
+                    <div class="advantage-des fl">
+                        <div>多对一服务</div>
+                        <p>专业顾问团队，全程免费咨询</p>
+                    </div>
+                </li>
+                <li class="fl type3 clearfix">
+                    <img src="images/type03.png" class="fl">
+                    <div class="advantage-des fl">
+                        <div>无隐形收费</div>
+                        <p>全程透明跟进，按需服务客户</p>
+                    </div>
+                </li>
+                <li class="fl type4 clearfix">
+                    <img src="images/type04.png" class="fl">
+                    <div class="advantage-des fl">
+                        <div>风险保障</div>
+                        <p>我方导致注册失败，全额赔偿</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hot-wrap">
+        <div class="hot w1200">
+            <div class="hot-title tac">工商热门服务</div>
+            <p class="hot-des tac">公司免费核名、注册公司、变更、注销，服务企业全生命周期</p>
+            <div class="hot-con clearfix">
+                <div class="hot-l fl">
+                    <div class="hot-l-top">
+                        <div class="hot-li">
+                            <p>工商注册</p>
+                            <div class="hot-inner-des">计账宝工商注册服务包含
+                                <span>免费核名</span><span>地址</span><span>网登</span><span>领取执照</span><span>刻章</span>
+                            </div>
+                            <div class="hot-inner-des"><span>领取一证通</span><span>免费赠送税务报到和税务咨询</span>等服务</div>
+                        </div>
+                    </div>
+                    <div class="hot-l-bottom">
+                        <div class="hot-bm-title">
+                            <span class="left">公司注册类型</span>
+                            <span>纳税类型</span>
+                        </div>
+                        <ul class="clearfix">
+                            <li class="fl list1">
+                                <dl id="hot-radio" class="clearfix">
+                                    <dd onclick="show(0,'hot-radio')"><b></b>股份有限公司注册</dd>
+                                    <dd onclick="show(1,'hot-radio')"><b></b>有限合伙公司注册</dd>
+                                    <dd onclick="show(2,'hot-radio')"><b></b>集团公司注册</dd>
+                                    <dd onclick="show(3,'hot-radio')"><b></b>内资公司注册</dd>
+                                    <dd onclick="show(4,'hot-radio')"><b></b>合资公司注册</dd>
+                                </dl>
+                            </li>
+                            <li class="fl list2">
+                                <dl id="hot-radio2" class="clearfix">
+                                    <dd onclick="show(0,'hot-radio2')"><b></b>小规模代理记账</dd>
+                                    <dd onclick="show(1,'hot-radio2')"><b></b>一般纳税人代理记账</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class="hot-inner-btn zhiCustomBtn">咨询价格></div>
+                    </div>
+                </div>
+                <div class="hot-r fl">
+                    <div class="hot-r-top">
+                        <div class="hot-li">
+                            <p>变更</p>
+                            <div class="hot-inner-des">计账宝变更：因地域原因各地的政策和详细服务内容有所不同，</div>
+                            <div class="hot-inner-des">详细情况还请咨询顾问了解最新信息</div>
+                        </div>
+                    </div>
+                    <div class="hot-r-bottom">
+                        <div class="hot-bmr-title clearfix">
+                            <div class="hot-bm-tl fl">
+                                <img src="images/hot_icon_01.png">
+                                <p class="zhiCustomBtn">公司名称变更</p>
+                            </div>
+                            <div class="hot-bm-tr fl">
+                                <img src="images/hot_icon_02.png">
+                                <p class="zhiCustomBtn">公司注销</p>
+                            </div>
+                        </div>
+                        <ul class="clearfix">
+                            <li class="fl list1 zhiCustomBtn">监事变更</li>
+                            <li class="fl list2 zhiCustomBtn">地址变更</li>
+                            <li class="fl list3 zhiCustomBtn">法人变更</li>
+                            <li class="fl list4 zhiCustomBtn">股权变更</li>
+                            <li class="fl list5 zhiCustomBtn">银行基本户注销</li>
+                            <li class="fl list6 zhiCustomBtn">注册资本变更</li>
+                            <li class="fl list7 zhiCustomBtn">经营范围变更</li>
+                        </ul>
+                        <div class="hot-inner-btn2 zhiCustomBtn">咨询其它></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--仅需4步 start-->
+    <div class="ter-box_new">
+        <div class="ter-tit">您只需要提供</div>
+        <img src="images/03_1.png" onclick="openZoosUrl('chatwin')">
+        <div class="ter-tit">公司注册流程</div>
+        <img src="images/03_2.png" onclick="openZoosUrl('chatwin')">
+    </div>
+    <!--仅需4步 end-->
+
+    <!--领取证件start-->
+    <div class="ter-box">
+        <div class="ter-tit">为什么选择计账宝代办</div>
+        <img src="images/04.png">
+        <div class="ter-tit">注册完可以获得材料</div>
+        <div class="vs-img" style="text-align:center;padding-bottom:15px;">
+            <img src="images/05.png">
+        </div>
+        <div class="vs-img" style=" text-align:center;padding-bottom:15px;">
+            <img src="images/njbl.png" onclick="openZoosUrl('chatwin')" style="width:1180px; margin: auto;">
+        </div>
+
+        <div class="ter-tit">更多业务办理</div>
+        <div class="vs-img" style="text-align:center;padding-bottom:15px;">
+            <ul>
+                <li>
+                    <h1>开基本户</h1>
+                    <p>办理《开户许可证》，开公司银行基本户</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+                <li>
+                    <h1>税务报到</h1>
+                    <p>企业核税需要找会计到税务局报到</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+                <li style="margin-right: 0">
+                    <h1>资质办理</h1>
+                    <p>办理后置审批，各类行政许可资源</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+                <li>
+                    <h1>每月记账报税</h1>
+                    <p>办理每月的代理记账、报税等税务业务</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+                <li>
+                    <h1>商标注册</h1>
+                    <p>尽早将品牌注册为商标，能够帮助创业者保护品牌和规避商标法律风险</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+                <li style="margin-right: 0" class="bg">
+                    <h1>更多服务</h1>
+                    <p>请拨打热线:138-2510-0389</p>
+                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="ter-tit">公司注册常见问题</div> -->
+        <div class="w1200">
+            <div class="hot-title tac">常见问题</div>
+            <p class="hot-des tac">一些常见问题的描述及解答</p>
+        </div>
+        <div class="process-wrap">
+            <div class="vs-text" style="padding-bottom:15px;">
+                <ul class="clearfix process-tab5">
+                    <li class="fl list-left">
+                        <div class="question"><span class="tac">问</span>公司注册一般需要多长时间？</div>
+                        <div class="answer">一般来说代办公司注册需要15-20个工作日。各地有所不同，具体请与工商顾问沟通确认。</div>
+                        <div class="question"><span class="tac">问</span>谁当公司法定代表人更合适？</div>
+                        <div class="answer">创始人或者团队核心人员。法定代表人意味着权利和责任，由团队灵魂人物担任最合适不过。</div>
+                        <div class="question"><span class="tac">问</span>没有注册地址怎么办？</div>
+                        <div class="answer">慧算账可以为您介绍入驻集中办公区，提供安全、可靠、低价的虚拟注册地址帮您注册公司。</div>
+                    </li>
+                    <li class="fl list-right">
+                        <div class="question"><span class="tac">问</span>注册资本写多少合适？</div>
+                        <div class="answer">建议参考行业内同类公司，主要考虑未来各类资质的要求，如：ICP经
+                            营许可证需要100万注册资本，视频网站牌照需要1000万注册资本。无特殊需求的，10-100万都可以。</div>
+                        <div class="question"><span class="tac">问</span>注册虚拟地址的公司要多久?</div>
+                        <div class="answer">虚拟地址采用购买式，一般只要付钱并提供名称核准通知书照片（截 图）后，当天即可发送房间号，3个工作日内一般会收到房租合同。</div>
+                    </li>
+                </ul>
+                <!-- <ul>
+                <li>
+                    <h1>1/谁当公司法定代表人更合适？</h1>
+                    <p>创始人或者团队核心人员。法定代表人意味权利也是责任。由团队灵魂人物担任最合适不过。</p>
+                </li>
+                <li>
+                    <h1>2/注册公司需要多长时间？</h1>
+                    <p>在资料齐全的情况下，由粤快财税代办3-5个工作日办妥，加急办理最快当天即可出证。</p>
+                </li>
+                <li>
+                    <h1>3/为什么公司核名不通过？</h1>
+                    <p>有可能是名字不规范、与其他公司名重复、涉及敏感词等等，具体请联系粤快财税客户进行咨询。</p>
+                </li>
+                <li>
+                    <h1>4/没有地址也能注册公司吗？</h1>
+                    <p>可以的，粤快财税提供合法的地址挂靠服务，无地址也能开公司。</p>
+                </li>
+                <li>
+                    <h1>5/注册公司需要多少钱？</h1>
+                    <p>首先你要先确定想在哪个区注册，每个区的收费不同的，具体可以咨询粤快财税公司客服。</p>
+                </li>
+            </ul> -->
+            </div>
+        </div>
+    </div>
+    <!--领取证件 end-->
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+</body>
+
+</html>

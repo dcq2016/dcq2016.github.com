@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+    var navID = "3";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+<div class="banner_bg"></div>
+
+<section class="Contain">
+	<div class="Sidebar">
+		<!--#include file="include/menu_about.html" -->
+        <!--#include file="include/sidebarContact.html" -->
+    </div>
+   <section class="Content">
+        <div class="Current">
+        	<em>公司简介</em>
+            <div class="location">您当前的位置是：<a href="#">首页</a> > <span>公司简介</span></div>
+        </div>
+         <!--Start-->
+         <article class="product_info">
+            
+            <div class="productInfoTop">
+                <img src="images/temp/productImgBig.jpg" alt=""/>
+                <div class="txt">
+                    <h2>高精密针头</h2>
+                    <div class="desc">
+                        <div class="name">型号：0.2－1.2（mm）</div>
+                        <div class="name">特点：更换针头时，位置的精确度、涂胶时的图吐出量精准，便于精确划、打点的吐出效果。吐出高粘度的液体时，管道承受的阻力比一般注针要小。</div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+            
+            
+            <div class="productInfoDesc" id="AutoTables1">
+            	<h2><span>产品介绍</span></h2>
+
+                <div class="productInfoContent" name="AutoContent">
+                	
+                    <!--产品介绍-->
+                    <div>
+                         <p>HV1027系列驱动器是单通道即插即用型驱动器，适用于驱动4500V到6500V耐压IHV封装的高压大功率IGBT模块，系列产品分为军工级、机车级与工业级三个版本。</p>
+
+                        <p>驱动器采用CPLD为数字控制核心，保护功能齐全，内置故障管理系统，实时将变流器的工作状态上传上位机，为实现变流器现场“大数据”管理提供支持。驱动器单路输出功率10W，门极峰值电流38A，供电电源可长时间承受输出短路。驱动器配有光纤接口，可兼容软、硬件光纤，兼容Concept的1SP0335/1SP0340等驱动器。</p>
+                    </div>
+                    <!--产品介绍 end-->
+
+                </div>
+            
+            </div>
+            
+            
+         </article>
+         <!--End-->
+        
+
+         
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<script type="text/javascript" src="scripts/tab.js"></script>
+<script type="text/javascript">
+AutoTables("AutoTables1");
+</script>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

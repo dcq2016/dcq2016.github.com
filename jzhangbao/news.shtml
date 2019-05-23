@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "5";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+<div class="banner_bg"></div>
+
+
+<section class="Contain">
+	<div class="Sidebar">
+		<!--#include file="include/menu_about.html" -->
+        <!--#include file="include/sidebarContact.html" -->
+    </div>
+
+   <section class="Content">
+        <div class="Current">
+        	<em>公司简介</em>
+            <div class="location">您当前的位置是：<a href="#">首页</a> > <span>公司简介</span></div>
+        </div>
+      	 
+         <!--Start-->
+         <article class="News_List">
+             <ul>
+                <li><span>2017-09-06</span><a href="news_info.shtml">中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><span>2017-09-06</span><a href="news_info.shtml">中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="news_info.shtml"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="news_info.shtml"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+                <li><a href="#"><span>2017-09-06</span>中企赢得欧盟反倾销诉讼 或推动欧承认华市场经济地位</a></li>
+             </ul>
+         </article>
+         <!--End-->
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>

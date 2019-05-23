@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include file="include/head.html" -->
+<script type="text/javascript">
+var navID = "7";
+var menuId = "{@columnid}";
+</script>
+</head>
+
+<body>
+
+
+<!--top-->
+<!--#include file="include/top.html" -->
+<!--top end-->
+
+
+
+<aside class="banner" style=" background:url(images/temp/banner_about.jpg) no-repeat center top;"></aside>
+<div class="banner_bg"></div>
+
+<section class="Contain">
+	<div class="Sidebar">
+		<!--#include file="include/menu_about.html" -->
+        <!--#include file="include/sidebarContact.html" -->
+    </div>
+   <section class="Content">      
+         <div class="Current">
+        	<em>公司简介</em>
+            <div class="location">您当前的位置是：<a href="#">首页</a> > <span>公司简介</span></div>
+        </div>
+        <article class="contact">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    公司电话：0755-86351620 <br/>
+                    传   真：0755-32907339 <br/>
+                    移动电话：13713535279 徐先生 <br/>
+                    公司邮箱：553815811@qq.com   <br />
+                    公司地址：深圳龙华新区大浪街道华兴路1号A栋
+                </p>
+         </article>
+   </section>
+   <div class="clear"></div>
+</section>
+
+
+<!--bottom-->
+<!--#include file="include/bottom.html" -->
+<!--bottom end-->
+
+</body>
+</html>
