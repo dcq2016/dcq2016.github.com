@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "10";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+
+    <!--工商变更核心服务 start-->
+    <div class="ter-box bad-bg">
+        <div class="w1200">
+            <div class="hot-title tac">关于计账宝</div>
+            <p class="hot-des tac">公司相关介绍及我们的服务</p>
+            <div style=" line-height:28px; font-size:16px; text-align:left;">
+                <p style="text-indent:24px;">计账宝（深圳）财务代理有限公司，企业成立于2019年2月25日，经营范围包括企业管理咨询;商标代理;企业登记代理;房屋租赁;代理记账;企业管理咨询（不含人才中介服务）;投资咨询（不含人才中介服务、信托、证券、期货、保险及其他金融业务）;企业形象策划;网页设计;箱、包批发、零售;服装批发、零售;化妆品及卫生用品批发、零售;婴儿用品批发、零售。</p>
+                <p style="text-indent: 24px;">计账宝（深圳）财务代理有限公司，是深圳市专业代理企业登记注册、商标注册。我们拥有资深工商经纪人、注册会计师、商标代理人、专利代理人，能够为企业提供专业办理工商营业执照、验证注册资本、资产评估、各项变更、年检审计、专项审批、一般纳税人资格认定、税务疑难问题清理、帐务整理等一条龙质优价廉、高效的服务。</p>
+                <p style="text-indent: 24px;">我们依靠在工商注册、财税记帐、商标注册、专利申请领域的专业知识，以专业、高效的执业精神，以丰富的从业经验、规范的工作流程、一流的工作效率、敬业的工作态度，以“为您服务是我的责任，您的满意是我得追求”为服务理念，“诚信、专业、优质、高效、保密”为我们的宗旨，在工商注册、财税记帐、商标注册、专利申请领域为客户提供高效优质咨询与服务。我们对您的每一次来电，都会细心聆听，对您的每一次来访，我们都会热情接待，深入了解您的需求，选定最适合您的解决方案，确保您的各项要求都得到迅速圆满解决。为您节省时间和精力，让您创造更多价值和财富，我们会珍惜每一次机会，更期望能与您建立良好友谊，携手发展，共创辉煌。</p><br />
+                <p>联系人：任先生15899822377/赖小姐18702015004</p>
+                <p>邮箱：1123696891@qq.com</p>
+                <p>网址：www.jzhangbao.com</p>
+                <p>地址：深圳市宝安区福海街道桥头社区桥南新区136栋B605</p>
+                </div>
+
+        </div>
+    </div>
+    <!--工商变更核心服务 end-->
+
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

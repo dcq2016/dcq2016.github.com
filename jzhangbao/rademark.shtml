@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+
+    <!-- 注册商标 -->
+    <div class="container">
+        <div class="hot-title tac">为什么要注册商标？</div>
+        <p class="hot-des tac">树立品牌形象，提升品牌保护</p>
+        <div class="img_1100">
+            <img src="images/rademark/zcsb.png">
+        </div>
+    </div>
+
+    <!-- 热门服务 -->
+    <div class="container" style="margin-top: 50px">
+        <div class="hot-title tac">3大热门服务</div>
+        <p class="hot-des tac">每一种服务，都是为您而生</p>
+        <div class="fw_3">
+            <ul>
+                <li>
+                    <img src="images/rademark/fw3.png">
+                    <span>商标普通注册</span>
+                    <span>3个工作日内上报国家商标局</span>
+                </li>
+                <li>
+                    <img src="images/rademark/fw-2.png">
+                    <span>商标极速注册</span>
+                    <span>当天申请，当天上报</span>
+                </li>
+                <li>
+                    <img src="images/rademark/fw-1.png">
+                    <span>商标转让</span>
+                    <span>我司提供商标，快速授权</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 理由 -->
+    <div class="tr_content2 container">
+        <div class="hot-title tac">选择粤快的理由</div>
+        <p class="hot-des tac">多年工商服务经验，粤快值得信赖</p>
+        <div class="img_1100">
+            <img src="images/rademark/ly.png">
+        </div>
+        <div class="btn-box1">全国统一免费热线：<b>138-2510-0389</b>
+            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">立即办理</a>
+        </div>
+    </div>
+
+    <!-- 粤快 -->
+    <div class="tr_content2 container">
+        <div class="hot-title tac">商标注册流程</div>
+        <p class="hot-des tac">摆脱繁复流程，让注册更简单</p>
+        <ul class="row-1">
+            <li class="col-xs-2">
+                <img src="images/rademark/lc-1.png">
+                <a onclick="openZoosUrl('chatwin')">查询审核</a>
+            </li>
+            <li class="col-xs-2">
+                <img src="images/rademark/lc-2.png">
+                <a onclick="openZoosUrl('chatwin')">提交注册</a>
+            </li>
+            <li class="col-xs-2">
+                <img src="images/rademark/lc-3.png">
+                <a onclick="openZoosUrl('chatwin')">下发受理通知书</a>
+            </li>
+            <li class="col-xs-2">
+                <img src="images/rademark/lc-4.png">
+                <a onclick="openZoosUrl('chatwin')">获取证书</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 事项 -->
+    <div class="tr_content2 container">
+        <div class="hot-title tac">注册前准备事项</div>
+        <p class="hot-des tac">摆脱繁复流程，让注册更简单</p>
+        <div class="img_1100">
+            <img src="images/rademark/zbsx.png">
+        </div>
+        <div class="btn-box1">全国统一免费热线：<b>138-2510-0389</b>
+            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">立即办理</a>
+        </div>
+    </div>
+
+
+    <!-- 服务 -->
+    <div class="container">
+        <div class="hot-title tac">商标延伸服务</div>
+        <p class="hot-des tac">一站式服务，满足您对商标的所有需求</p>
+        <div class="ysfw">
+            <ul>
+                <li>
+                    <a><img src="images/rademark/ysfw-1.png"></a>
+                    <span>驳回复审</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-2.png"></a>
+                    <span>异议答辩</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-3.png"></a>
+                    <span>异议申请</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-4.png"></a>
+                    <span>宣告无效</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-5.png"></a>
+                    <span>撤三申请</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-6.png"></a>
+                    <span>撤三答辩</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-7.png"></a>
+                    <span>商标变更</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-8.png"></a>
+                    <span>商标许可</span>
+                </li>
+                <li>
+                    <a><img src="images/rademark/ysfw-9.png"></a>
+                    <span>商标设计</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="vs-text" style="text-align:center;padding:50px 0 15px;">
+        <div class="hot-title tac">常见问题</div>
+        <p class="hot-des tac">您想了解的，我们都知道</p>
+        <ul>
+            <li>
+                <h1><a>Q:</a>商标保护期限是多长？</h1>
+                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+            </li>
+            <li>
+                <h1><a>Q:</a>商标注册多长时间可以拿证？</h1>
+                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+            </li>
+            <li>
+                <h1><a>Q:</a>商标有什么禁用条款？</h1>
+                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+            </li>
+            <li>
+                <h1><a>Q:</a>哪些东西可注册商标？</h1>
+                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+            </li>
+        </ul>
+    </div>
+    <img src="images/rademark/tel.png">
+
+
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

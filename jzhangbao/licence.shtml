@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/b.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+
+    <!--食品经营许可证开始。-->
+    <div class="recommend-box  bg-color-f7">
+        <div class="bank bank-new">
+            <h3 class="xkz-h3 xkz-h3-new">有证才能经营，食品许可<span>找粤快</span></h3>
+            <span class="long-xian"><span class="short-xian"></span></span>
+            <h4 class="xkz-h4">快至20天极速取证，办理速度超同行20%左右</h4>
+        </div>
+        <div class="food-management w1200">
+            <ul class="get-list">
+                <li class="left-img">
+                    <div class="left-img-box">
+                        <span>快至20天极速取证</span>
+                        <p><span>食品经营</span><br>许可证</p>
+                        <a onclick="openZoosUrl('chatwin')">立即申请</a>
+                    </div>
+                </li>
+                <li>
+                    <label>
+                        <span class="md"></span>
+                        <span>三证合一</span>
+                    </label>
+                    <span><img src="images/licence/img-icons_12.jpg" class="img-icons img-icons1"></span>
+                    <p>
+                        <span>食品流通、餐饮服务、<br>卫生服务</span>许可证三证合一
+                    </p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+                <li>
+                    <label>
+                        <span class="md"></span>
+                        <span>食品销售<br>餐饮服务 </span>
+                    </label>
+                    <span><img src="images/licence/img-icons_06.jpg" class="img-icons"></span>
+                    <p>
+                        从事<span>食品销售和<br>餐饮服务</span>活动须申请此证
+                    </p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+                <li>
+                    <label>
+                        <span class="md"></span>
+                        <span>先注册<br>后办证</span>
+                    </label>
+                    <span><img src="images/licence/img-icons_09.jpg" class="img-icons img-icons3"></span>
+                    <p>
+                        应先取得<span>营业执照</span>等<br>合法主体资格才申请此证
+                    </p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+            </ul>
+            <div class="btn-box">
+                <span class="btn-txt">我需要准备哪些资料</span>
+                <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">免费咨询</a>
+            </div><br>
+        </div>
+    </div>
+    <!--食品经营许可证结束。-->
+    <!--快速办理    start-->
+    <div class="big-gray" style="padding-top: 20px;">
+        <div class="recommend-box recommend-box-new">
+            <div class="bank">
+                <div class="bank bank-new">
+                    <h3 class="xkz-h3 xkz-h3-new"><span>生意看时机</span>，快速拿证才是硬道理</h3>
+                    <span class="long-xian"><span class="short-xian"></span></span>
+                    <h4 class="xkz-h4">快至20天极速取证，办理速度超同行20%左右</h4>
+                </div>
+                <div class="w1200">
+                    <ul class="kuai-ul">
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/1.png">
+                            </div>
+                            <em>进出口许可证</em>
+                            <!--<p class="tips">从事国际贸易企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/2.png">
+                            </div>
+                            <em>道路运输经营许可证</em>
+                            <!--<p class="tips">从事人力资源输出企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/3.png">
+                            </div>
+                            <em>劳务派遣许可证 </em>
+                            <!--<p class="tips">公共场所经营者需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/4.png">
+                            </div>
+                            <em>药品经营许可证</em>
+                            <!--<p class="tips">从事国际贸易企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/5.png">
+                            </div>
+                            <em>文网文申请</em>
+                            <!--<p class="tips">从事人力资源输出企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/6.png">
+                            </div>
+                            <em>卫生许可证</em>
+                            <!--<p class="tips">公共场所经营者需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/7.png">
+                            </div>
+                            <em>餐饮业许可证</em>
+                            <!--<p class="tips">从事国际贸易企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/8.png">
+                            </div>
+                            <em>医疗器械许可证</em>
+                            <!--<p class="tips">从事人力资源输出企业需办理此证</p>-->
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/9.png">
+                            </div>
+                            <em>建筑资质</em>
+                            <!--<p class="tips">公共场所经营者需办理此证</p>-->
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--快速办理   end-->
+    <!--4大办理    start-->
+    <div class="f-counselt-box">
+        <div class="bank bank-new">
+            <h3 class="xkz-h3 xkz-h3-new">4大办理优势 助您<span>快速拿证</span></h3>
+            <span class="long-xian"><span class="short-xian"></span></span>
+            <h4 class="xkz-h4">20天拿证、98.6%高通过率、不成功不收费...这些粤快统统都能办到</h4>
+        </div>
+        <ul class="ban-adv">
+            <li class="li-txt">
+                <p class="tit"><span>20天</span>快速取证</p>
+                <p class="tips">从咨询到领证，专业顾问1对1服务指导，快速拿证，全程加急</p>
+            </li>
+            <li>
+                <img src="images/licence/xkz3.jpg">
+            </li>
+            <li class="li-txt">
+                <p class="tit">办证通过率<span>98.6%</span></p>
+                <p class="tips">粤快资深顾问为客户办理过上万个证书，成功率达98.6%</p>
+            </li>
+            <li>
+                <img src="images/licence/xkz4.jpg">
+            </li>
+            <li>
+                <img src="images/licence/img-set_10.jpg">
+            </li>
+            <li class="li-txt">
+                <p class="tit">不成功不收费</p>
+                <p class="tips">签订合作协议，给客户最基础的保障，成功后才开始计费</p>
+            </li>
+            <li>
+                <img src="images/licence/xkz2.jpg">
+            </li>
+            <li class="li-txt">
+                <p class="tit"><span>22年</span>企业服务经验</p>
+                <p class="tips">粤快的服务水平与办事效率决定了客户对我们的认可</p>
+            </li>
+        </ul>
+        <div class="btn-box">
+            免费电话：<span class="tel-num">138-2510-0389</span>
+            <a class="get-btn get-btn3" onclick="openZoosUrl('chatwin')">了解更多服务</a>
+        </div>
+    </div>
+    <!--4大办理    end-->
+    <!--许可证 start-->
+    <div class="f-xkz-box">
+        <div class="bank bank-new">
+            <h3 class="xkz-h3 xkz-h3-new">获得许可证，4步<span>轻松搞定</span></h3>
+            <span class="long-xian"><span class="short-xian"></span></span>
+            <h4 class="xkz-h4">科学规范办理流程，省心省力</h4>
+        </div>
+        <div class="w1200">
+            <ul class="flow-list">
+                <li>
+                    <i></i>
+                    <p>在线预约</p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">立即预约</a>
+                </li>
+                <li class="fang-li">
+                    <i class="flow-icon2"></i>
+                </li>
+                <li>
+                    <i class="flow-icon3"></i>
+                    <p>准备资料 </p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">需要准备哪些资料 </a>
+                </li>
+                <li class="fang-li">
+                    <i class="flow-icon2"></i>
+                </li>
+                <li>
+                    <i class="flow-icon4"></i>
+                    <p>提交办理</p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">办理需要多长时间</a>
+                </li>
+                <li class="fang-li">
+                    <i class="flow-icon2"></i>
+                </li>
+                <li>
+                    <i class="flow-icon5"></i>
+                    <p>办理成功</p>
+                    <a class="get-btn" onclick="openZoosUrl('chatwin')">领取哪些证件</a>
+                </li>
+            </ul>
+            <div class="btn-box">
+                免费电话：<span class="tel-num">138-2510-0389</span>
+                <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">免费咨询</a>
+            </div>
+        </div>
+
+    </div>
+    <!--许可证 end-->
+    <!--成功案例 start-->
+    <div class="zkxcase-box succ-box">
+        <div class="bank bank-new t-fff">
+            <h3 class="xkz-h3 xkz-h3-new" style="margin-top: -50px;">成功案例</h3>
+            <span class="long-xian"><span class="short-xian"></span></span>
+            <h4 class="xkz-h4">已成功189956件许可证，超8万企业选择了我们</h4>
+        </div>
+        <div class="zkxcase success-list w1200">
+            <div class=" bd">
+                <div class="w1200">
+                    <ul>
+                        <li class="mager-l0">
+                            <div class="img-box">
+                                <img src="images/licence/img1_09.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/img1_03.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/img1_12.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/img1_06.jpg">
+                            </div>
+                        </li>
+                        <li class="mager-l0">
+                            <div class="img-box">
+                                <img src="images/licence/img1_19.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/img1_20.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-box">
+                                <img src="images/licence/img1_21.jpg">
+                            </div>
+                        </li>
+                        <li class="last-li">
+                            <a>
+                                <span>＋</span>
+                                <p> 查看更多许可证案例<br>请点这里 </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--成功案例 end-->
+
+    <!--以下服务 start-->
+    <div class="w1200 serve-box">
+        <div class="bank bank-new">
+            <h3 class="xkz-h3 xkz-h3-new">粤快还可为你提供<span>以下服务</span></h3>
+            <span class="long-xian"><span class="short-xian"></span></span>
+            <h4 class="xkz-h4">涵盖300多项工商服务，能满足企业的任何需求</h4>
+        </div>
+        <ul class="serve-list">
+            <li>
+                <i></i>
+                <p>公司变更</p>
+                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+            </li>
+            <li>
+                <i class="serve-icon2"></i>
+                <p>公司注册</p>
+                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+            </li>
+            <li>
+                <i class="serve-icon3"></i>
+                <p>银行开户</p>
+                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+            </li>
+            <li>
+                <i class="serve-icon4"></i>
+                <p>会计代理</p>
+                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+            </li>
+        </ul>
+    </div>
+    <!--以下服务 end-->
+
+    <!--粤快 start-->
+    <style>
+        /*粤快 start*/
+        .ter-box .ter-tit {
+            width: 100%;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .ter-box {
+            padding: 50px 0;
+            width: 100%;
+            min-width: 1180px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ter-tit strong {
+            font-size: 30px;
+            color: #333;
+            line-height: 1;
+        }
+
+        .ter-tit .sm-yk {
+            font-size: 16px;
+            color: #666;
+            text-indent: 2rem;
+            margin-top: 15px;
+        }
+
+        .yk-box {
+            background: url(/static/cd/gs/20171206/register/images/choose-img_02.jpg) no-repeat;
+            height: 585px;
+        }
+
+        .yk-list {
+            overflow: hidden;
+            padding: 25px 0 40px;
+        }
+
+        .yk-list>li {
+            float: left;
+            *width: 10.5%;
+            margin-left: 70px;
+            text-align: center;
+        }
+
+        .yk-list>li i {
+            background: url(images/licence/yk-icons.png) no-repeat;
+            width: 96px;
+            height: 96px;
+            display: block;
+            margin: 0 auto 25px;
+        }
+
+        .yk-list>li i.icon2 {
+            background-position: -96px 0;
+        }
+
+        .yk-list>li i.icon3 {
+            background-position: -192px 0;
+        }
+
+        .yk-list>li i.icon4 {
+            background-position: -288px 0;
+        }
+
+        .yk-list>li i.icon5 {
+            background-position: -384px 0;
+        }
+
+        .yk-list>li i.icon6 {
+            background-position: -480px 0;
+        }
+
+        .yk-list>li p {
+            color: #666;
+            font-size: 16px;
+            *font-size: 15px;
+        }
+
+        .yk-list>li p>span {
+            font-weight: bold;
+            color: #56b1f5;
+        }
+
+        .yk-company {
+            overflow: hidden;
+        }
+
+        .yk-company>li {
+            width: 380px;
+            height: 270px;
+            float: left;
+            margin-left: 20px;
+            background: white;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .yk-company>li:first-child {
+            margin-left: 0;
+        }
+
+        .yk-company .company-img {
+            width: 360px;
+            height: 208px;
+            margin: 10px auto auto;
+        }
+
+        .yk-company .company-img img {
+            width: 100%;
+        }
+
+        .yk-company>li p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1;
+            margin-top: 20px;
+        }
+
+        /*粤快  end*/
+    </style>
+
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

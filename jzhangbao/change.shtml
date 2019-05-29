@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+
+    <!--工商变更核心服务 start-->
+    <div class="ter-box">
+        <div class="w1200">
+            <div class="hot-title tac">工商变更核心服务</div>
+            <p class="hot-des tac">专业服务，快速办理</p>
+            <ul class="bad-list">
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon01.png"></a>
+                        <p>营业执照名称变更</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon02.png"></a>
+                        <p>营业执照地址变更</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon03.png"></a>
+                        <p>经营范围变更</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon04.png"></a>
+                        <p>公司股东、股权变更</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon05.png"></a>
+                        <p>注册资金变更</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bad-bd">
+                        <a><img src="images/change/icon06.png"></a>
+                        <p>公司法人变更</p>
+                    </div>
+                </li>
+            </ul>
+            <a class="go-jion opacity" onclick="openZoosUrl('chatwin')"><i class="dib"></i>点击了解更多</a>
+        </div>
+    </div>
+    <!--工商变更核心服务 end-->
+
+    <!--注册信息不变将有以下风险 start-->
+    <div class="ter-box box-bg">
+        <div class="w1200">
+            <div class="hot-title tac">及时变更 否则会有以下风险</div>
+            <p class="hot-des tac">只要营业执照信息发生变化，相关信息必须变更，以免造成极大危害</p>
+            <ul class="change-list">
+                <li>
+                    <img src="images/change/change-img_05.jpg">
+                    <b>吊销执照</b>
+                    <p>营业执照会被吊销且可能拉入工商黑名单，影响个人信誉。</p>
+                </li>
+                <li>
+                    <img src="images/change/change-img_07.jpg">
+                    <b>税务罚款</b>
+                    <p>工商变更逾期不登记者，国税按月罚，地税按天罚及罚款滞纳金。</p>
+                </li>
+                <li>
+                    <img src="images/change/change-img_09.jpg">
+                    <b>刑事责任</b>
+                    <p>会构成非法经营，面临罚款、没收违法所得甚至行政处分或刑事责任。</p>
+                </li>
+                <li>
+                    <img src="images/change/change-img_11.jpg">
+                    <b>收债困难</b>
+                    <p>注册地址和经营地不一致，会导致债务履行困难，欠款无法收回。</p>
+                </li>
+            </ul>
+            <!-- <a class="go-jion opacity"  onclick="openZoosUrl('chatwin')"><i class="dib"></i>申请加急变更</a> -->
+        </div>
+    </div>
+    <!--注册信息不变将有以下风险 end-->
+
+    <!--计账宝工商变更核心服务 start-->
+    <div class="w1200 min-box">
+        <div class="hot-title tac">不用担心 计账宝帮您解决</div>
+        <p class="hot-des tac">多年工商服务经验，计账宝值得信赖</p>
+        <div class="core-box">
+            <img src="images/change/xz.png">
+        </div>
+        <div class="btn-box" style="margin-bottom:50px;">全国统一免费热线：<b>138-2510-0389</b>
+            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>立即办理</a>
+        </div>
+    </div>
+    <!--计账宝工商变更核心服务 end-->
+
+
+
+    <!--我们需要你提供这些资料 start-->
+    <div class="ter-box box-bg">
+        <div class="hot-title tac">工商变更，我们需要你提供这些资料</div>
+        <p class="hot-des tac">多年工商服务经验，高效快捷,让您满意</p>
+        <div class="w1200">
+            <ul class="lence-list">
+                <li>
+                    <div class="lence-img">
+                        <img src="images/change/zj-1.png">
+                    </div>
+                    <p class="lence-txt"><em class="dib">01</em><span>营业执照正副本原件</span></p>
+                </li>
+                <li>
+                    <div class="lence-img">
+                        <img src="images/change/zj-2.png" style="height: 100px !important;margin-top:53px;">
+                    </div>
+                    <p class="lence-txt" style="margin-top:53px;"><em class="dib">02</em><span>法人身份证复印件</span></p>
+                </li>
+                <!-- <li>
+                    <div class="lence-img">
+                        <img src="images/change/lence-img3.jpg">
+                    </div>
+                    <p class="lence-txt"><em class="dib">03</em><span>企业统一社会信用代码证明</span></p>
+                </li> -->
+                <li>
+                    <div class="lence-img">
+                        <img src="images/change/zj-3.png">
+                    </div>
+                    <p class="lence-txt"><em class="dib">03</em><span>企业公章</span></p>
+                </li>
+                <li>
+                    <div class="lence-img">
+                        <img src="images/change/zj-4.png">
+                    </div>
+                    <p class="lence-txt"><em class="dib">04</em><span>工商局要求的其他材料</span></p>
+                </li>
+            </ul>
+            <a class="go-jion opacity" onclick="openZoosUrl('chatwin')"><i class="dib"></i>点击了解更多</a>
+            <div class="lq-box">
+                <div class="hot-title tac">办理完成即可领取以下证件</div>
+                <p class="hot-des tac">多年工商服务经验，高效快捷,让您满意</p>
+                <ul class="lence-list">
+                    <li>
+                        <div class="lence-img">
+                            <img src="images/change/lence-img1.jpg">
+                        </div>
+                        <p class="lence-txt"><em class="dib">01</em><span>营业执照正本</span></p>
+                    </li>
+                    <li>
+                        <div class="lence-img">
+                            <img src="images/change/lence-img2.jpg">
+                        </div>
+                        <p class="lence-txt"><em class="dib">02</em><span>营业执照副本</span></p>
+                    </li>
+                    <!-- <li>
+                    <div class="lence-img">
+                        <img src="images/change/lence-img3.jpg">
+                    </div>
+                    <p class="lence-txt"><em class="dib">03</em><span>企业统一社会信用代码证明</span></p>
+                </li> -->
+                    <li>
+                        <div class="lence-img">
+                            <img src="images/change/lence-img4.jpg">
+                        </div>
+                        <p class="lence-txt"><em class="dib">03</em><span>公司章程</span></p>
+                    </li>
+                    <li>
+                        <div class="lence-img">
+                            <img src="images/change/lence-img5.jpg">
+                        </div>
+                        <p class="lence-txt"><em class="dib">04</em><span>公司印章及印鉴存留卡</span></p>
+                    </li>
+                </ul>
+                <!-- <a class="go-jion opacity"  onclick="openZoosUrl('chatwin')">领证需要多长时间？</a> -->
+            </div>
+        </div>
+    </div>
+    <!--我们需要你提供这些资料 end-->
+
+    <!--仅需4步 start-->
+    <div class="ter-box flow-bg">
+        <div class="hot-title tac">独创行业服务模式，成功注册仅需4步</div>
+        <p class="hot-des tac">计账宝政企服务中心一门式服务，摆脱繁复流程，让创业更简单</p>
+        <img src="images/change/zc4.png">
+
+        <div class="btn-box">全国统一免费热线：<b>138-2510-0389</b>
+            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>立即办理</a>
+        </div>
+    </div>
+    <!--仅需4步 end-->
+
+    <!-- 常见问题 -->
+    <div class="ter-box">
+        <div class="hot-title tac">常见问题</div>
+        <p class="hot-des tac">您想了解的，我们都知道</p>
+        <div class="wt">
+            <ul>
+                <li>
+                    <a>No.1</a>
+                    <div class="bubble wt-jd">
+                        <h2>工商信息变更是否需要本人办理？</h2>
+                        <span>不需要的，只需提供相应资料，我司会全权办理。</span>
+                    </div>
+                </li>
+                <li>
+                    <a>No.2</a>
+                    <div class="bubble wt-jd">
+                        <h2>变更股权一定要股东本人都到场吗？</h2>
+                        <span>不需要的，只需提供所有涉及股东的身份证即可。</span>
+                    </div>
+                </li>
+                <li>
+                    <a>No.3</a>
+                    <div class="bubble wt-jd">
+                        <h2>个体户可以变更法人吗？</h2>
+                        <span>个体户的营业执照不能直接变更法人，需先把原来的营业执照注销登记后再重新办理。</span>
+                    </div>
+                </li>
+                <li>
+                    <a>No.4</a>
+                    <div class="bubble wt-jd">
+                        <h2>个体户可以变更成公司吗？</h2>
+                        <span>个体户的营业执照不能直接变更为公司，需先注销个体工商户营业执照，再注册公司营业执照。</span>
+                    </div>
+                </li>
+                <li>
+                    <p class="zxkf" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>更多问题请咨询在线客服</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 常见问题 end-->
+
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

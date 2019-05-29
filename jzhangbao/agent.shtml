@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+    <!--寻找代理记账平台 start-->
+    <div class="bg-box">
+        <div class="w1200">
+            <div class="big-til">
+                <h3>计账宝服务优势</h3>
+                <p>Jizhangbao advantages</p>
+            </div>
+            <ul class="tack-list">
+                <li>
+                    <div class="tack-img">
+                        <img src="images/001.png">
+                    </div>
+                    <b class="dib">正规代理资质</b>
+                    <p>10+年代帐经验，服务超过10万家企业。</p>
+                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+                <li>
+                    <div class="tack-img">
+                        <img src="images/002.png">
+                    </div>
+                    <b class="dib">本土政企关系</b>
+                    <p>扎根广州的本土品牌，拥有良好的政企关系。</p>
+                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+                <li>
+                    <div class="tack-img">
+                        <img src="images/004.png">
+                    </div>
+                    <b class="dib">全程人工服务</b>
+                    <p>专属会计师全程人工记账，拒绝机器算账。</p>
+                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+                <li>
+                    <div class="tack-img">
+                        <img src="images/003.png">
+                    </div>
+                    <b class="dib">大型会计团队</b>
+                    <p>聘请百名会计师加盟，80%超过5年经验</p>
+                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--寻找代理记账平台 end-->
+
+    <!--计账宝真的不一样 start-->
+    <div class="w1200 min-box">
+        <div class="big-til">
+            <h3>做代理记账，计账宝就是不一样！</h3>
+            <p><span class="orange">专人专办，服务好，效率高。</span>让客户满意</p>
+        </div>
+        <ul class="tack-list tack-list2">
+            <li>
+                <div class="unlike-box">
+                    <i class="dib"></i><br>
+                    <span class="dib">正规代理资质</span>
+                    <p>
+                        获得国家机关认证资质，代理记账<br>
+                        行业协会成员，广东省守合同重信<br>
+                        用企业。
+                    </p>
+                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                </div>
+                <img src="images/br-1.png" style=" width:280px; height:130px;">
+            </li>
+            <li>
+                <div class="unlike-box">
+                    <i class="dib unlike-icon2"></i><br>
+                    <span class="dib">记账经验丰富</span>
+                    <p>
+                        百位专职会计，每年续约企业客户<br>
+                        超过10000家，新增企业客户超过<br>3700家。
+                    </p>
+                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                </div>
+                <img src="images/img1_16.jpg">
+            </li>
+            <li>
+                <div class="unlike-box">
+                    <i class="dib unlike-icon3"></i><br>
+                    <span class="dib">服务宗旨</span>
+                    <p>
+                        为中小微企业提供一站式第三方服<br>
+                        务的专业平台，致力于：整合各方<br>优势资源，让创业变得简单。
+                    </p>
+                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                </div>
+                <img src="images/img1_17.jpg">
+            </li>
+            <li>
+                <div class="unlike-box">
+                    <i class="dib unlike-icon4"></i><br>
+                    <span class="dib">精英会计团队</span>
+                    <p>
+                        超过百位资深会计组成的业务团队，<br>
+                        一对一服务，双重审核把关，用服<br>
+                        务口碑获得客户认可
+                    </p>
+                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                </div>
+                <img src="images/img1_18.jpg">
+            </li>
+        </ul>
+        <div class="btn-box">
+            <span>电话咨询：<b>0755-28892997</b></span>
+            <a class="dib opacity"  onclick="openZoosUrl('chatwin')">立即咨询</a>
+        </div>
+    </div>
+    <!--计账宝真的不一样 end-->
+
+    <!--计账宝提供20余项代账服务 start-->
+    <div class="bg-box serve-bg">
+        <div class="w1200">
+            <div class="big-til">
+                <h3 class="corlorfff">计账宝提供20余项代账服务</h3>
+                <p class="corlorfff">详细的服务内容，满足您的账务需求</p>
+            </div>
+            <div class="srve-img">
+                <table class="srve-wz">
+                <tr>
+                    <td><a>1</a>协助签订第三方协议</td>
+                    <td><a>2</a>税种核定</td>
+                    <td><a>3</a>申请发票</td>
+                </tr>
+                <tr class="srve-wz-bg">
+                    <td><a>4</a>开通社保</td>
+                    <td><a>5</a>申请社保</td>
+                    <td><a>6</a>社保代缴代扣</td>
+                </tr>
+                <tr>
+                    <td><a>7</a>国地税报道</td>
+                    <td><a>8</a>购买税控设备</td>
+                    <td><a>9</a>发票增量增版</td>
+                </tr>
+                <tr class="srve-wz-bg">
+                    <td><a>10</a>代缴税控盘或申报服务费用</td>
+                    <td><a>11</a>办理税控盘解锁</td>
+                    <td><a>12</a>办理发票认证工作</td>
+                </tr>
+                <tr>
+                    <td><a>13</a>税务局代开发票</td>
+                    <td><a>14</a>代缴系统认证服务费</td>
+                    <td><a>15</a>办理国地税证明</td>
+                </tr>
+                <tr class="srve-wz-bg">
+                    <td><a>16</a>编制企业财务报表</td>
+                    <td><a>17</a>年度所得税汇算</td>
+                    <td><a>18</a>办理外经证</td>
+                </tr>
+                <tr>
+                    <td><a>19</a>协助缴纳税款</td>
+                    <td><a>20</a>协助三方协议税务备案</td>
+                    <td><a>21</a>协助银行网上对账</td>
+                </tr>
+                <tr class="srve-wz-bg">
+                    <td><a>22</a>打印银行对账及回单</td>
+                    <td><a>23</a>协助银行接非/解冻</td>
+                    <td><a>24</a>协助网银审核</td>
+                </tr>
+                <tr>
+                    <td><a>25</a>签三方协议(银行)</td>
+                    <td><a>26</a>远程协助代开发票,抄税,清卡</td>
+                    <td><a>27</a>外勤上门服务</td>
+                </tr>
+                </table>
+                <a class="dib opacity zx-btn"  onclick="openZoosUrl('chatwin')">立即咨询</a>
+            </div>
+        </div>
+    </div>
+    <!--计账宝提供20余项代账服务 end-->
+
+
+    <!--请按照您的公司类型选择代账方案 start-->
+    <div class="choose-plan">
+        <div class="big-til">
+            <h3>计账宝财税金牌代帐服务</h3>
+            <p>Yukuaicaishui service area</p>
+        </div>
+        <div class="w1200">
+            <ul class="clearfix">
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon1"></i></div>
+                    <p>小规模记账</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon2"></i></div>
+                    <p>一般纳税人记账</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon3"></i></div>
+                    <p>汇算清缴</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon4"></i></div>
+                    <p>发票领购</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon5"></i></div>
+                    <p>社保代办</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon6"></i></div>
+                    <p>执照年审</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon7"></i></div>
+                    <p>特殊行业企业</p>
+                </li>
+                <li>
+                    <div class="top-img"><span class="md"></span><i class="dib icon8"></i></div>
+                    <p>全国连锁企业</p>
+                </li>
+            </ul>
+            <div class="choose-btn"><a  onclick="openZoosUrl('chatwin')">立即索取代账方案</a></div>
+        </div>
+    </div>
+    <!--请按照您的公司类型选择代账方案 end -->
+
+    <!--仅需6步，轻松当个翘脚老板 start-->
+    <div class="six-steps">
+        <div class="big-til">
+            <h3>我们如何为您记账，仅需6步</h3>
+            <p>规范的办理流程，代账更放心</p>
+        </div>
+        <div class="steps"><img src="images/dl24.jpg"></div>
+        <div class="choose-btn"><a  onclick="openZoosUrl('chatwin')">点击咨询</a></div>
+    </div>
+    <!--仅需6步，轻松当个翘脚老板 end -->
+
+    <!--我们需要您提供这些资料 start-->
+    <div class="bg-box">
+        <div class="w1200">
+            <div class="big-til">
+                <h3>代理记账，我们需要您提供这些资料</h3>
+            </div>
+            <ul class="get-list">
+                <li>
+                    <img src="images/hoep-img_03.jpg">
+                    <div class="get-text">
+                        <b>营业执照</b>
+                    <div class="get-line"></div>
+                        <p>BUSINESS LICENSE</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hoep-img_05.jpg">
+                    <div class="get-text">
+                        <b>账目明细</b>
+                    <div class="get-line"></div>
+                        <p>DETAILED ACCOUNTS</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hoep-img_07.jpg">
+                    <div class="get-text">
+                        <b>银行单据</b>
+                    <div class="get-line"></div>
+                        <p>BANK RECEIPT</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--我们需要您提供这些资料 end-->
+
+    <!--您将得到这些文件 start-->
+    <div class="w1200 min-box">
+        <div class="big-til">
+            <h3>办理后会获得哪些资料</h3>
+        </div>
+        <ul class="tack-list3-zl tack-list tack-list3">
+            <li>
+                <img src="images/zl_1.png">
+                <b>会计报告</b>
+                <!--<p>企业总账和各类明细账单</p>-->
+            </li>
+            <li>
+                <img src="images/zl_2.png">
+                <b>报表</b>
+                <!--<p>经由会计审核无误的原始凭证<br>或原始凭证汇总表编制</p>-->
+            </li>
+            <li>
+                <img src="images/zl_3.png">
+                <b>帐薄</b>
+                <!--<p>三大报表：资产负债表、损益表、<br>现金流量表、以及附表等</p>-->
+            </li>
+        </ul>
+    </div>
+    <!--您将得到这些文件 end-->
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

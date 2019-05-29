@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "1";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+    <!--注册前需要 start-->
+    <div class="ter-box">
+        <div class="hot-title tac">公司不注销有什么危害</div>
+        <p class="hot-des tac">不运营的公司不办理注销导致吊销遗患无穷</p>
+        <div class="w1200 zx-wh">
+            <ul>
+                <li><img src="images/1.png" alt=""><span>公司和法人被工商部门列为黑名单</span></li>
+                <li><img src="images/2.png" alt=""><span>税务永久被列入监控黑名单</span></li>
+                <li><img src="images/3.png" alt=""><span>三年内无法使用自己名义注册公司</span></li>
+                <li><img src="images/4.png" alt=""><span>银行个人信用不良记录将保持7年</span></li>
+                <li><img src="images/5.png" alt=""><span>个人征信不良记录导致无贷贷款和移民</span></li>
+                <li><img src="images/6.png" alt=""><span>将会受到严厉的经济惩罚</span></li>
+            </ul>
+        </div>
+    </div>
+    <!--注册前需要 end-->
+
+    <!-- 滚动列表 start-->
+    <div class="topRec_List">
+        <h2>免费查询公司是否存在工商、税务异常</h2>
+        <input id="title" name="title" type="text" placeholder="请输入公司名称">
+        <input id="iPhone" name="tel" type="text" placeholder="请输入您的联系电话">
+        <button onclick="submit_gszx()">立即查询</button>
+        <dl class="ma_tit">
+            <dd>客户或公司简称</dd>
+            <dd>所在地区</dd>
+            <dd>进展状态</dd>
+        </dl>
+        <div class="maquee">
+            <ul style="margin-top: 10px;">
+                <li>
+                    <div>深圳X软件有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>税务异常</div>
+                </li>
+                <li>
+                    <div>深圳X投资有限公司</div>
+                    <div>深圳福田</div>
+                    <div>正常</div>
+                </li>
+                <li>
+                    <div>深圳X食品有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>税务异常</div>
+                </li>
+                <li>
+                    <div>深圳X物流有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>正常</div>
+                </li>
+                <li>
+                    <div>深圳X食品有限公司</div>
+                    <div>深圳龙岗</div>
+                    <div>地址异常</div>
+                </li>
+                <li>
+                    <div>深圳X软件有限公司</div>
+                    <div>深圳龙岗</div>
+                    <div>税务异常</div>
+                </li>
+                <li>
+                    <div>深圳X食品有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>地址异常</div>
+                </li>
+                <li>
+                    <div>深圳X餐饮有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>已完结</div>
+                </li>
+                <li>
+                    <div>深圳X食品有限公司</div>
+                    <div>深圳宝安</div>
+                    <div>已完结</div>
+                </li>
+                <li>
+                    <div>深圳X物流有限公司</div>
+                    <div>深圳南山</div>
+                    <div>地址异常</div>
+                </li>
+                <li>
+                    <div>深圳X产品有限公司</div>
+                    <div>深圳罗湖</div>
+                    <div>税务异常</div>
+                </li>
+                <li>
+                    <div>深圳X加盟有限公司</div>
+                    <div>深圳龙岗</div>
+                    <div>地址异常</div>
+                </li>
+            </ul>
+        </div>
+        <div class="zx-zt">
+            <h2>注销公司状态：</h2>
+            <div>
+                <span>累计注销 <a>261321</a></span>
+                <span>昨日注销：261家</span>
+                <span>上月注销：6230家</span>
+            </div>
+        </div>
+    </div>
+    <!-- 滚动列表 end-->
+
+    <div class="ter-box clearfix">
+        <div class="ter-tit">你所了解的工商注销流程</div>
+        <div class="w1200 zxlc">
+            <img src="images/zxlc.jpg" alt="">
+            <ul>
+                <li>[01] 工商备案</li>
+                <li>[02] 注销公告</li>
+                <li>[03] 地税注销</li>
+                <li>[04] 国税注销</li>
+                <li>[05] 登报</li>
+                <li>[06] 清算组备案</li>
+                <li>[07] 工商注销</li>
+                <li>[08] 印章缴销</li>
+            </ul>
+            <a onclick="openZoosUrl('chatwin')" class="zxzx">在线咨询</a>
+        </div>
+    </div>
+
+    <div class="ter-box">
+        <div class="ter-tit">您所不知的计账宝注销流程</div>
+        <div class="w1200">
+            <div class="lc2">
+                <ul>
+                    <li><img src="images/lc1.png" alt="">
+                        <p>工商注销备案</p>
+                    </li>
+                    <li><img src="images/lc2.png" alt="">
+                        <p>登报公示企业注销</p>
+                    </li>
+                    <li><img src="images/lc3.png" alt="">
+                        <p>清算地方附加税</p>
+                    </li>
+                    <li><img src="images/lc4.png" alt="">
+                        <p>清算国家增值税</p>
+                    </li>
+                    <li><img src="images/lc5.png" alt="">
+                        <p>工商注销完成</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="ter-box">
+        <div class="cn">
+            <div class="w1200 sh">
+                <a>承诺</a>
+                <p>售后如有问题，请拨打我们的,客户热线: 138—2510—0389<br>我们第一时间会派专员帮您处理，保证您的问题及时解决。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ter-box">
+        <div class="ter-tit">您需要准备</div>
+        <div class="w1200">
+            <img src="images/zb.jpg" alt="" style="width: 100%;">
+        </div>
+    </div>
+
+    <div class="ter-box">
+        <img src="images/wt.jpg" alt="" style="width: 100%;">
+        <div class="ter-tit">为什么选择计账宝</div>
+    </div>
+
+    <!--仅需4步 start-->
+    <div class="ter-box zx-bg">
+        <div class="w1200">
+            <img src="images/pk.jpg" alt="" style="width: 100%;">
+            <a onclick="openZoosUrl('chatwin')" class="zxzx"
+                style="margin:30px auto; border-radius: 10px;float: none;">在线咨询</a>
+        </div>
+    </div>
+    <!--仅需4步 end-->
+
+    <div class="ter-box">
+        <div class="ter-tit">我们的四大优势
+            
+            <div class="w1200">
+                <img src="images/ys1.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
+                <img src="images/ys2.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
+                <img src="images/ys3.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
+                <img src="images/ys4.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
+                <strong>六大贴心注销保障模块</strong>
+                <img src="images/bz.jpg" alt="" onclick="openZoosUrl('chatwin')"
+                    style="width: 100%; margin: 50px 0;">
+                <strong>常见问题</strong>
+                <img src="images/cjwt.jpg" onclick="openZoosUrl('chatwin')" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </div>
+    <img src="images/footer.jpg" alt="" style="width: 100%;">
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

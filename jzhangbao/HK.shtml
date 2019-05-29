@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--#include file="include/head.html" -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="Author" content="">
+    <meta content="计账宝 www.jzhangbao.com" name="design">
+    <title>计账宝</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/c.css" /> -->
+    <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
+    <script type="text/javascript">
+        var navID = "9";
+    </script>
+</head>
+
+<body>
+    <!--top-->
+    <!--#include file="include/top.html" -->
+    <header class="Toper">
+        <div class="Top">
+            <a class="logo" href="index.shtml"></a>
+            <span class="tel">服务热线：<b>0755-28892997</b></span>
+            <nav class="MainNav">
+                <ul>
+                    <li><a id="nav1" href="index.shtml">公司注册</a></li>
+                    <li><a id="nav2" href="agent.shtml">代理记账</a></li>
+                    <li><a id="nav3" href="cancellation.shtml">公司注销</a></li>
+                    <li><a id="nav4" href="change.shtml">工商变更</a></li>
+                    <li><a id="nav5" href="rademark.shtml">商标注册</a></li>
+                    <li><a id="nav6" href="patent.shtml">专利申请</a></li>
+                    <li><a id="nav7" href="licence.shtml">许可证</a></li>
+                    <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
+                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav10" href="about.shtml">关于我们</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        //导航选中
+        $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
+    </script>
+    <!--top end-->
+
+    <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
+
+
+    <!--注册信息不变将有以下风险 start-->
+    <div class="ter-box">
+        <div class="w1200" onclick="openZoosUrl('chatwin')">
+            <div class="ter-tit">
+                <strong>粤快财税服务类目</strong>
+                <p></p>
+            </div>
+            <ul class="change-list noshadow">
+                <li>
+                    <img src="images/HK/class-1.png">
+                    <b>香港公司注册</b>
+                </li>
+                <li>
+                    <img src="images/HK/class-2.png">
+                    <b>香港银行开户</b>
+                </li>
+                <li>
+                    <img src="images/HK/class-3.png">
+                    <b>香港公司年审</b>
+                </li>
+                <li>
+                    <img src="images/HK/class-4.png">
+                    <b>香港做账审计</b>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--注册信息不变将有以下风险 end-->
+
+    <div class="w1200">
+        <img src="images/HK/base.png" style="margin:60px 0;">
+        <div class="ter-tit">
+            <strong>香港公司注册完可获得资料</strong>
+            <p></p>
+        </div>
+        <div class="base-left">
+            <img src="images/HK/base-left.png" style="height: 260px;">
+            <ul>
+                <li><a>1</a><span>一个绿色硬盒</span></li>
+                <li><a>2</a><span>一本法定股东，董事会议记录册</span></li>
+                <li><a>3</a><span>香港公司注册证书CR</span></li>
+                <li><a>4</a><span>商业登记证BR</span></li>
+                <li><a>5</a><span>公司章程10本（2本中文，8本英文）</span></li>
+                <li><a>6</a><span>一本内部股票本</span></li>
+                <li><a>7</a><span>NNC1文件</span></li>
+                <li><a>8</a><span>新公司印章三枚（钢印、原子印、原子签名章）</span></li>
+            </ul>
+        </div>
+        <a class="HK__go-jion opacity" style="margin: 50px auto;" onclick="openZoosUrl('chatwin')"><i class="dib"></i>立即咨询</a>
+    </div>
+
+
+    <!--香港公司注册完的增值服务 start-->
+    <div class="ter-box">
+        <div class="ter-tit">
+            <strong>注册香港公司增值服务</strong>
+        </div>
+        <div class="zx-wh bor">
+            <ul onclick="openZoosUrl('chatwin')">
+                <li><img src="images/HK/add-1.png" alt=""><span>秘书服务</span></li>
+                <li><img src="images/HK/add-2.png" alt=""><span>秘书地址</span></li>
+                <li><img src="images/HK/add-3.png" alt=""><span>水牌</span></li>
+                <li><img src="images/HK/add-4.png" alt=""><span>SCR重要控制人备案</span></li>
+                <li><img src="images/HK/add-5.png" alt=""><span>信件跟进处理</span></li>
+            </ul>
+        </div>
+    </div>
+    <!--香港公司注册完的增值服务 end-->
+
+
+    <div class="ter-box bad-bg">
+        <div class="w1200">
+            <img src="images/HK/bank.png" alt="">
+            <div class="ter-tit corlorfff">
+                <strong style="color:#565656;">香港开立账户的好处</strong>
+            </div>
+            <ul class="HK__bad-list">
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>资金调拨自由</p>
+                        <span>客户的离岸账户即可等同于在境外银行开立的账户，可以从离岸账户上自由调拨资金，不受国内管制。</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>品种不受限制</p>
+                        <span>品种不受境内监制，比境外银行同类存款利率优惠，存取灵活</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>提高资金运营效率</p>
+                        <span>充分利用香港银行，降低资金综合成本，加快境内外资金周转，提高资金使用效率。</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>免征存款利息税</p>
+                        <span>中国政府对离岸存款取得利息免征存款利息，离岸存款实际净收益更为可观。</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>境内操控，境外运作</p>
+                        <span>可以使用网上银行或电话理财，方便日常操作</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <p>方便核销</p>
+                        <span>可以查阅使用人的操作记录，主要使用人可以授权个别一般使用人查阅所有使用人操作记录</span>
+                        <a class="go-submit" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="zl-base">
+                <div class="ter-tit corlorfff">
+                    <strong>香港银行开户所需材料</strong>
+                </div>
+                <ul class="HK__bad-list w50">
+                    <li>
+                        <div class="HK__bad-bd">
+                            <p>企业开户所需材料</p>
+                            <span style="margin-left: 120px;">1、香港公司全套资料<br>2、一份采购一份销售合同<br>3、董事身份证 /
+                                港澳通行证<br>4、过关小票</span>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <div class="HK__bad-bd">
+                            <p>大陆公司所需材料</p>
+                            <span>1、公司营业执照<br>2、完整的订单数据<br>3、报关单、增值税发票<br>4、银行账单<br>5、……</span>
+                        </div>
+                    </li> -->
+                    <li>
+                        <div class="HK__bad-bd">
+                            <p>个人开户所需材料</p>
+                            <span style="margin-left: 150px;">1、身份证<br>2、通行证<br>3、过关小票<br>4、个人银行流水</span>
+                        </div>
+                    </li>
+                </ul>
+                <a class="HK__go-jion opacity" onclick="openZoosUrl('chatwin')"><i class="dib"></i>咨询了解更多材料及对应的开户方案</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--香港账户开户的流程 start-->
+    <div class="ter-box">
+        <div class="ter-tit">
+            <strong>香港账户开户的流程</strong>
+        </div>
+        <div class="zx-wh">
+            <ul>
+                <li><img src="images/HK/lc-1.png" alt=""><span>资料提交</span></li>
+                <li><img src="images/HK/lc-2.png" alt=""><span>银行审核</span></li>
+                <li><img src="images/HK/lc-3.png" alt=""><span>预约时间</span></li>
+                <li><img src="images/HK/lc-4.png" alt=""><span>赴港面签</span></li>
+                <li><img src="images/HK/lc-5.png" alt=""><span>账户开通</span></li>
+            </ul>
+        </div>
+    </div>
+    <!--香港账户开户的流程 end-->
+
+
+    <!--众多银行任您选择 start-->
+    <div class="ter-box">
+        <div class="w1200">
+            <div class="ter-tit">
+                <strong>众多银行任您选择</strong>
+                <p></p>
+            </div>
+            <ul class="change-list max1">
+                <li>
+                    <img src="images/HK/bank-1.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-2.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-3.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-4.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-5.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-6.png">
+                </li>
+                <li>
+                    <img src="images/HK/bank-7.png">
+                </li>
+                <li style="background: #fb0303;">
+                    <a style="display: block;width: 100%;font-size: 30px;color: #fff;padding:22px 0; line-height: 36px;" onclick="openZoosUrl('chatwin')">更多银行<br>点击咨询</a>
+                </li>
+            </ul>
+            <!-- <a class="HK__go-jion opacity"  onclick="openZoosUrl('chatwin')"><i class="dib"></i>立即咨询</a> -->
+            <img src="images/HK/more.png" style="margin:30px auto 60px;" onclick="openZoosUrl('chatwin')">
+            <img src="images/HK/ns.png" style="margin:0 auto 30px;" onclick="openZoosUrl('chatwin')">
+            <div class="btn-box">全国统一免费热线：<b>138-2510-0389</b>
+                <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>立即办理</a>
+            </div>
+        </div>
+    </div>
+    <!--众多银行任您选择 end-->
+
+    <!-- 香港公司不做账审计的影响 -->
+    <div class="box-bg ter-box">
+        <div class="w1200" onclick="openZoosUrl('chatwin')">
+            <a class="HK__go-jion opacity" onclick="openZoosUrl('chatwin')"
+                style="margin-top: 60px;font-size:25px;">香港公司不做账审计的影响</a>
+            <ul class="HK__bad-list yx">
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>一次超期罚款1200</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>二次超期罚款3000起</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>收到法院传票</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>银行账户强制扣税款/冻结</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>公司被强制注销</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="HK__bad-bd">
+                        <span>董事列入黑名单最高监禁6个月</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="database w1200">
+            <div class="ter-tit">
+                <strong>做账审计需准备资料</strong>
+                <p></p>
+            </div>
+            <div class="base-left">
+                <img src="images/HK/ready-base.png" style="height: 260px;">
+                <ul style="margin-top: 75px;">
+                    <li><a>1</a><span>一整年的银行月结单</span></li>
+                    <li><a>2</a><span>公司资料，购销单据，成本单据</span></li>
+                    <li><a>3</a><span>如若上年已有审计报告，需将报告扫描或拍照给我司</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 香港公司不做账审计的影响 -->
+
+    <!-- 香港公司做账审计流程 -->
+    <div class="box-bg ter-box">
+        <div class="w1200">
+            <div class="ter-tit">
+                <strong>香港公司做账审计流程</strong>
+                <p></p>
+            </div>
+            <img src="images/HK/lc.png" onclick="openZoosUrl('chatwin')">
+            <a class="HK__go-jion opacity" style="margin: 50px auto;" onclick="openZoosUrl('chatwin')"><i class="dib"></i>立即咨询</a>
+        </div>
+    </div>
+    <!-- 香港公司做账审计流程 -->
+
+    <div class="w1200">
+        <div class="ter-tit tac">
+            <strong>选择粤快财税让您更安心</strong>
+            <p></p>
+        </div>
+        <div class="safe">
+            <ul>
+                <li><img src="images/HK/1.png"></li>
+                <li>
+                    <h2>合作伙伴</h2>
+                    <span>各大银行长期战略合作伙伴，银行资源丰富，选择多</span>
+                    <a onclick="openZoosUrl('chatwin')">了解更多</a>
+                </li>
+                <li><img src="images/HK/2.png"></li>
+                <li>
+                    <h2>协助办理</h2>
+                    <span>告知客户办理业务所需材料，协助准备材料</span>
+                    <a onclick="openZoosUrl('chatwin')">了解更多</a>
+                </li>
+                <li>
+                    <h2>收费合理</h2>
+                    <span>价格透明，不成功全额退比同行更省10%</span>
+                    <a onclick="openZoosUrl('chatwin')">了解更多</a>
+                </li>
+                <li><img src="images/HK/3.png"></li>
+                <li>
+                    <h2>一站式服务</h2>
+                    <span>一对一服务，全程跟进快速办理</span>
+                    <a onclick="openZoosUrl('chatwin')">了解更多</a>
+                </li>
+                <li><img src="images/HK/4.png"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--bottom-->
+    <!--#include file="include/bottom.html" -->
+
+    <footer class="footer">
+        <div class="w1200"><img src="images/06.png" /></div>
+        <p>深圳计账宝有限公司版权所有&copy 2019</p>
+    </footer>
+    <!-- <footer class="Bottom">
+        <div class="auto">
+            <dl>
+                <dt>走进华宗</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">企业愿景</a></dd>
+                <dd><a href="#">服务理念</a></dd>
+                <dd><a href="#">品质理念</a></dd>
+                <dd><a href="#">经营理念</a></dd>
+                <dd><a href="#">企业精神</a></dd>
+            </dl>
+
+            <dl>
+                <dt>华宗产品</dt>
+                <dd><a href="#">配件</a></dd>
+                <dd><a href="#">控制器</a></dd>
+                <dd><a href="#">点胶机</a></dd>
+                <dd><a href="#">在线式自动点胶机</a></dd>
+                <dd><a href="#">螺丝机设备</a></dd>
+                <dd><a href="#">电池自动点焊机</a></dd>
+                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <div class="copyright">
+                <div class="title">深圳市华宗科技有限公司</div>
+                <p>
+                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
+                    电话：0755-86351620 13713535279（徐先生）<br />
+                    传真：0755-32907339<br />
+                    邮箱： 553815811@qq.com<br />
+                </p>
+
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </footer> -->
+
+    <script type="text/javascript">
+        //整站无图处理
+        //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+    </script>
+    <!--bottom end-->
+
+    <!-- 53kf代码 -->
+    <script>
+        (function () {
+            var _53code = document.createElement("script");
+            _53code.src = '//tb.53kf.com/code/code/59ce5a4e5a77cf48a142468863d5a656/1';
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(_53code, s);
+        })();
+    </script>
+    <!-- 53kf代码 end -->
+
+</body>
+
+</html>

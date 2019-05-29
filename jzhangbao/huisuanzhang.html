@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @charset "UTF-8";
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /* font: inherit; */
+      vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+    }
+
+    blockquote,
+    q {
+      quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    select {
+      border-radius: 0;
+    }
+
+    /*去掉mac safari浏览器input右边的小图标/小按钮*/
+    input:focus::-webkit-contacts-auto-fill-button {
+      opacity: 0;
+    }
+
+    .nav-right .nav2 a {
+      color: #28a7e1 !important;
+    }
+
+    body {
+      font-family: "PingFangSC-Thin", "微软雅黑";
+    }
+
+    .w1200 {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tac {
+      text-align: center;
+    }
+
+    .fl {
+      float: left;
+    }
+
+    .fr {
+      float: right;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+      display: table;
+      content: "";
+      clear: both;
+      height: 0;
+    }
+
+    .clearfix {
+      zoom: 1;
+    }
+
+    /*banner部分*/
+    .banner-wrap {
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+      min-width: 1200px;
+      background: url(../images/gongsi_imgs/banner.png) no-repeat center center;
+      background-color: #3841da;
+    }
+
+    /*banner end*/
+    .advantage-wrap {
+      width: 100%;
+      height: 122px;
+      background: #fff;
+      overflow: hidden;
+      min-width: 1200px;
+    }
+
+    .advantage li {
+      width: 312px;
+      margin-top: 35px;
+    }
+
+    .advantage li.type4 {
+      width: 264px;
+    }
+
+    .advantage li img {
+      width: 48px;
+      height: 48px;
+      display: block;
+      margin-right: 20px;
+    }
+
+    .advantage-des div {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .advantage-des p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    /*advantage end*/
+
+
+    .notice-wrap {
+      width: 100%;
+      background: #f4f9fc;
+      overflow: hidden;
+      min-width: 1200px;
+      padding-bottom: 110px;
+    }
+
+    .notice-title {
+      font-size: 28px;
+      color: #333;
+      text-align: center;
+      padding: 110px 0 25px;
+      letter-spacing: 3px;
+    }
+
+    .notice-line {
+      width: 50px;
+      height: 4px;
+      background: #9098ff;
+      margin: 0 auto 100px;
+    }
+
+    .notice-left {
+      width: 450px;
+      height: 600px;
+      background: #fff;
+      box-sizing: border-box;
+      margin-right: 20px;
+      box-shadow: 0 0 57px rgba(197, 200, 207, .2);
+    }
+
+    .notice-lt-wrap {
+      width: 100%;
+      height: 90px;
+      background: url(../images/gongsi_imgs/title_bg.png) no-repeat center center;
+      padding-top: 30px;
+      box-sizing: border-box;
+    }
+
+    .notice-l-title {
+      font-size: 20px;
+      color: #fff;
+      padding: 0 8px;
+    }
+
+    .notice-l-line {
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      margin-top: 10px;
+    }
+
+    .notice-l-line1 {
+      margin-left: 90px;
+    }
+
+    .notice-city {
+      padding-left: 36px;
+      margin: 28px 0 16px;
+      line-height: 48px;
+      position: relative;
+    }
+
+    .notice-city>div {
+      font-size: 14px;
+      color: #333;
+      margin-right: 18px;
+    }
+
+    .notice-inner-city {
+      width: 290px;
+      height: 48px;
+      border: 1px solid #e2e2e2;
+      box-sizing: border-box;
+      padding-left: 15px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .notice-city span {
+      display: inline-block;
+      width: 15px;
+      height: 8px;
+      position: absolute;
+      top: 22px;
+      right: 65px;
+      background: url(../images/gongsi_imgs/city_arrow.png) no-repeat;
+    }
+
+    .radio-wrap {
+      padding-left: 100px;
+      margin-bottom: 22px;
+    }
+
+    #type-radio dd {
+      float: left;
+      margin: 0 10px 0 8px;
+      position: relative;
+      padding-left: 32px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #666;
+    }
+
+    #type-radio dd b {
+      width: 22px;
+      height: 23px;
+      background: url(../images/gongsi_imgs/radio_gray.png) no-repeat center center;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -5px;
+    }
+
+    #type-radio .selected b,
+    #type-radio .selected a:hover b {
+      background: url(../images/gongsi_imgs/radio_color.png) no-repeat center center;
+    }
+
+    #type-radio2 dd {
+      float: left;
+      margin: 0 10px 0 8px;
+      position: relative;
+      padding-left: 32px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #666;
+    }
+
+    #type-radio2 dd b {
+      width: 22px;
+      height: 23px;
+      background: url(../images/gongsi_imgs/radio_gray.png) no-repeat center center;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -5px;
+    }
+
+    #type-radio2 .selected b,
+    #type-radio2 .selected a:hover b {
+      background: url(../images/gongsi_imgs/radio_color.png) no-repeat center center;
+    }
+
+    #type-radio2 a {
+      color: #f2753f;
+    }
+
+    #type-dd1 {
+      padding-right: 8px;
+    }
+
+    #type-dd2 {
+      padding-right: 40px;
+    }
+
+    .notice-inner-name,
+    .notice-inner-ch,
+    .notice-inner-lx {
+      padding-left: 36px;
+      margin-bottom: 16px;
+    }
+
+    .notice-inner-lx {
+      position: relative;
+    }
+
+    .notice-inner-name span,
+    .notice-inner-lx span {
+      font-size: 14px;
+      color: #333;
+      display: inline-block;
+      padding-right: 18px;
+    }
+
+    .notice-star {
+      position: absolute;
+      top: 17px;
+      left: 95px;
+      color: red;
+    }
+
+    .notice-inner-ch span {
+      font-size: 14px;
+      color: #333;
+      display: inline-block;
+      padding-right: 46px;
+    }
+
+    .notice-inner-name input,
+    .notice-inner-ch input,
+    .notice-inner-lx input {
+      display: inline-block;
+      height: 42px;
+      width: 271px;
+      line-height: 42px;
+      padding-left: 15px;
+      border: 1px solid #e2e2e2;
+      outline: none;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .notice-btn {
+      width: 290px;
+      height: 48px;
+      line-height: 48px;
+      background: #ff6c2a;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      box-shadow: 0 0 18px rgba(242, 117, 63, .3);
+      margin-top: 40px;
+      margin-left: 110px;
+      cursor: pointer;
+    }
+
+    .notice-btn:hover {
+      background: #f2753f;
+    }
+
+    .notice-right {
+      width: 730px;
+      height: 600px;
+      background: #fff;
+      box-shadow: 0 0 57px rgba(197, 200, 207, .2);
+    }
+
+    .notice-right li {
+      width: 365px;
+      height: 64px;
+      line-height: 64px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      float: left;
+      background: #6d6bff;
+    }
+
+    .notice-right li.curr {
+      background: #fff;
+      color: #333;
+    }
+
+    #con_a_1,
+    #con_a_2 {
+      width: 100%;
+      height: 100%;
+      padding: 0 50px;
+      box-sizing: border-box;
+    }
+
+    .notice-ri-des {
+      font-size: 14px;
+      color: #666;
+      margin-top: 38px;
+      margin-bottom: 18px;
+      line-height: 26px;
+    }
+
+    .notice-right-btn1 {
+      width: 170px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      background: #ff6c2a;
+      border-radius: 6px;
+      box-shadow: 0 0 18px rgba(242, 117, 63, .3);
+      cursor: pointer;
+      margin-left: 460px;
+      margin-bottom: 28px;
+    }
+
+    .notice-right-btn1 a {
+      display: block;
+      color: #fff;
+    }
+
+    .notice-right-btn1:hover {
+      background: #f2753f;
+    }
+
+    /*input placeholder字体设置大小*/
+    input::-webkit-input-placeholder {
+      /* WebKit browsers */
+      font-size: 14px;
+      color: #999;
+    }
+
+    input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      font-size: 14px;
+      color: #999;
+    }
+
+    input::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      font-size: 14px;
+      color: #999;
+    }
+
+    input:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      font-size: 14px;
+      color: #999;
+    }
+
+    #con_a_1 li,
+    #con_a_2 li {
+      width: 200px;
+      margin-right: 15px;
+    }
+
+    #con_a_1 li.list3,
+    #con_a_2 li.list3 {
+      margin-right: 0;
+    }
+
+    #con_a_2 li img {
+      width: 200px;
+      height: 270px;
+      display: block;
+      cursor: pointer;
+    }
+
+    #con_a_1 li p {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      line-height: 1;
+      padding-top: 16px;
+      cursor: pointer;
+    }
+
+    #con_a_1 li img {
+      width: 200px;
+      height: 270px;
+      display: block;
+      cursor: pointer;
+    }
+
+    #con_a_1 li.list2 img {
+      width: 200px;
+      height: 110px;
+      display: block;
+      cursor: pointer;
+    }
+
+    #con_a_2 li p {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      line-height: 1;
+      padding-top: 16px;
+      cursor: pointer;
+    }
+
+    #con_a_1 li p:hover,
+    #con_a_2 li p:hover {
+      color: #474aff;
+    }
+
+    #con_a_1 li p.spc {
+      padding-bottom: 20px;
+    }
+
+    /*创业第一步end*/
+
+    .hot-wrap {
+      width: 100%;
+      overflow: hidden;
+      min-width: 1200px;
+      background-color: #fff;
+      padding-bottom: 110px;
+    }
+
+    .hot-title {
+      font-size: 28px;
+      color: #333;
+      letter-spacing: 3px;
+      padding: 110px 0 20px;
+    }
+
+    .hot-des {
+      font-size: 14px;
+      color: #666;
+      padding-bottom: 80px;
+    }
+
+    .hot-l,
+    .hot-r {
+      width: 550px;
+      height: 598px;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 0 50px rgba(187, 186, 207, .3);
+    }
+
+    .hot-l {
+      margin: 0 32px 0 34px;
+    }
+
+    .hot-l-top {
+      width: 100%;
+      height: 168px;
+      background: -webkit-linear-gradient(left, #00cca8, #61dba3);
+      background: -o-linear-gradient(right, #00cca8, #61dba3);
+      background: -moz-linear-gradient(right, #00cca8, #61dba3);
+      /* background: linear-gradient(to right,#00cca8, #61dba3); */
+      border-radius: 6px 6px 0 0;
+    }
+
+    .hot-li {
+      width: 100%;
+      height: 100%;
+      /* background: url(../images/gongsi_imgs/hot_01.png) no-repeat right center; */
+    }
+
+    .hot-li p {
+      font-size: 28px;
+      color: #fff;
+      padding: 32px 0 22px 36px;
+    }
+
+    .hot-li div {
+      font-size: 16px;
+      color: #fff;
+      padding-left: 36px;
+      margin-bottom: 12px;
+    }
+
+    .hot-li div span {
+      display: inline-block;
+      color: #00b192;
+      font-size: 14px;
+      background: #fff;
+      padding: 6px 7px;
+      border-radius: 14px;
+      margin-right: 6px;
+    }
+
+    .hot-r-top {
+      width: 100%;
+      height: 168px;
+      background: -webkit-linear-gradient(left, #464aff, #9447fa);
+      background: -o-linear-gradient(right, #464aff, #9447fa);
+      background: -moz-linear-gradient(right, #464aff, #9447fa);
+      background: linear-gradient(to right, #464aff, #9447fa);
+      border-radius: 6px 6px 0 0;
+    }
+
+    .hot-r-top .hot-li {
+      width: 100%;
+      height: 100%;
+      background: url(../images/gongsi_imgs/hot_02.png) no-repeat right center;
+    }
+
+    .hot-l-bottom {
+      padding: 0 42px;
+      box-sizing: border-box;
+    }
+
+    .hot-bm-title {
+      border-bottom: 1px solid #e2e2e2;
+      font-size: 16px;
+      color: #333;
+      padding: 32px 0;
+      margin-bottom: 20px;
+    }
+
+    .hot-bm-title .left {
+      padding: 0 170px 0 24px;
+    }
+
+    #hot-radio {
+      width: 235px;
+      font-size: 14px;
+      color: #1cd0a6;
+    }
+
+    #hot-radio dd {
+      float: left;
+      margin: 0 10px 0 25px;
+      position: relative;
+      padding-left: 32px;
+      cursor: pointer;
+      padding-bottom: 25px;
+    }
+
+    #hot-radio dd b {
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/hot_icon1.png) no-repeat center center;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -5px;
+    }
+
+    #hot-radio .selected b,
+    #type-radio .selected a:hover b {
+      background: url(../images/gongsi_imgs/hot_icon2.png) no-repeat center center;
+    }
+
+    #hot-radio2 {
+      width: 195px;
+      font-size: 14px;
+      color: #1cd0a6;
+    }
+
+    #hot-radio2 dd {
+      float: left;
+      margin: 0 10px 0 25px;
+      position: relative;
+      padding-left: 32px;
+      cursor: pointer;
+      padding-bottom: 25px;
+    }
+
+    #hot-radio2 dd b {
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/hot_icon1.png) no-repeat center center;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -5px;
+    }
+
+    #hot-radio2 .selected b,
+    #type-radio .selected a:hover b {
+      background: url(../images/gongsi_imgs/hot_icon2.png) no-repeat center center;
+    }
+
+    .hot-inner-btn,
+    .hot-inner-btn2 {
+      width: 260px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      border-radius: 6px;
+      font-size: 16px;
+      color: #fff;
+      background: #00d0a6;
+      box-shadow: 0 0 18px rgba(1, 204, 168, .3);
+      cursor: pointer;
+      margin: 40px 0 0 105px;
+    }
+
+    .hot-inner-btn:hover {
+      background: #11c3a3;
+    }
+
+    .hot-r .hot-bmr-title {
+      margin: 60px 0 42px;
+    }
+
+    .hot-bm-tl {
+      width: 100px;
+      margin-left: 142px;
+    }
+
+    .hot-bm-tl img,
+    .hot-bm-tr img {
+      display: block;
+      width: 62px;
+      height: 62px;
+      margin: 0 auto;
+    }
+
+    .hot-bm-tl p,
+    .hot-bm-tr p {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      padding-top: 16px;
+    }
+
+    .hot-bm-tr {
+      width: 70px;
+      margin-left: 120px;
+    }
+
+    .hot-r-bottom ul li {
+      width: 100px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #6c6eff;
+      box-sizing: border-box;
+      border: 1px solid #6d6bff;
+      border-radius: 48px;
+      margin-right: 12px;
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+
+    .hot-r-bottom ul li.list1,
+    .hot-r-bottom ul li.list5 {
+      margin-left: 60px;
+
+    }
+
+    .hot-r-bottom ul li.list5 {
+      width: 144px;
+    }
+
+    .hot-r-bottom ul li.list6,
+    .hot-r-bottom ul li.list7 {
+      width: 130px;
+    }
+
+    .hot-inner-btn2 {
+      background: #6c6eff;
+      margin: 24px auto 0;
+      box-shadow: 0 0 18px rgba(108, 110, 255, .3);
+    }
+
+    .hot-inner-btn2:hover {
+      background: #5154f4;
+    }
+
+    .hot-bm-tl p:hover,
+    .hot-bm-tr p:hover {
+      color: #6c6eff;
+      cursor: pointer;
+    }
+
+
+    .vip-wrap {
+      width: 100%;
+      height: 370px;
+      overflow: hidden;
+      min-width: 1200px;
+      background: url(../images/gongsi_imgs/vip_banner.png) no-repeat center center;
+      background-color: #6643ff;
+    }
+
+    .vip {
+      padding-left: 70px;
+    }
+
+    .vip-title {
+      font-size: 32px;
+      color: #fff;
+      padding: 82px 0 30px;
+    }
+
+    .vip-title span {
+      color: #3fffd2;
+    }
+
+    .vip ul {
+      width: 810px;
+    }
+
+    .vip li {
+      width: 405px;
+      font-size: 16px;
+      color: #e7e3ff;
+      margin-bottom: 14px;
+      padding-left: 36px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .vip li b {
+      color: #3fffd2;
+      font-weight: normal;
+    }
+
+    .vip li.list1>span {
+      display: block;
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/vip01.png) no-repeat;
+      position: absolute;
+      top: 0px;
+      left: 0;
+    }
+
+    .vip li.list2>span {
+      display: block;
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/vip02.png) no-repeat;
+      position: absolute;
+      top: 0px;
+      left: 0;
+    }
+
+    .vip li.list3>span {
+      display: block;
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/vip03.png) no-repeat;
+      position: absolute;
+      top: 0px;
+      left: 0;
+    }
+
+    .vip li.list4>span {
+      display: block;
+      width: 22px;
+      height: 22px;
+      background: url(../images/gongsi_imgs/vip04.png) no-repeat;
+      position: absolute;
+      top: 0px;
+      left: 0;
+    }
+
+    .vip-btn {
+      width: 200px;
+      height: 48px;
+      line-height: 48px;
+      border-radius: 6px;
+      background: #00d0a6;
+      font-size: 16px;
+      color: #fff;
+      margin-top: 32px;
+      cursor: pointer;
+    }
+
+    .vip-btn:hover {
+      background: #11c3a3;
+    }
+
+    .access-wrap {
+      width: 100%;
+      min-width: 1200px;
+      background-color: #f4f9fc;
+    }
+
+    .access {
+      padding-bottom: 140px;
+    }
+
+    .access-title {
+      font-size: 28px;
+      color: #333;
+      padding: 110px 0 20px;
+      letter-spacing: 3px;
+    }
+
+    .access-des {
+      padding-bottom: 80px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .access-inner {
+      width: 1200px;
+      position: relative;
+      box-shadow: 0 0 57px rgba(197, 200, 207, .2);
+    }
+
+    .access-left {
+      overflow: hidden;
+    }
+
+    .access-inner .access-container {
+      width: 436px;
+      height: 600px;
+    }
+
+    .access-inner .slide {
+      background: #fff;
+      padding-left: 40px;
+      box-sizing: border-box;
+    }
+
+    .access-inner .slide img {
+      display: block;
+      width: 356px;
+      height: 220px;
+      margin: 36px 0;
+    }
+
+    .access-name span {
+      font-size: 20px;
+      color: #333;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+
+    .access-name {
+      font-size: 16px;
+      color: #333;
+      padding-bottom: 22px;
+    }
+
+    .access-area span,
+    .access-abs span,
+    .access-com span {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .access-area {
+      font-size: 14px;
+      color: #666;
+      padding-bottom: 10px;
+    }
+
+    .access-abs {
+      font-size: 14px;
+      color: #666;
+      line-height: 26px;
+      width: 360px;
+      text-align: justify;
+    }
+
+    .access-com {
+      font-size: 14px;
+      color: #666;
+      padding-top: 8px;
+      padding-bottom: 24px;
+    }
+
+    .access-slide-btn {
+      width: 170px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      background: #6c6eff;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .access-slide-btn:hover {
+      background: #5154f4;
+    }
+
+    .access-right {
+      width: 762px;
+      height: 600px;
+      border-left: 2px solid #f4f9fc;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: #fff;
+    }
+
+    .access-right .tab {
+      margin-bottom: 50px;
+    }
+
+    .access-right .tab li {
+      float: left;
+      width: 381px;
+      height: 88px;
+      line-height: 88px;
+      box-sizing: border-box;
+      font-size: 20px;
+      color: #333;
+      text-align: center;
+      border-bottom: 2px solid #f4f9fc;
+    }
+
+    .access-right .tab li.curr {
+      color: #f2753f;
+      border-bottom: 2px solid #f2753f;
+    }
+
+    .access-r-l {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .access-r-l b {
+      display: inline-block;
+      width: 15px;
+      height: 8px;
+      position: absolute;
+      top: 22px;
+      right: 380px;
+      background: url(../images/gongsi_imgs/city_arrow.png) no-repeat;
+    }
+
+    .access-r-l span.spc {
+      padding-right: 44px;
+    }
+
+    .access-r-l span {
+      display: inline-block;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .access-r-l span.item {
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #e2e2e2;
+      border-radius: 50px;
+      margin-right: 14px;
+    }
+
+    .access-rl-city,
+    .acces-rl-btn {
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #e2e2e2;
+      border-radius: 50px;
+      margin-right: 14px;
+    }
+
+    .access-r-l .acces-rl-btn {
+      background: #ff6c2a;
+      color: #fff;
+      box-shadow: 0 0 18px rgba(242, 117, 63, .3);
+      cursor: pointer;
+    }
+
+    .access-r-l .acces-rl-btn:hover {
+      background: #f2753f;
+    }
+
+    .access-r-l-s {
+      padding-left: 112px;
+    }
+
+    #con_c_1 {
+      padding-left: 92px;
+    }
+
+    #con_c_2 {
+      padding-left: 92px;
+    }
+
+    #access-pagination {
+      position: absolute;
+      left: -155px;
+      bottom: 35px;
+    }
+
+    .swiper-pagination-bullet {
+      outline: none;
+    }
+
+    .access-curr {
+      color: #f2753f !important;
+      background: #ffece4;
+      border-color: #ffece4 !important;
+    }
+
+    .access-curr2 {
+      color: #f2753f !important;
+      background: #ffece4;
+      border-color: #ffece4 !important;
+    }
+
+    .process-wrap {
+      width: 100%;
+      overflow: hidden;
+      min-width: 1200px;
+      height: 670px;
+      background: -webkit-linear-gradient(left, #550ef9, #7523dc);
+      /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(right, #550ef9, #7523dc);
+      /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(right, #550ef9, #7523dc);
+      /* Firefox 3.6 - 15 */
+      background: linear-gradient(to right, #550ef9, #7523dc);
+      /* 标准的语法 */
+    }
+
+    .process-inner-wrap {
+      width: 100%;
+      height: 90px;
+      width: 100%;
+      height: 90px;
+      background: -webkit-linear-gradient(left, #6049fd, #7c23ef);
+      /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(right, #6049fd, #7c23ef);
+      /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(right, #6049fd, #7c23ef);
+      /* Firefox 3.6 - 15 */
+      background: linear-gradient(to right, #6049fd, #7c23ef);
+      /* 标准的语法 */
+    }
+
+    .process-inner-wrap .tab li {
+      float: left;
+      font-size: 18px;
+      color: #fff;
+      height: 90px;
+      line-height: 90px;
+      margin-right: 120px;
+      box-sizing: border-box;
+    }
+
+    .process-inner-wrap .tab #b1 {
+      margin-left: 130px;
+    }
+
+    .process-inner-wrap .tab li.curr {
+      color: #00ffd0;
+      border-bottom: 4px solid #00ffd0;
+      box-sizing: border-box;
+    }
+
+    .process-tab1-l {
+      margin-right: 80px;
+    }
+
+    .process-tab1-l,
+    .process-tab1-r {
+      width: 560px;
+
+    }
+
+    .process-tab1-l li,
+    .process-tab1-r li {
+      width: 270px;
+      height: 160px;
+      background: #fff;
+      margin-right: 20px;
+    }
+
+    .process-tab1-l li.list2,
+    .process-tab1-l li.list4,
+    .process-tab1-r li.list2,
+    .process-tab1-r li.list4 {
+      margin-right: 0;
+    }
+
+    .process-tab1-l li.list1,
+    .process-tab1-l li.list2,
+    .process-tab1-r li.list1,
+    .process-tab1-r li.list2 {
+      margin-bottom: 20px;
+    }
+
+    .process-tab1-l>p,
+    .process-tab1-r>p {
+      font-size: 18px;
+      color: #fff;
+      padding: 80px 0 30px;
+    }
+
+    .process-tab1 ul li:hover {
+      background: #00d0a6;
+    }
+
+    .process-tab1 ul li:hover p {
+      color: #fff;
+    }
+
+    .process-tab1 img {
+      display: block;
+      width: 54px;
+      height: 54px;
+      margin: 36px auto 22px;
+    }
+
+    .process-tab1 ul p {
+      text-align: center;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .process-tab2 .title {
+      font-size: 18px;
+      color: #fff;
+      padding: 80px 0 24px;
+      text-align: center;
+    }
+
+    .process-tab2 .des {
+      font-size: 14px;
+      color: #fff;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+
+    .process-tab2 li {
+      width: 200px;
+      height: 240px;
+      margin-right: 40px;
+      background: #7637ff;
+    }
+
+    .process-tab2 li.list1 {
+      margin-left: 155px;
+    }
+
+    /* .process-tab2  li:hover {
+	background: #00d0a6;
+}
+.process-tab2  li:hover .p1 {
+	color: #fff;
+} */
+    .process-tab2 li img {
+      display: block;
+      width: 54px;
+      height: 54px;
+      margin: 50px auto 35px;
+    }
+
+    .process-tab2 li p {
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .process-tab2 li p.p1 {
+      font-size: 18px;
+      padding-bottom: 20px;
+      color: #00d0a6;
+    }
+
+    .process-tab3 .title {
+      font-size: 18px;
+      color: #fff;
+      padding: 80px 0 24px;
+      text-align: center;
+    }
+
+    .process-tab3 .des {
+      font-size: 14px;
+      color: #fff;
+      padding-bottom: 60px;
+      text-align: center;
+    }
+
+    .process-tab3 li {
+      width: 220px;
+      margin-right: 25px;
+    }
+
+    .process-tab3 li.list5 {
+      margin-right: 0;
+    }
+
+    .process-tab3 li .inner-wrap {
+      width: 100%;
+      height: 270px;
+      background: #7637ff;
+    }
+
+    .process-tab3 li .inner-wrap img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .process-tab3 li p {
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+
+    .process-tab4 {
+      padding-top: 80px;
+      padding-bottom: 15px;
+    }
+
+    .process-tab4 .list-left {
+      margin-right: 24px;
+    }
+
+    .process-tab4 .list-left .box {
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      background: #00d0a6;
+      font-size: 16px;
+      color: #fff;
+      padding-left: 38px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .process-tab4 .list-left .box1 {
+      margin-bottom: 30px;
+    }
+
+    .process-tab4 .list-left .box1 span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: url(../images/gongsi_imgs/sh_icon_01.png) no-repeat center center;
+    }
+
+    .process-tab4 .list-left .box2 span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: url(../images/gongsi_imgs/sh_icon_02.png) no-repeat center center;
+    }
+
+    .process-tab4 .list-left .box3 span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: url(../images/gongsi_imgs/sh_icon_03.png) no-repeat center center;
+    }
+
+    .process-tab4 .list-left .box4 span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: url(../images/gongsi_imgs/sh_icon_04.png) no-repeat center center;
+    }
+
+    .process-tab4 .list-left .box2,
+    .process-tab4 .list-left .box3 {
+      margin-bottom: 54px;
+    }
+
+    .process-tab4 .list-right {
+      width: 1056px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .process-tab4 .list-right .item1,
+    .process-tab4 .list-right .item3 {
+      padding: 14px 0 56px;
+    }
+
+    .process-tab4 .list-right .item5 {
+      padding: 14px 0 56px;
+    }
+
+    .process-tab4-inner li.list {
+      font-size: 14px;
+      color: #fff;
+      background: #7637ff;
+      border-radius: 10px;
+    }
+
+    .process-tab4-inner li.list span {
+      font-size: 14px;
+      color: #00ffd2;
+    }
+
+    .process-tab4-inner .list1 {
+      width: 130px;
+      height: 48px;
+      line-height: 48px;
+      margin-top: 26px;
+    }
+
+    .process-tab4-inner .list2 {
+      width: 180px;
+      height: 100px;
+      padding-left: 16px;
+      box-sizing: border-box;
+    }
+
+    .process-tab4-inner .list2 p {
+      padding-top: 14px;
+    }
+
+    .process-tab4-inner li img {
+      display: block;
+      width: 21px;
+      height: 33px;
+      margin: 32px 18px 0;
+    }
+
+    .process-tab5 {
+      padding-top: 80px;
+    }
+
+    .process-tab5 li.list-left {
+      width: 698px;
+    }
+
+    .process-tab5 li.list-right {
+      width: 502px;
+    }
+
+    .process-tab5 li .question {
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 18px;
+    }
+
+    .process-tab5 .list-left .answer {
+      width: 604px;
+      height: 54px;
+      line-height: 54px;
+      background: #7637ff;
+      padding-left: 22px;
+      box-sizing: border-box;
+    }
+
+    .process-tab5 li .question span {
+      display: inline-block;
+      color: #fff;
+      font-size: 14px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      background: #00d0a6;
+      margin-right: 12px;
+    }
+
+    .process-tab5 li .answer {
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 3rem;
+      margin-left: 2rem;
+    }
+
+    .process-tab5 .list-right .answer {
+      width: 470px;
+      height: 100px;
+      line-height: 1.5rem;
+      background: #7637ff;
+      padding: 0.8rem 2rem 1rem;
+      box-sizing: border-box;
+      text-align: justify;
+    }
+
+    /*公司相关政策咨询*/
+    .consult-wrap {
+      width: 100%;
+      height: 765px;
+      overflow: hidden;
+      min-width: 1200px;
+      /*background: url(../images/gonghang_imgs/banner.png) no-repeat center center;*/
+      background-color: #fff;
+    }
+
+    .consult-title {
+      font-size: 28px;
+      color: #333;
+      text-align: center;
+      padding: 110px 0 25px;
+      letter-spacing: 3px;
+    }
+
+    .consult-line {
+      width: 50px;
+      height: 4px;
+      background: #9199ff;
+      margin: 0 auto 100px;
+    }
+
+    .consult li {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: #6c6eff;
+      margin-right: 120px;
+      margin-bottom: 50px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    .consult li:hover {
+      transform: scale(1.125);
+      transition: all 0.6s;
+      background: #6000ff;
+    }
+
+    .consult li.list1,
+    .consult li.list5 {
+      margin-left: 100px;
+    }
+
+    .consult li.list4,
+    .consult li.list8 {
+      margin-right: 0px;
+    }
+
+    .consult li img {
+      display: block;
+      width: 54px;
+      height: 54px;
+      margin: 30px auto 20px;
+    }
+
+    .consult li.list8 p {
+      padding: 60px 0 10px;
+    }
+
+    .consult li.list8 img {
+      width: 30px;
+      height: 16px;
+      margin: 0px auto;
+    }
+
+    .consult li p {
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+    }
+
+    /*提供更多服务*/
+    .more-wrap {
+      width: 100%;
+      height: 568px;
+      overflow: hidden;
+      min-width: 1200px;
+      background: url(../images/gongsi_imgs/more_bg.jpg) no-repeat center center;
+      background-color: #45455d;
+    }
+
+    .more-title {
+      font-size: 28px;
+      color: #fff;
+      text-align: center;
+      padding: 110px 0 25px;
+      letter-spacing: 3px;
+    }
+
+    .more-line {
+      width: 50px;
+      height: 4px;
+      background: #8d8dff;
+      margin: 0 auto 100px;
+    }
+
+    .more li {
+      width: 170px;
+      height: 170px;
+      background: rgba(61, 61, 115, .6);
+      margin-right: 35px;
+      box-sizing: border-box;
+    }
+
+    .more li.list6 {
+      margin-right: 0;
+    }
+
+    .more li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .more li a img {
+      display: block;
+      width: 52px;
+      height: 52px;
+      margin: 0px auto;
+      padding: 30px 0;
+    }
+
+    .more li a p {
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .more li:hover {
+      border-bottom: 4px solid #01cca8;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="hot-wrap">
+    <div class="hot w1200">
+      <div class="hot-title tac">工商热门服务</div>
+      <p class="hot-des tac">公司免费核名、注册公司、变更、注销，服务企业全生命周期</p>
+      <div class="hot-con clearfix">
+        <div class="hot-l fl">
+          <div class="hot-l-top">
+            <div class="hot-li">
+              <p>工商注册</p>
+              <div class="hot-inner-des">慧算账工商注册服务包含
+                <span>免费核名</span><span>地址</span><span>网登</span><span>领取执照</span><span>刻章</span></div>
+              <div class="hot-inner-des"><span>领取一证通</span><span>免费赠送税务报到和税务咨询</span>等服务</div>
+            </div>
+          </div>
+          <div class="hot-l-bottom">
+            <div class="hot-bm-title">
+              <span class="left">公司注册类型</span>
+              <span>纳税类型</span>
+            </div>
+            <ul class="clearfix">
+              <li class="fl list1">
+                <dl id="hot-radio" class="clearfix">
+                  <dd onclick="show(0,'hot-radio')"><b></b>股份有限公司注册</dd>
+                  <dd onclick="show(1,'hot-radio')"><b></b>有限合伙公司注册</dd>
+                  <dd onclick="show(2,'hot-radio')"><b></b>集团公司注册</dd>
+                  <dd onclick="show(3,'hot-radio')"><b></b>内资公司注册</dd>
+                  <dd onclick="show(4,'hot-radio')"><b></b>合资公司注册</dd>
+                </dl>
+              </li>
+              <li class="fl list2">
+                <dl id="hot-radio2" class="clearfix">
+                  <dd onclick="show(0,'hot-radio2')"><b></b>小规模代理记账</dd>
+                  <dd onclick="show(1,'hot-radio2')"><b></b>一般纳税人代理记账</dd>
+                </dl>
+              </li>
+            </ul>
+            <div class="hot-inner-btn zhiCustomBtn">咨询价格></div>
+          </div>
+        </div>
+        <div class="hot-r fl">
+          <div class="hot-r-top">
+            <div class="hot-li">
+              <p>变更</p>
+              <div class="hot-inner-des">慧算账变更：因地域原因各地的政策和详细服务内容有所不同，</div>
+              <div class="hot-inner-des">详细情况还请咨询顾问了解最新信息</div>
+            </div>
+          </div>
+          <div class="hot-r-bottom">
+            <div class="hot-bmr-title clearfix">
+              <div class="hot-bm-tl fl">
+                <img src="/template/1/huisuanzhang/_files/images/gongsi_imgs/hot_icon_01.png">
+                <p class="zhiCustomBtn">公司名称变更</p>
+              </div>
+              <div class="hot-bm-tr fl">
+                <img src="/template/1/huisuanzhang/_files/images/gongsi_imgs/hot_icon_02.png">
+                <p class="zhiCustomBtn">公司注销</p>
+              </div>
+            </div>
+            <ul class="clearfix">
+              <li class="fl list1 zhiCustomBtn">监事变更</li>
+              <li class="fl list2 zhiCustomBtn">地址变更</li>
+              <li class="fl list3 zhiCustomBtn">法人变更</li>
+              <li class="fl list4 zhiCustomBtn">股权变更</li>
+              <li class="fl list5 zhiCustomBtn">银行基本户注销</li>
+              <li class="fl list6 zhiCustomBtn">注册资本变更</li>
+              <li class="fl list7 zhiCustomBtn">经营范围变更</li>
+            </ul>
+            <div class="hot-inner-btn2 zhiCustomBtn">咨询其它></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

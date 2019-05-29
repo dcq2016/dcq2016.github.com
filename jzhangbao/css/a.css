@@ -1,0 +1,59 @@
+.cxzl{ width: auto; }
+.w1200 input {
+    margin: 0 10px 10px 0;
+    padding: 0 5px;
+    width: 26%;
+    height: 37px;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    -webkit-appearance: none;
+}
+#submit {
+    margin: 0 10px 10px 0;
+    padding: 8px;
+    width: 26%;
+    border: 1px solid #0661a8;
+    border-radius: 2px;
+    background: #0661a8;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in 0s;
+    -webkit-appearance: none;
+}
+.row{width:100% !important;margin: 50px auto !important; text-align: center; cursor: pointer;}
+
+
+.row h1 {
+    padding: 7px 10px;
+    color: #333;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 30px;
+    letter-spacing:8px;
+}
+img{cursor: pointer; margin: auto; display: block;}
+.row h2 {
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+.w_100{width: 100%; text-align: center;}
+.mar_t{margin-top: 30px;}
+.sqlx{ width: 100%; margin:20px auto; max-width: 1180px;overflow:auto;}
+.sqlx a{ width: 32%; float: left; height: 500px;  color: #fff;  background: #0661a8; }
+.sqlx a img{margin-top: 60px;}
+.sqlx a h1{ font-size: 30px;  font-weight: 800;  color: #fff;}
+.sqlx a span{ font-size: 18px;  font-weight: 800;  color: #fff;}
+.sqlx ul {width: 64%; float: left;}
+.sqlx ul li {background-color: #cbe6fa; width: 48%; margin-left: 2%; float: left; height:235px; margin-bottom: 30px;}
+.sqlx ul li h2{ font-size: 24px; margin-top: 10px;}
+.sqlx ul li img{ margin-top: 30px;}
+.sqlx ul li p{margin-top: 10px; font-size: 16px;}
+
+
+<div class="hot-title tac"></div>
+<p class="hot-des tac"></p>
