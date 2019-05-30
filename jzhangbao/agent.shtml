@@ -95,7 +95,7 @@
                     </div>
                     <b class="dib">正规代理资质</b>
                     <p>10+年代帐经验，服务超过10万家企业。</p>
-                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a onclick="openChat()">了解详情</a>
                 </li>
                 <li>
                     <div class="tack-img">
@@ -103,7 +103,7 @@
                     </div>
                     <b class="dib">本土政企关系</b>
                     <p>扎根广州的本土品牌，拥有良好的政企关系。</p>
-                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a onclick="openChat()">了解详情</a>
                 </li>
                 <li>
                     <div class="tack-img">
@@ -111,7 +111,7 @@
                     </div>
                     <b class="dib">全程人工服务</b>
                     <p>专属会计师全程人工记账，拒绝机器算账。</p>
-                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a onclick="openChat()">了解详情</a>
                 </li>
                 <li>
                     <div class="tack-img">
@@ -119,7 +119,7 @@
                     </div>
                     <b class="dib">大型会计团队</b>
                     <p>聘请百名会计师加盟，80%超过5年经验</p>
-                    <a onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a onclick="openChat()">了解详情</a>
                 </li>
             </ul>
         </div>
@@ -142,7 +142,7 @@
                         行业协会成员，广东省守合同重信<br>
                         用企业。
                     </p>
-                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                    <a onclick="openChat()">了解更多 </a>
                 </div>
                 <img src="images/br-1.png" style=" width:280px; height:130px;">
             </li>
@@ -154,7 +154,7 @@
                         百位专职会计，每年续约企业客户<br>
                         超过10000家，新增企业客户超过<br>3700家。
                     </p>
-                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                    <a onclick="openChat()">了解更多 </a>
                 </div>
                 <img src="images/img1_16.jpg">
             </li>
@@ -166,7 +166,7 @@
                         为中小微企业提供一站式第三方服<br>
                         务的专业平台，致力于：整合各方<br>优势资源，让创业变得简单。
                     </p>
-                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                    <a onclick="openChat()">了解更多 </a>
                 </div>
                 <img src="images/img1_17.jpg">
             </li>
@@ -179,14 +179,14 @@
                         一对一服务，双重审核把关，用服<br>
                         务口碑获得客户认可
                     </p>
-                    <a onclick="openZoosUrl('chatwin')">了解更多 </a>
+                    <a onclick="openChat()">了解更多 </a>
                 </div>
                 <img src="images/img1_18.jpg">
             </li>
         </ul>
         <div class="btn-box">
             <span>电话咨询：<b>0755-28892997</b></span>
-            <a class="dib opacity"  onclick="openZoosUrl('chatwin')">立即咨询</a>
+            <a class="dib opacity"  onclick="openChat()">立即咨询</a>
         </div>
     </div>
     <!--计账宝真的不一样 end-->
@@ -246,7 +246,7 @@
                     <td><a>27</a>外勤上门服务</td>
                 </tr>
                 </table>
-                <a class="dib opacity zx-btn"  onclick="openZoosUrl('chatwin')">立即咨询</a>
+                <a class="dib opacity zx-btn"  onclick="openChat()">立即咨询</a>
             </div>
         </div>
     </div>
@@ -294,7 +294,7 @@
                     <p>全国连锁企业</p>
                 </li>
             </ul>
-            <div class="choose-btn"><a  onclick="openZoosUrl('chatwin')">立即索取代账方案</a></div>
+            <div class="choose-btn"><a  onclick="openChat()">立即索取代账方案</a></div>
         </div>
     </div>
     <!--请按照您的公司类型选择代账方案 end -->
@@ -306,7 +306,7 @@
             <p>规范的办理流程，代账更放心</p>
         </div>
         <div class="steps"><img src="images/dl24.jpg"></div>
-        <div class="choose-btn"><a  onclick="openZoosUrl('chatwin')">点击咨询</a></div>
+        <div class="choose-btn"><a  onclick="openChat()">点击咨询</a></div>
     </div>
     <!--仅需6步，轻松当个翘脚老板 end -->
 

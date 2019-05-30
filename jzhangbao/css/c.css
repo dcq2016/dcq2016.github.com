@@ -234,7 +234,7 @@
      transform: scale(1.05);
  }
  /*注册信息不变将有以下风险 end*/
- /*粤快工商变更核心服务 start*/
+ /*计账宝工商变更核心服务 start*/
  .core-box{
      padding-bottom: 30px;
      overflow: hidden;
@@ -315,8 +315,8 @@
      border-color:#398CE8;
      color: #398CE8;
  }
- /*粤快工商变更核心服务 end*/
- /*工商注册找粤快绝对没错 start*/
+ /*计账宝工商变更核心服务 end*/
+ /*工商注册找计账宝绝对没错 start*/
  .bad-bg{
      background: url(/static/gz/gs/20170712/change/images/custom-bg_02.jpg) center top no-repeat;
      padding-bottom: 45px;
@@ -377,7 +377,7 @@
      padding: 16px 30px 0;
      text-align: center;
  }
- /*工商注册找粤快绝对没错 end*/
+ /*工商注册找计账宝绝对没错 end*/
  /*注册既享 start*/
  .give-list{
  
@@ -995,7 +995,7 @@
  }
  .sub-station-btn:hover{ background: #000;}
  /*创业顾问推荐 end*/
- /*粤快 start*/
+ /*计账宝 start*/
  .yk-box{
      background: url(/static/gz/gs/20170712/change/images/choose-img_02.jpg) center top no-repeat;
      height:684px;
@@ -1061,7 +1061,7 @@
      line-height: 1;
      margin-top: 20px;
  }
- /*粤快  end*/
+ /*计账宝  end*/
  
  /*底部浮窗end*/
  /*

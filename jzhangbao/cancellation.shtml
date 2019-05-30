@@ -198,7 +198,7 @@
                 <li>[07] 工商注销</li>
                 <li>[08] 印章缴销</li>
             </ul>
-            <a onclick="openZoosUrl('chatwin')" class="zxzx">在线咨询</a>
+            <a onclick="openChat()" class="zxzx">在线咨询</a>
         </div>
     </div>
 
@@ -231,7 +231,7 @@
         <div class="cn">
             <div class="w1200 sh">
                 <a>承诺</a>
-                <p>售后如有问题，请拨打我们的,客户热线: 138—2510—0389<br>我们第一时间会派专员帮您处理，保证您的问题及时解决。</p>
+                <p>售后如有问题，请拨打我们的,客户热线: 0755-28892997<br>我们第一时间会派专员帮您处理，保证您的问题及时解决。</p>
             </div>
         </div>
     </div>
@@ -252,7 +252,7 @@
     <div class="ter-box zx-bg">
         <div class="w1200">
             <img src="images/pk.jpg" alt="" style="width: 100%;">
-            <a onclick="openZoosUrl('chatwin')" class="zxzx"
+            <a onclick="openChat()" class="zxzx"
                 style="margin:30px auto; border-radius: 10px;float: none;">在线咨询</a>
         </div>
     </div>
@@ -262,15 +262,15 @@
         <div class="ter-tit">我们的四大优势
             
             <div class="w1200">
-                <img src="images/ys1.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
-                <img src="images/ys2.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
-                <img src="images/ys3.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
-                <img src="images/ys4.jpg" alt="" onclick="openZoosUrl('chatwin')" style="width: 100%;">
+                <img src="images/ys1.jpg" alt="" onclick="openChat()" style="width: 100%;">
+                <img src="images/ys2.jpg" alt="" onclick="openChat()" style="width: 100%;">
+                <img src="images/ys3.jpg" alt="" onclick="openChat()" style="width: 100%;">
+                <img src="images/ys4.jpg" alt="" onclick="openChat()" style="width: 100%;">
                 <strong>六大贴心注销保障模块</strong>
-                <img src="images/bz.jpg" alt="" onclick="openZoosUrl('chatwin')"
+                <img src="images/bz.jpg" alt="" onclick="openChat()"
                     style="width: 100%; margin: 50px 0;">
                 <strong>常见问题</strong>
-                <img src="images/cjwt.jpg" onclick="openZoosUrl('chatwin')" alt="" style="width: 100%;">
+                <img src="images/cjwt.jpg" onclick="openChat()" alt="" style="width: 100%;">
             </div>
         </div>
     </div>

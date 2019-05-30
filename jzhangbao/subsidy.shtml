@@ -87,7 +87,7 @@
         <h1>能申请多少钱？</h1>
         <p>1、初创企业吸纳就业并按规定办理用工备案及缴纳社会保险费的按其吸纳就业（签订1年以上期限劳动合同）人数（法定代表人或主要负责人除外）给予社保补贴。</p>
         <p>2、招用3人（含3人）以下的按每人2000元给予补贴；招用3人以上按每人3000元给予补贴，总额最高不超过3万元。</p>
-        <a href="javascript:void(0);" onclick="openZoosUrl('chatwin')" class="Apply_now">立即申请</a>
+        <a href="javascript:void(0);" onclick="openChat()" class="Apply_now">立即申请</a>
         <ul class="Apply_subsidy">
             <li>
                 <h2>申请补贴只需3个条件</h2>
@@ -97,7 +97,7 @@
                     <span>2.注册时间：4年以内的企业</span>
                     <span>3.社保要求：员工必须满三个月的社保购买</span>
                 </div>
-                <a href="javascript:void(0);" onclick="openZoosUrl('chatwin')" class="Apply_now">了解详情</a>
+                <a href="javascript:void(0);" onclick="openChat()" class="Apply_now">了解详情</a>
             </li>
 
             <li>
@@ -111,7 +111,7 @@
                     <span>5.委托代办合同（一式两份+盖公章+签名）</span>
                     <span>6.承诺书（一式两份+盖公章+签名）</span>
                 </div>
-                <a href="javascript:void(0);" onclick="openZoosUrl('chatwin')" class="Apply_now">了解详情</a>
+                <a href="javascript:void(0);" onclick="openChat()" class="Apply_now">了解详情</a>
             </li>
 
             <li>
@@ -122,7 +122,7 @@
                     <span>2.初审通过需复印件+盖公章</span>
                     <span>3.3-6个月</span>
                 </div>
-                <a href="javascript:void(0);" onclick="openZoosUrl('chatwin')" class="Apply_now">了解详情</a>
+                <a href="javascript:void(0);" onclick="openChat()" class="Apply_now">了解详情</a>
             </li>
         </ul>
     </div>

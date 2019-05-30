@@ -125,7 +125,7 @@
                     </div>
                 </li>
             </ul>
-            <a class="go-jion opacity" onclick="openZoosUrl('chatwin')"><i class="dib"></i>点击了解更多</a>
+            <a class="go-jion opacity" onclick="openChat()"><i class="dib"></i>点击了解更多</a>
         </div>
     </div>
     <!--工商变更核心服务 end-->
@@ -157,7 +157,7 @@
                     <p>注册地址和经营地不一致，会导致债务履行困难，欠款无法收回。</p>
                 </li>
             </ul>
-            <!-- <a class="go-jion opacity"  onclick="openZoosUrl('chatwin')"><i class="dib"></i>申请加急变更</a> -->
+            <!-- <a class="go-jion opacity"  onclick="openChat()"><i class="dib"></i>申请加急变更</a> -->
         </div>
     </div>
     <!--注册信息不变将有以下风险 end-->
@@ -169,8 +169,8 @@
         <div class="core-box">
             <img src="images/change/xz.png">
         </div>
-        <div class="btn-box" style="margin-bottom:50px;">全国统一免费热线：<b>138-2510-0389</b>
-            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>立即办理</a>
+        <div class="btn-box" style="margin-bottom:50px;">全国统一免费热线：<b>0755-28892997</b>
+            <a class="get-btn get-btn2" onclick="openChat()"><i class="weixing"></i>立即办理</a>
         </div>
     </div>
     <!--计账宝工商变更核心服务 end-->
@@ -214,7 +214,7 @@
                     <p class="lence-txt"><em class="dib">04</em><span>工商局要求的其他材料</span></p>
                 </li>
             </ul>
-            <a class="go-jion opacity" onclick="openZoosUrl('chatwin')"><i class="dib"></i>点击了解更多</a>
+            <a class="go-jion opacity" onclick="openChat()"><i class="dib"></i>点击了解更多</a>
             <div class="lq-box">
                 <div class="hot-title tac">办理完成即可领取以下证件</div>
                 <p class="hot-des tac">多年工商服务经验，高效快捷,让您满意</p>
@@ -250,7 +250,7 @@
                         <p class="lence-txt"><em class="dib">04</em><span>公司印章及印鉴存留卡</span></p>
                     </li>
                 </ul>
-                <!-- <a class="go-jion opacity"  onclick="openZoosUrl('chatwin')">领证需要多长时间？</a> -->
+                <!-- <a class="go-jion opacity"  onclick="openChat()">领证需要多长时间？</a> -->
             </div>
         </div>
     </div>
@@ -262,8 +262,8 @@
         <p class="hot-des tac">计账宝政企服务中心一门式服务，摆脱繁复流程，让创业更简单</p>
         <img src="images/change/zc4.png">
 
-        <div class="btn-box">全国统一免费热线：<b>138-2510-0389</b>
-            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>立即办理</a>
+        <div class="btn-box">全国统一免费热线：<b>0755-28892997</b>
+            <a class="get-btn get-btn2" onclick="openChat()"><i class="weixing"></i>立即办理</a>
         </div>
     </div>
     <!--仅需4步 end-->
@@ -303,7 +303,7 @@
                     </div>
                 </li>
                 <li>
-                    <p class="zxkf" onclick="openZoosUrl('chatwin')"><i class="weixing"></i>更多问题请咨询在线客服</p>
+                    <p class="zxkf" onclick="openChat()"><i class="weixing"></i>更多问题请咨询在线客服</p>
                 </li>
             </ul>
         </div>

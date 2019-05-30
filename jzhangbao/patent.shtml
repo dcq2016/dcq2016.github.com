@@ -122,7 +122,7 @@
                 </li>
             </ul>
         </div>
-        <img src="images/patent/ljbl.png" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/ljbl.png" alt="" onclick="openChat()">
     </div>
 
     <div class="w_100">
@@ -130,38 +130,38 @@
             <h1>申请专利的好处</h1>
             <h2>保护专利成果，实现价值转化</h2>
         </div>
-        <img src="images/patent/good.jpg" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/good.jpg" alt="" onclick="openChat()">
     </div>
 
     <div class="row">
-        <h1>选择粤快财税的理由</h1>
+        <h1>选择计账宝的理由</h1>
         <h2>专、快、好、省</h2>
-        <img src="images/patent/liyou.png" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/liyou.png" alt="" onclick="openChat()">
     </div>
 
     <div class="row">
-        <h1>专利申请就找粤快财税</h1>
+        <h1>专利申请就找计账宝</h1>
         <h2>多年行业经验，授权率高</h2>
-        <img src="images/patent/sq.png" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/sq.png" alt="" onclick="openChat()">
     </div>
-    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openZoosUrl('chatwin')">
+    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()">
     <div class="row">
         <h1>专利申请流程</h1>
         <h2>规范流程，快捷办理</h2>
-        <img src="images/patent/lc.png" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/lc.png" alt="" onclick="openChat()">
     </div>
     <div class="row">
         <h1>更多专利业务</h1>
         <h2>多种专利业务，一站式企业服务</h2>
-        <img src="images/patent/yw.png" alt="" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/yw.png" alt="" onclick="openChat()">
     </div>
     <div class="row">
         <h1>常见疑问</h1>
         <h2>您关心的，我们都知道 </h2>
-        <img src="images/patent/cjyw.png" alt="" onclick="openZoosUrl('chatwin')">
-        <img src="images/patent/fw.png" alt="" class="mar_t" onclick="openZoosUrl('chatwin')">
+        <img src="images/patent/cjyw.png" alt="" onclick="openChat()">
+        <img src="images/patent/fw.png" alt="" class="mar_t" onclick="openChat()">
     </div>
-    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openZoosUrl('chatwin')">
+    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()">
 
 
 

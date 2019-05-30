@@ -118,36 +118,36 @@
 
     <!-- 理由 -->
     <div class="tr_content2 container">
-        <div class="hot-title tac">选择粤快的理由</div>
-        <p class="hot-des tac">多年工商服务经验，粤快值得信赖</p>
+        <div class="hot-title tac">选择计账宝的理由</div>
+        <p class="hot-des tac">多年工商服务经验，计账宝值得信赖</p>
         <div class="img_1100">
             <img src="images/rademark/ly.png">
         </div>
-        <div class="btn-box1">全国统一免费热线：<b>138-2510-0389</b>
-            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">立即办理</a>
+        <div class="btn-box1">全国统一免费热线：<b>0755-28892997</b>
+            <a class="get-btn get-btn2" onclick="openChat()">立即办理</a>
         </div>
     </div>
 
-    <!-- 粤快 -->
+    <!-- 计账宝 -->
     <div class="tr_content2 container">
         <div class="hot-title tac">商标注册流程</div>
         <p class="hot-des tac">摆脱繁复流程，让注册更简单</p>
         <ul class="row-1">
             <li class="col-xs-2">
                 <img src="images/rademark/lc-1.png">
-                <a onclick="openZoosUrl('chatwin')">查询审核</a>
+                <a onclick="openChat()">查询审核</a>
             </li>
             <li class="col-xs-2">
                 <img src="images/rademark/lc-2.png">
-                <a onclick="openZoosUrl('chatwin')">提交注册</a>
+                <a onclick="openChat()">提交注册</a>
             </li>
             <li class="col-xs-2">
                 <img src="images/rademark/lc-3.png">
-                <a onclick="openZoosUrl('chatwin')">下发受理通知书</a>
+                <a onclick="openChat()">下发受理通知书</a>
             </li>
             <li class="col-xs-2">
                 <img src="images/rademark/lc-4.png">
-                <a onclick="openZoosUrl('chatwin')">获取证书</a>
+                <a onclick="openChat()">获取证书</a>
             </li>
         </ul>
     </div>
@@ -159,8 +159,8 @@
         <div class="img_1100">
             <img src="images/rademark/zbsx.png">
         </div>
-        <div class="btn-box1">全国统一免费热线：<b>138-2510-0389</b>
-            <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">立即办理</a>
+        <div class="btn-box1">全国统一免费热线：<b>0755-28892997</b>
+            <a class="get-btn get-btn2" onclick="openChat()">立即办理</a>
         </div>
     </div>
 
@@ -217,19 +217,19 @@
         <ul>
             <li>
                 <h1><a>Q:</a>商标保护期限是多长？</h1>
-                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+                <p onclick="openChat()">了解详情</p>
             </li>
             <li>
                 <h1><a>Q:</a>商标注册多长时间可以拿证？</h1>
-                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+                <p onclick="openChat()">了解详情</p>
             </li>
             <li>
                 <h1><a>Q:</a>商标有什么禁用条款？</h1>
-                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+                <p onclick="openChat()">了解详情</p>
             </li>
             <li>
                 <h1><a>Q:</a>哪些东西可注册商标？</h1>
-                <p onclick="openZoosUrl('chatwin')">了解详情</p>
+                <p onclick="openChat()">了解详情</p>
             </li>
         </ul>
     </div>

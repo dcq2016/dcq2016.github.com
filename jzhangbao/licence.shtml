@@ -86,7 +86,7 @@
     <!--食品经营许可证开始。-->
     <div class="recommend-box  bg-color-f7">
         <div class="bank bank-new">
-            <h3 class="xkz-h3 xkz-h3-new">有证才能经营，食品许可<span>找粤快</span></h3>
+            <h3 class="xkz-h3 xkz-h3-new">有证才能经营，食品许可<span>找计账宝</span></h3>
             <span class="long-xian"><span class="short-xian"></span></span>
             <h4 class="xkz-h4">快至20天极速取证，办理速度超同行20%左右</h4>
         </div>
@@ -96,7 +96,7 @@
                     <div class="left-img-box">
                         <span>快至20天极速取证</span>
                         <p><span>食品经营</span><br>许可证</p>
-                        <a onclick="openZoosUrl('chatwin')">立即申请</a>
+                        <a onclick="openChat()">立即申请</a>
                     </div>
                 </li>
                 <li>
@@ -108,7 +108,7 @@
                     <p>
                         <span>食品流通、餐饮服务、<br>卫生服务</span>许可证三证合一
                     </p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a class="get-btn" onclick="openChat()">了解详情</a>
                 </li>
                 <li>
                     <label>
@@ -119,7 +119,7 @@
                     <p>
                         从事<span>食品销售和<br>餐饮服务</span>活动须申请此证
                     </p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a class="get-btn" onclick="openChat()">了解详情</a>
                 </li>
                 <li>
                     <label>
@@ -130,12 +130,12 @@
                     <p>
                         应先取得<span>营业执照</span>等<br>合法主体资格才申请此证
                     </p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">了解详情</a>
+                    <a class="get-btn" onclick="openChat()">了解详情</a>
                 </li>
             </ul>
             <div class="btn-box">
                 <span class="btn-txt">我需要准备哪些资料</span>
-                <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">免费咨询</a>
+                <a class="get-btn get-btn2" onclick="openChat()">免费咨询</a>
             </div><br>
         </div>
     </div>
@@ -227,7 +227,7 @@
         <div class="bank bank-new">
             <h3 class="xkz-h3 xkz-h3-new">4大办理优势 助您<span>快速拿证</span></h3>
             <span class="long-xian"><span class="short-xian"></span></span>
-            <h4 class="xkz-h4">20天拿证、98.6%高通过率、不成功不收费...这些粤快统统都能办到</h4>
+            <h4 class="xkz-h4">20天拿证、98.6%高通过率、不成功不收费...这些计账宝统统都能办到</h4>
         </div>
         <ul class="ban-adv">
             <li class="li-txt">
@@ -239,7 +239,7 @@
             </li>
             <li class="li-txt">
                 <p class="tit">办证通过率<span>98.6%</span></p>
-                <p class="tips">粤快资深顾问为客户办理过上万个证书，成功率达98.6%</p>
+                <p class="tips">计账宝资深顾问为客户办理过上万个证书，成功率达98.6%</p>
             </li>
             <li>
                 <img src="images/licence/xkz4.jpg">
@@ -256,12 +256,12 @@
             </li>
             <li class="li-txt">
                 <p class="tit"><span>22年</span>企业服务经验</p>
-                <p class="tips">粤快的服务水平与办事效率决定了客户对我们的认可</p>
+                <p class="tips">计账宝的服务水平与办事效率决定了客户对我们的认可</p>
             </li>
         </ul>
         <div class="btn-box">
-            免费电话：<span class="tel-num">138-2510-0389</span>
-            <a class="get-btn get-btn3" onclick="openZoosUrl('chatwin')">了解更多服务</a>
+            免费电话：<span class="tel-num">0755-28892997</span>
+            <a class="get-btn get-btn3" onclick="openChat()">了解更多服务</a>
         </div>
     </div>
     <!--4大办理    end-->
@@ -277,7 +277,7 @@
                 <li>
                     <i></i>
                     <p>在线预约</p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">立即预约</a>
+                    <a class="get-btn" onclick="openChat()">立即预约</a>
                 </li>
                 <li class="fang-li">
                     <i class="flow-icon2"></i>
@@ -285,7 +285,7 @@
                 <li>
                     <i class="flow-icon3"></i>
                     <p>准备资料 </p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">需要准备哪些资料 </a>
+                    <a class="get-btn" onclick="openChat()">需要准备哪些资料 </a>
                 </li>
                 <li class="fang-li">
                     <i class="flow-icon2"></i>
@@ -293,7 +293,7 @@
                 <li>
                     <i class="flow-icon4"></i>
                     <p>提交办理</p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">办理需要多长时间</a>
+                    <a class="get-btn" onclick="openChat()">办理需要多长时间</a>
                 </li>
                 <li class="fang-li">
                     <i class="flow-icon2"></i>
@@ -301,12 +301,12 @@
                 <li>
                     <i class="flow-icon5"></i>
                     <p>办理成功</p>
-                    <a class="get-btn" onclick="openZoosUrl('chatwin')">领取哪些证件</a>
+                    <a class="get-btn" onclick="openChat()">领取哪些证件</a>
                 </li>
             </ul>
             <div class="btn-box">
-                免费电话：<span class="tel-num">138-2510-0389</span>
-                <a class="get-btn get-btn2" onclick="openZoosUrl('chatwin')">免费咨询</a>
+                免费电话：<span class="tel-num">0755-28892997</span>
+                <a class="get-btn get-btn2" onclick="openChat()">免费咨询</a>
             </div>
         </div>
 
@@ -375,7 +375,7 @@
     <!--以下服务 start-->
     <div class="w1200 serve-box">
         <div class="bank bank-new">
-            <h3 class="xkz-h3 xkz-h3-new">粤快还可为你提供<span>以下服务</span></h3>
+            <h3 class="xkz-h3 xkz-h3-new">计账宝还可为你提供<span>以下服务</span></h3>
             <span class="long-xian"><span class="short-xian"></span></span>
             <h4 class="xkz-h4">涵盖300多项工商服务，能满足企业的任何需求</h4>
         </div>
@@ -383,30 +383,30 @@
             <li>
                 <i></i>
                 <p>公司变更</p>
-                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                <a class="get-btn" onclick="openChat()">立即咨询</a>
             </li>
             <li>
                 <i class="serve-icon2"></i>
                 <p>公司注册</p>
-                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                <a class="get-btn" onclick="openChat()">立即咨询</a>
             </li>
             <li>
                 <i class="serve-icon3"></i>
                 <p>银行开户</p>
-                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                <a class="get-btn" onclick="openChat()">立即咨询</a>
             </li>
             <li>
                 <i class="serve-icon4"></i>
                 <p>会计代理</p>
-                <a class="get-btn" onclick="openZoosUrl('chatwin')">立即咨询</a>
+                <a class="get-btn" onclick="openChat()">立即咨询</a>
             </li>
         </ul>
     </div>
     <!--以下服务 end-->
 
-    <!--粤快 start-->
+    <!--计账宝 start-->
     <style>
-        /*粤快 start*/
+        /*计账宝 start*/
         .ter-box .ter-tit {
             width: 100%;
             margin-bottom: 25px;
@@ -525,7 +525,7 @@
             margin-top: 20px;
         }
 
-        /*粤快  end*/
+        /*计账宝  end*/
     </style>
 
 

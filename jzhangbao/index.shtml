@@ -214,9 +214,9 @@
     <!--仅需4步 start-->
     <div class="ter-box_new">
         <div class="ter-tit">您只需要提供</div>
-        <img src="images/03_1.png" onclick="openZoosUrl('chatwin')">
+        <img src="images/03_1.png" onclick="openChat()">
         <div class="ter-tit">公司注册流程</div>
-        <img src="images/03_2.png" onclick="openZoosUrl('chatwin')">
+        <img src="images/03_2.png" onclick="openChat()">
     </div>
     <!--仅需4步 end-->
 
@@ -229,7 +229,7 @@
             <img src="images/05.png">
         </div>
         <div class="vs-img" style=" text-align:center;padding-bottom:15px;">
-            <img src="images/njbl.png" onclick="openZoosUrl('chatwin')" style="width:1180px; margin: auto;">
+            <img src="images/njbl.png" onclick="openChat()" style="width:1180px; margin: auto;">
         </div>
 
         <div class="ter-tit">更多业务办理</div>
@@ -238,32 +238,32 @@
                 <li>
                     <h1>开基本户</h1>
                     <p>办理《开户许可证》，开公司银行基本户</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
                 <li>
                     <h1>税务报到</h1>
                     <p>企业核税需要找会计到税务局报到</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
                 <li style="margin-right: 0">
                     <h1>资质办理</h1>
                     <p>办理后置审批，各类行政许可资源</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
                 <li>
                     <h1>每月记账报税</h1>
                     <p>办理每月的代理记账、报税等税务业务</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
                 <li>
                     <h1>商标注册</h1>
                     <p>尽早将品牌注册为商标，能够帮助创业者保护品牌和规避商标法律风险</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
                 <li style="margin-right: 0" class="bg">
                     <h1>更多服务</h1>
-                    <p>请拨打热线:138-2510-0389</p>
-                    <a onclick="openZoosUrl('chatwin')">立即咨询</a>
+                    <p>请拨打热线:0755-28892997</p>
+                    <a onclick="openChat()">立即咨询</a>
                 </li>
             </ul>
         </div>
@@ -299,19 +299,19 @@
                 </li>
                 <li>
                     <h1>2/注册公司需要多长时间？</h1>
-                    <p>在资料齐全的情况下，由粤快财税代办3-5个工作日办妥，加急办理最快当天即可出证。</p>
+                    <p>在资料齐全的情况下，由计账宝代办3-5个工作日办妥，加急办理最快当天即可出证。</p>
                 </li>
                 <li>
                     <h1>3/为什么公司核名不通过？</h1>
-                    <p>有可能是名字不规范、与其他公司名重复、涉及敏感词等等，具体请联系粤快财税客户进行咨询。</p>
+                    <p>有可能是名字不规范、与其他公司名重复、涉及敏感词等等，具体请联系计账宝客户进行咨询。</p>
                 </li>
                 <li>
                     <h1>4/没有地址也能注册公司吗？</h1>
-                    <p>可以的，粤快财税提供合法的地址挂靠服务，无地址也能开公司。</p>
+                    <p>可以的，计账宝提供合法的地址挂靠服务，无地址也能开公司。</p>
                 </li>
                 <li>
                     <h1>5/注册公司需要多少钱？</h1>
-                    <p>首先你要先确定想在哪个区注册，每个区的收费不同的，具体可以咨询粤快财税公司客服。</p>
+                    <p>首先你要先确定想在哪个区注册，每个区的收费不同的，具体可以咨询计账宝公司客服。</p>
                 </li>
             </ul> -->
             </div>
