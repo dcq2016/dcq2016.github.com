@@ -465,7 +465,7 @@
             s.parentNode.insertBefore(_53code, s);
         })();
         function openZoosUrl() {
-            window.open("https://tb.53kf.com/code/client/59ce5a4e5a77cf48a142468863d5a656/1","_blank",'width=800,height=600,resizable=no,left=200,top=50');
+            window.open("https://tb.53kf.com/code/client/59ce5a4e5a77cf48a142468863d5a656/1","_blank",'width=800,height=590,resizable=no,left=200,top=50');
         }
     </script>
 
