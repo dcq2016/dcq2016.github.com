@@ -11,7 +11,6 @@
     <title>计账宝</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/c.css" /> -->
     <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
@@ -465,7 +464,13 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(_53code, s);
         })();
+        function openZoosUrl() {
+            window.open("https://tb.53kf.com/code/client/59ce5a4e5a77cf48a142468863d5a656/1","_blank");
+        }
     </script>
+
+    
+
     <!-- 53kf代码 end -->
 
 </body>
