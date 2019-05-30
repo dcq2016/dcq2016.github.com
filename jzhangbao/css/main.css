@@ -343,10 +343,10 @@
 	float: left;
 	font-size: 20px;
 	color: #fff;
-	height: 30px;
+	height: auto;
 	line-height: 30px;
 	margin: 20px 30px;
-	display: inline-block;
+	/* display: inline-block; */
 	width: 60%;
 }
 .zx-bg{
