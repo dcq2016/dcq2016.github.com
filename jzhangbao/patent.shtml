@@ -19,7 +19,7 @@
     <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="scripts/jquery-pic.js"></script>
     <script type="text/javascript">
-        var navID = "1";
+        var navID = "6";
     </script>
 </head>
 
@@ -50,32 +50,6 @@
     <script type="text/javascript">
         //导航选中
         $("#nav" + navID).addClass("onnav");
-        $(".Search").hover(
-            function () {
-                $(this).addClass('SearchOn');
-            },
-            function () {
-                var _this = this;
-                setTimeout(function () {
-                    $(_this).removeClass('SearchOn');
-                }, 500)
-
-            }
-        );
-
-        //下拉产品导航
-        $(".MainNav li").mouseover(function () {
-            $(".MainNav li a").attr("class", "");
-            $(this).find("a").attr("class", "onnav");
-            $(this).find(".subnav").stop(true, true).slideDown(500);
-
-        });
-
-        $(".MainNav li").mouseleave(function () {
-            $(".MainNav li a").attr("class", "");
-            $("#nav" + navID).addClass("onnav");
-            $(this).find(".subnav").stop(true, true).slideUp(500);
-        });
     </script>
     <!--top end-->
 

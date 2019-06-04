@@ -20,7 +20,7 @@
     <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="scripts/jquery-pic.js"></script>
     <script type="text/javascript">
-        var navID = "1";
+        var navID = "7";
     </script>
 </head>
 
