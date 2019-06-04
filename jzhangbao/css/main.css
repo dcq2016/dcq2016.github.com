@@ -1027,9 +1027,7 @@
 .lence-list li:hover .lence-txt{
 	color: #1c95f0;
 }
-.lence-list li:first-child{
-	/*margin-right:58px;*/
-}
+
 .lence-list li:last-child{
 	margin-right: 0;
 }
@@ -1373,12 +1371,6 @@
 .move-nav>ul>li .last-a:hover{
 	background-color: #f8653e;
 }
-/*
- 新增侧边栏
- end
- * */
-
-
 
 
 .recom-box{
@@ -1659,9 +1651,7 @@
 	font-size: 16px;
 	color: #666;
 }
-.give-list>li .price.two-price{
-	/*margin-top: 30px;*/
-}
+
 .give-list>li .price .size38{
 	font-size: 38px;
 	color: #ff7000;
@@ -1874,15 +1864,11 @@
     height: 36px;
     line-height: 35px;
     background: #3388f2;
-        background-position-x: 0%;
-        background-position-y: 0%;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: 34px center;
     position: absolute;
     border-radius: 0 3px 3px 0;
-        border-top-right-radius: 3px;
-        border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     right: 0px;
@@ -2053,7 +2039,7 @@ img{cursor: pointer; margin: auto; display: block;}
 .zl-base ul li div p{color: #2b86f7 !important;}
 .zl-base ul li div span{height: auto !important;}
 .zx-wh ul li {
-    width: 19.2%;
+    width: 16.2%;
     float: left;
     overflow: auto;
 }
@@ -2073,6 +2059,9 @@ img{cursor: pointer; margin: auto; display: block;}
     color: #363636;
     font-size: 16px;
     margin-top: 30px;
+}
+.zx-wh ul li span.word {
+    font-size: 14px;
 }
 .base-left{overflow: auto;}
 .base-left img{float: left;width: 40%;}

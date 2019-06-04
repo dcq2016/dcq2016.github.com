@@ -11,7 +11,7 @@
     <title>计账宝</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/b.css" />
+    <link rel="stylesheet" type="text/css" href="css/licence.css" />
     <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
@@ -404,181 +404,14 @@
     </div>
     <!--以下服务 end-->
 
-    <!--计账宝 start-->
-    <style>
-        /*计账宝 start*/
-        .ter-box .ter-tit {
-            width: 100%;
-            margin-bottom: 25px;
-            text-align: center;
-        }
-
-        .ter-box {
-            padding: 50px 0;
-            width: 100%;
-            min-width: 1180px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .ter-tit strong {
-            font-size: 30px;
-            color: #333;
-            line-height: 1;
-        }
-
-        .ter-tit .sm-yk {
-            font-size: 16px;
-            color: #666;
-            text-indent: 2rem;
-            margin-top: 15px;
-        }
-
-        .yk-box {
-            background: url(/static/cd/gs/20171206/register/images/choose-img_02.jpg) no-repeat;
-            height: 585px;
-        }
-
-        .yk-list {
-            overflow: hidden;
-            padding: 25px 0 40px;
-        }
-
-        .yk-list>li {
-            float: left;
-            *width: 10.5%;
-            margin-left: 70px;
-            text-align: center;
-        }
-
-        .yk-list>li i {
-            background: url(images/licence/yk-icons.png) no-repeat;
-            width: 96px;
-            height: 96px;
-            display: block;
-            margin: 0 auto 25px;
-        }
-
-        .yk-list>li i.icon2 {
-            background-position: -96px 0;
-        }
-
-        .yk-list>li i.icon3 {
-            background-position: -192px 0;
-        }
-
-        .yk-list>li i.icon4 {
-            background-position: -288px 0;
-        }
-
-        .yk-list>li i.icon5 {
-            background-position: -384px 0;
-        }
-
-        .yk-list>li i.icon6 {
-            background-position: -480px 0;
-        }
-
-        .yk-list>li p {
-            color: #666;
-            font-size: 16px;
-            *font-size: 15px;
-        }
-
-        .yk-list>li p>span {
-            font-weight: bold;
-            color: #56b1f5;
-        }
-
-        .yk-company {
-            overflow: hidden;
-        }
-
-        .yk-company>li {
-            width: 380px;
-            height: 270px;
-            float: left;
-            margin-left: 20px;
-            background: white;
-            overflow: hidden;
-            text-align: center;
-        }
-
-        .yk-company>li:first-child {
-            margin-left: 0;
-        }
-
-        .yk-company .company-img {
-            width: 360px;
-            height: 208px;
-            margin: 10px auto auto;
-        }
-
-        .yk-company .company-img img {
-            width: 100%;
-        }
-
-        .yk-company>li p {
-            font-size: 16px;
-            color: #666;
-            line-height: 1;
-            margin-top: 20px;
-        }
-
-        /*计账宝  end*/
-    </style>
-
-
 
     <!--bottom-->
     <!--#include file="include/bottom.html" -->
-
     <footer class="footer">
         <div class="w1200"><img src="images/06.png" /></div>
         <p>深圳计账宝有限公司版权所有&copy 2019</p>
     </footer>
-    <!-- <footer class="Bottom">
-        <div class="auto">
-            <dl>
-                <dt>走进华宗</dt>
-                <dd><a href="#">公司简介</a></dd>
-                <dd><a href="#">企业愿景</a></dd>
-                <dd><a href="#">服务理念</a></dd>
-                <dd><a href="#">品质理念</a></dd>
-                <dd><a href="#">经营理念</a></dd>
-                <dd><a href="#">企业精神</a></dd>
-            </dl>
-
-            <dl>
-                <dt>华宗产品</dt>
-                <dd><a href="#">配件</a></dd>
-                <dd><a href="#">控制器</a></dd>
-                <dd><a href="#">点胶机</a></dd>
-                <dd><a href="#">在线式自动点胶机</a></dd>
-                <dd><a href="#">螺丝机设备</a></dd>
-                <dd><a href="#">电池自动点焊机</a></dd>
-                <dd><a href="#">点胶阀/压力桶/高压泵</a></dd>
-            </dl>
-            <dl>
-                <dt>新闻动态</dt>
-                <dd><a href="#">行业新闻</a></dd>
-                <dd><a href="#">企业新闻</a></dd>
-            </dl>
-            <div class="copyright">
-                <div class="title">深圳市华宗科技有限公司</div>
-                <p>
-                    地址：深圳龙华新区大浪街道同富裕工业园21栋2楼<br />
-                    电话：0755-86351620 13713535279（徐先生）<br />
-                    传真：0755-32907339<br />
-                    邮箱： 553815811@qq.com<br />
-                </p>
-
-            </div>
-
-            <div class="clear"></div>
-        </div>
-    </footer> -->
-
+    
     <script type="text/javascript">
         //整站无图处理
         //jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });

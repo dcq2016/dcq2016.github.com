@@ -151,8 +151,7 @@
 	line-height: 24px;
 	padding-top: 15px;
 }
-/*====================================================     涓夊ぇ浼樺娍   end     ===============================================================*/
-/*====================================================     灏忛《鎵胯   start     ===============================================================*/
+
 .pr-banner2{
 	width: 1180px;
 	margin: 0 auto;
@@ -162,9 +161,6 @@
 	height: 69px;
 	margin-top:20px ;
 	padding-top: 95px;
-}
-.pr-banner2 .counsel-box{
-
 }
 .big-gray{background-color: #f8f8f8;width: 100%;min-width: 1180px;}
 .bank-new{text-align: center;}
@@ -190,7 +186,6 @@
 .management-banner a{display: inline-block;}
 .recommend-box-new{position: relative;padding-top: 0 !important;}
 .recommend-box-new .recommend-til{position: absolute;top: 0;left: 0;background-color: #ff9703;padding: 10px;color: white;font-size: 18px;text-align: center;}
-/*           鐗规畩璁稿彲璇�  start          */
 .other-recommend{position: relative;padding-bottom: 50px;}
 .other-recommend .xkz-box{padding-top:50px; padding-bottom: 27px;}
 .other-recommend .special-map{position:relative;height: 400px;width: 634px;margin: 0 auto;background: url(../images/licence-food/map.png) no-repeat;background-size:634px 400px ;margin-bottom: 40px;}
@@ -395,15 +390,13 @@
 	background-position:-340px 0;
 }
 .height307.margin-rg{margin: 0 60px;}
-/*           鐗规畩璁稿彲璇� end          */
 .success-list .bd .ulWrap{overflow: hidden;width: 1060px;margin: 0 auto;}
-/*.zkxcase .bd ul{float: left;}*/
 .success-list{position: relative;padding-bottom: 10px;}
 .success-list .hd{ position: absolute; left: 0; bottom: 0; width: 100%; height: auto; text-align: center;}
 .success-list .hd ul{ overflow: hidden; text-align: center;}
 .success-list .hd li{ display: inline-block; *zoom:1; *display:inline; width: 14px; height: 14px; border-radius: 50%; margin: 0 3px; background: url(../images/transparent30.png) repeat; font-size: 0; cursor: pointer;}
 .success-list .hd .on{ background: #3fbff0;}
-/*============================================2016 10 25 xl 宸ュ晢璁稿彲璇� end============================================*/
+
 .suberb-inquiry{width: 1200px;margin: 0 auto;overflow: hidden;}
 .suberb-inquiry>div{float: left;height: 54px;overflow: hidden;}
 .inquiry-left p{color: white;line-height: normal}
@@ -461,13 +454,11 @@
 .suberb-about{border-top: 1px solid #e9e9e9;}
 
 
-/*=======================================================骞垮窞涓€鍏冩帹骞� ly start==================================================*/
+
 .ipr_banner1{height: 450px;}
 .color_red{color: #FA4F4F;}
 
 .que_zone{padding-top: 0;}
-/*=======================================================骞垮窞涓€鍏冩帹骞� ly end==================================================*/
-/*=======================================================骞垮窞宸ュ晢棣栭〉 ly start==================================================*/
 
 .dis_none {
 	display: none;
@@ -585,8 +576,7 @@
 	margin-top: 22px;
 }
 
-/*============================================2017 02 21 sy 椋熷搧璁稿彲璇� -cq start============================================*/
-/*閫氱敤妯″潡*/
+
 .ter-box{width: 100%;min-width: 1180px;padding: 40px 0;}
 .inter-tit{text-align: center;width: 100%;margin-bottom:40px}
 .inter-tit .big-tit{font-weight: bold;font-size: 30px;color: #333;}
@@ -594,7 +584,7 @@
 .big-tit>span{color: #fd9f26;}
 .small-tit>span{color: #FA4F4F;}
 .ter-box.bg-col{background:#f3f7fd ;height: 573px;}
-/*閫氱敤妯″潡*/
+
 
 
 .form-box{height: 410px;position: absolute;top:20px;left:50%;margin-left: -590px;}
@@ -632,23 +622,12 @@
 	overflow: hidden;
 	margin: 0 auto;
 }
-/*.txtScroll-top .hd{font-size: 0;}
-.txtScroll-top .bd{font-size: 14px;}*/
-/*.txtScroll-top .bd li{height: 25px;width: 305px;overflow: hidden;}*/
-/*from 琛ㄥ崟 end*/
-/*閫氳璇� start*/
-
-
-/*骞垮憡  start*/
 
 .major-box{height: 203px;width: 100%;min-width: 1180px;position: relative;overflow: hidden;margin-top: 40px;}
 .major-img{width: 1920px;height: 203px; left: 50%;margin-left: -960px;position: absolute;}
 .major-img img{width: 100%;}
-/*骞垮憡 end*/
 
 
-/*鎵€闇€璧勬枡 end*/
-/*鎴戜滑鐨勫鎴� start*/
 .customer .left-img{
 	width: 291px;
 	height: 206px;
@@ -693,12 +672,10 @@
 	display: block;
 	color: #fff;
 }
-/*鎴戜滑鐨勫鎴� end*/
-/*鍥剧墖骞垮憡 start*/
+
 .pic-box{height:251px;width: 100%;min-width: 1180px;position: relative;overflow: hidden;margin-top: 40px;}
 .pic-img{width: 1920px;height: 251px; left: 50%;margin-left: -960px;position: absolute;}
 .pic-img img{width: 100%;}
-/*鍥剧墖骞垮憡 end*/
 .quest-li{
 	width: 1200px;
     margin-left: -20px;
@@ -760,9 +737,7 @@
 .personal-about-cover>p{ font-size: 16px; color: white; font-weight: 700; width: 100%; line-height: 38px; vertical-align: middle; text-align: center; }
 .personal-about-cover>p span{ color: #fa4f4f; }
 .personal-about-company .personal-about-last{ margin:0;}
-/*============================================2017 02 21 sy 椋熷搧璁稿彲璇� -cq end============================================*/
-/*================2017 03 20 sy 椋熷搧璁稿彲璇�- wh=====*/
-/*header start*/
+
 .format_head{padding: 29px 0 0;position: relative;z-index: 29;}
 .padding19{padding: 21px 0;}
 .logo-box{float: left;}
@@ -813,16 +788,16 @@
     right: 0;
     top: 50%;
     margin-top: -20px;
-    display:inline-block; /* 鐜颁唬娴忚鍣� +IE6銆�7 inline 鍏冪礌 */
-    *display:inline; /* IE6銆�7 block 鍏冪礌 */
+    display:inline-block;
+    *display:inline;
     *zoom:1;
     width: 1px;
     height: 40px;
     background: #e5e5e5;
 }
 .adv-icon{
-    display:inline-block; /* 鐜颁唬娴忚鍣� +IE6銆�7 inline 鍏冪礌 */
-    *display:inline; /* IE6銆�7 block 鍏冪礌 */
+    display:inline-block;
+    *display:inline;
     *zoom:1;
     width: 66px;
     height: 66px;
@@ -856,13 +831,11 @@
     -o-transform: scale(0.95);
     -webkit-transform: scale(0.95);
 }
-/*浼樺娍 end*/
-/*鏍囬 start*/
+
 .long-xian{height: 1px;width: 360px;background: #e2e2e2;display: block;margin: 5px auto;position: relative;}
 .long-xian .short-xian{width: 80px;height: 1px;background: #0393da;position: absolute;top: 0;left: 50%;margin-left: -40px;}
 .bg-color-f7{background: #f8f8f8;}
-/*鏍囬 end*/
-/*璁稿彲璇乻tart*/
+
 .get-list{
 	width: 100%;
 	overflow: hidden;
@@ -888,8 +861,8 @@
 }
 .get-list>li:first-child{margin-left: 0 !important;}
 .get-list>li i{
-	display:inline-block; /* 鐜颁唬娴忚鍣� +IE6銆�7 inline 鍏冪礌 */  
-	*display:inline; /* IE6銆�7 block 鍏冪礌 */  
+	display:inline-block;
+	*display:inline;
 	*zoom:1; 
 	width: 114px;
 	height: 114px;
@@ -943,8 +916,8 @@
 	color: #555;
 }
 .get-btn{
-	display:inline-block; /* 鐜颁唬娴忚鍣� +IE6銆�7 inline 鍏冪礌 */  
-	*display:inline; /* IE6銆�7 block 鍏冪礌 */  
+	display:inline-block;
+	*display:inline;
 	*zoom:1; 
 	width: 160px;
 	height: 40px;
@@ -972,13 +945,13 @@
 	padding-left:25px;
 	border: 2px solid #3fbff0;
 	text-align: left;
-	font-size: 12px;
+	font-size: 14px;
 	color: #666;
 	line-height:45px;
 	position: relative;
 	border-radius:27.5px;
 }
-.btn-box .tel-num{font-size: 20px; color: #3fbff0;}
+.btn-box .tel-num{font-size: 18px; color: #3fbff0;}
 .btn-box .btn-txt{font-size: 16px;}
 .btn-box b{
 	font-size: 20px;
@@ -1022,9 +995,9 @@
 	border-radius:27.5px;
 }
 .get-btn2:hover{
-	filter:alpha(opacity=80);       /* IE */
-	-moz-opacity:0.8;              /* 鑰佺増Mozilla */
-	-khtml-opacity:0.8;              /* 鑰佺増Safari */
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
 	opacity: 0.8;	
 }
 .get-list>li>.img-icons{
@@ -1063,8 +1036,7 @@
 	display: block;
 	margin: 6px auto auto;
 }
-/*璁稿彲璇� end*/
-/*蹇€熷姙鐞� start*/
+
 .kuai-ul{
 	width: 100%;
 	overflow: hidden;
@@ -1106,8 +1078,7 @@
 	background: #f39d0f;
 	color: #fff;
 }
-/*蹇€熷姙鐞� end*/
-/*4姝ヨ交鏉炬悶瀹� start*/
+
 .gs-bg.flow-box{
 	padding: 50px 0;
 }
@@ -1173,14 +1144,12 @@
 	background: #0393dc;
 	color: #fff;
 }
-/*4姝ヨ交鏉炬悶瀹� end*/
-/*鎴愬姛妗堜緥start*/
+
 .succ-box{
-	background: url(../images/succ-bg_02.jpg) no-repeat;
+	/* background: url(../images/succ-bg_02.jpg) no-repeat; */
 	height: 467px;
 }
-/*鎴愬姛妗堜緥 end*/
-/*鍏充簬灏忛《  start*/
+
 .big-til{padding: 35px 0;color: #333;font-size: 24px;font-weight: bold;line-height: 1;text-align: center;}
 .personal-about-introduce{ width: 1180px; height: 113px; overflow: hidden; background: url(../images/personal-about-bk.jpg) no-repeat;}
 .personal-about-introduce>p{ font-size: 18px; color: white; line-height: 40px; text-align: center; margin-top: 16px; }
@@ -1205,9 +1174,7 @@
 .personal-about-cover>p{ font-size: 16px; color: white; font-weight: 700; width: 100%; line-height: 38px; vertical-align: middle; text-align: center; }
 .personal-about-cover>p span{ color: #fa4f4f; }
 .personal-about-company .personal-about-last{ margin: 0; }
-/*鍏充簬灏忛《  end*/
 
-/*浠ヤ笅鏈嶅姟 start*/
 .w1180.serve-box{padding-top: 44px;}
 .serve-list{
 	width: 100%;
@@ -1261,11 +1228,7 @@
 	background: #398CE8;
 	border-color: #398CE8;
 }
-/*浠ヤ笅鏈嶅姟 end*/
-/*.yk_footer{background: #303231;}*/
-/*.yk_footer .link_list li a{color: #fff;}*/
-/*.yk_footer p{color: #fff;}*/
-/*鍔炵悊浼樺娍 start*/
+
 .ban-adv{
 	width: 1180px;
 	margin: 35px auto;
@@ -1299,12 +1262,8 @@
 	color: #ffea00;
 }
 .ban-adv li img{height: 200px;}
-/*.ban-adv>li.li-txt .tit>span{color:#ff5c01 ;}*/
 .ban-adv>li.li-txt .tips{font-size: 16px;padding-top:10px; padding:5px 20px;}
-/*.ban-adv>li.li-txt:hover{background: #ff7f00;}*/
-/*鍔炵悊浼樺娍 end*/
 
-/*2017 0518 xl add start*/
 .get-list>li{
 	box-shadow: 0 0 7px 3px rgba(0,0,0,0.17);
 }
@@ -1454,10 +1413,7 @@
 	vertical-align: middle;
 	height: 100%;
 }
-/*2017 0518 xl add  end*/
 
-
-/*绮ゅ揩 start*/
 .yk-box{
 	background: url(../images/yk-box.png) no-repeat;
 	height: 584px;
@@ -1522,38 +1478,3 @@
 	line-height: 1;
 	margin-top: 20px;
 }
-/*绮ゅ揩  end*/
-
-/*鏍囬 start*/
-.ter-box{
-	padding:50px 0;
-	width: 100%;
-	min-width: 1180px;
-	position: relative;
-	overflow: hidden;
-}
-.ter-box.box-bg{
-	background:#f1f2f3;
-	height:auto;
-}
-.ter-box .ter-tit{
-	width: 100%;
-	margin-bottom: 25px;
-	text-align: center;
-}
-.ter-tit strong{
-	font-size: 30px;
-	color: #333;
-	line-height: 1;
-}
-.ter-tit p{
-	font-size: 18px;
-	color: #666;
-}
-.ter-tit .sm-yk{
-	font-size: 16px;
-	color: #666;
-	text-indent: 2rem;
-	margin-top: 15px;
-}
-/*鏍囬 end*/

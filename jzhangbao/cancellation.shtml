@@ -87,12 +87,12 @@
         <p class="hot-des tac">不运营的公司不办理注销导致吊销遗患无穷</p>
         <div class="w1200 zx-wh">
             <ul>
-                <li><img src="images/1.png" alt=""><span>公司和法人被工商部门列为黑名单</span></li>
-                <li><img src="images/2.png" alt=""><span>税务永久被列入监控黑名单</span></li>
-                <li><img src="images/3.png" alt=""><span>三年内无法使用自己名义注册公司</span></li>
-                <li><img src="images/4.png" alt=""><span>银行个人信用不良记录将保持7年</span></li>
-                <li><img src="images/5.png" alt=""><span>个人征信不良记录导致无贷贷款和移民</span></li>
-                <li><img src="images/6.png" alt=""><span>将会受到严厉的经济惩罚</span></li>
+                <li><img src="images/1.png" alt=""><span class="word">公司和法人被工商部门列为黑名单</span></li>
+                <li><img src="images/2.png" alt=""><span class="word">税务永久被列入监控黑名单</span></li>
+                <li><img src="images/3.png" alt=""><span class="word">三年内无法使用自己名义注册公司</span></li>
+                <li><img src="images/4.png" alt=""><span class="word">银行个人信用不良记录将保持7年</span></li>
+                <li><img src="images/5.png" alt=""><span class="word">个人征信不良记录导致无贷贷款和移民</span></li>
+                <li><img src="images/6.png" alt=""><span class="word">将会受到严厉的经济惩罚</span></li>
             </ul>
         </div>
     </div>

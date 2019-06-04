@@ -136,7 +136,7 @@
     <div class="row">
         <h1>选择计账宝的理由</h1>
         <h2>专、快、好、省</h2>
-        <img src="images/patent/liyou.png" alt="" onclick="openChat()">
+        <img src="images/patent/liyou.jpg" alt="" onclick="openChat()">
     </div>
 
     <div class="row">
@@ -144,7 +144,7 @@
         <h2>多年行业经验，授权率高</h2>
         <img src="images/patent/sq.png" alt="" onclick="openChat()">
     </div>
-    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()">
+    <!-- <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()"> -->
     <div class="row">
         <h1>专利申请流程</h1>
         <h2>规范流程，快捷办理</h2>
@@ -161,7 +161,7 @@
         <img src="images/patent/cjyw.png" alt="" onclick="openChat()">
         <img src="images/patent/fw.png" alt="" class="mar_t" onclick="openChat()">
     </div>
-    <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()">
+    <!-- <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()"> -->
 
 
 
