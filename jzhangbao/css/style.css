@@ -43,7 +43,7 @@ table{border-collapse:collapse;border-spacing:0;}
 /*Top*/
 .Toper{ width:100%; height:120px;}
 .Top{ width:1200px; height:120px; margin:0 auto; position:relative;}
-.Top a.logo{ position:absolute; top:30px; left:0; width:240px; height:73px; background:url(../images/logo.png) no-repeat; background-size:cover;}
+.Top a.logo{ position:absolute; top:30px; left:0; width:170px; height:73px; background:url(../images/logo.png) no-repeat; background-size:cover;}
 .Top .logo_title{ position:absolute; top:40px; left:146px; height:60px; line-height:60px; border-left:1px solid #666; margin-left:20px; padding-left:20px; font-size:20px; letter-spacing:5px;}
 .Top .tel{ position:absolute; top:20px; right:0; font-size:16px; background:url(../images/icon_tel.png) no-repeat left; padding-left:40px;}
 .Top .tel b{ font-family:"Impact"; font-weight:normal; font-size:22px; color:#28a7e1;}
@@ -51,7 +51,7 @@ table{border-collapse:collapse;border-spacing:0;}
 
 .MainNav{ position:absolute; top:70px; right:-15px; font-size:16px; z-index:9;}
 .MainNav li{ float:left; position:relative;}
-.MainNav li a{ display:block; height:40px; margin:0 15px; text-transform:uppercase;}
+.MainNav li a{ display:block; height:40px; margin:0 18px; text-transform:uppercase;}
 .MainNav li a:hover,.MainNav li a.onnav{ color:#28a7e1; text-decoration:none; /* border-bottom:1px solid #28a7e1;*/}
 
 .MainNav li .subnav{ display:none; position:absolute; top:41px; background:rgba(125,195,250,0.8); width:100%;}
