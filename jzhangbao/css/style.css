@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
 em,i{ font-style:normal;}
 table{border-collapse:collapse;border-spacing:0;}
 .tac{ text-align:center;}
+.tr{ text-align:right;}
 .fl{ float:left;}
 .fr{ float:right;}
 .dib{ display:inline-block;}
@@ -36,10 +37,7 @@ table{border-collapse:collapse;border-spacing:0;}
 }
 .corlorfff{ color:#fff !important;}
 
-
-
 .w1200{ width:1200px; margin:0 auto; overflow: hidden;}
-
 /*Top*/
 .Toper{ width:100%; height:120px;}
 .Top{ width:1200px; height:120px; margin:0 auto; position:relative;}
@@ -511,6 +509,39 @@ table{border-collapse:collapse;border-spacing:0;}
     box-sizing: border-box;
     text-align: justify;
 }
+
+/* 出口退税 */
+.rebate{
+  width:1200px;
+	height:auto;
+	margin: 0 auto;
+}
+.rebate__item{
+  padding: 50px 0;
+  height:472px;
+  overflow: hidden;
+}
+.rebate__item .img__left, .rebate__item .img__left img{
+  width:327px;
+  height:472px;
+}
+.rebate__item .desc{
+  width:820px;
+}
+.rebate__item .desc__double{
+  background:#ebf1f1;
+  height:432px;
+  padding:20px 10px;
+}
+.rebate__item .desc h2{
+  line-height: 50px;
+}
+.rebate__item .desc p{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
 .footer{ padding:50px 0 10px; border-top:1px solid #ddd;}
 .footer img{ width:1200px; margin: 0 auto 10px;}
 .footer p{ text-align: center; color:#666;}

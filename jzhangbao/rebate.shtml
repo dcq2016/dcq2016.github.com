@@ -19,7 +19,7 @@
     <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="scripts/jquery-pic.js"></script>
     <script type="text/javascript">
-        var navID = "6";
+        var navID = "9";
     </script>
 </head>
 
@@ -50,93 +50,101 @@
     <script type="text/javascript">
         //导航选中
         $("#nav" + navID).addClass("onnav");
+        $(".Search").hover(
+            function () {
+                $(this).addClass('SearchOn');
+            },
+            function () {
+                var _this = this;
+                setTimeout(function () {
+                    $(_this).removeClass('SearchOn');
+                }, 500)
+
+            }
+        );
+
+        //下拉产品导航
+        $(".MainNav li").mouseover(function () {
+            $(".MainNav li a").attr("class", "");
+            $(this).find("a").attr("class", "onnav");
+            $(this).find(".subnav").stop(true, true).slideDown(500);
+
+        });
+
+        $(".MainNav li").mouseleave(function () {
+            $(".MainNav li a").attr("class", "");
+            $("#nav" + navID).addClass("onnav");
+            $(this).find(".subnav").stop(true, true).slideUp(500);
+        });
     </script>
     <!--top end-->
 
     <aside class="banner" style=" background:url(images/temp/banner.jpg) no-repeat center top;"></aside>
 
 
-    <div class="row">
-        <div class="w1200">
-            <input type="text" name="title" placeholder="请输入姓名">
-            <input type="text" name="tel" placeholder="请输入手机号">
-            <button id="submit" onclick="submit_zlsq()">免费查询专利</button>
+    <!--center start-->
+    <div class="rebate">
+        <div class="rebate__item">
+            <div class="img__left fl">
+                <img src="images/rebate/A1.jpg" alt="">
+            </div>
+            <div class="desc fr">
+                <h2>出口退税</h2>
+                <p>1、退税是指受国家鼓励出口的产品出口报关后，有对应的出口收汇，经报税务局审批，享受国家给予的出口退税政策。</p>
+                <p>2、国家给予退税政策的商品才可以退税，不在退税范围内的商品，就不能退税。</p>
+                <p>3、按照不同产品的退税率，国税局将根据出口企业的申报，以及出口的相关记录和单据，将全部或部分增值税退给出口企业。</p>
+            </div>
+        </div>
+        <div class="rebate__item">
+            <div class="img__left fr">
+                <img src="images/rebate/A2.jpg" alt="">
+            </div>
+            <div class="desc desc__double fl">
+                <h2>出口退税企业种类</h2>
+                <p>1、小规模出口免税</p>
+                <p>2、贸易一般纳税人企业出口退税</p>
+                <p>3、工厂一般纳税人企业免抵退税</p>
+                <p>4、委托外贸综合服务平台代理出口退税</p>
+            </div>
+        </div>
+        <div class="rebate__item">
+            <div class="img__left fl">
+                <img src="images/rebate/A3.jpg" alt="">
+            </div>
+            <div class="desc fr">
+                <h2>小规模纳税人企业出口免税</h2>
+                <p>1、2014年6月1日起，小规模出口企业取消增值税、消费税优惠备案！无需做出口认定文书！</p>
+                <p>2、小规模纳税人自营或委托出口货物后，只须正常进行增值税日常申报即可！</p>
+                <p>3、以报关单/货物出口代理证明为申报依据！</p>
+                <p>4、企业需正常进行相关单证保管予以税局查验！</p>
+            </div>
+        </div>
+        <div class="rebate__item">
+            <div class="img__left fr">
+                <img src="images/rebate/A4.jpg" alt="">
+            </div>
+            <div class="desc desc__double fl">
+                <h2>外贸一般纳税人企业出口货物退（免）税</h2>
+                <p>1、纯贸易（无加工/生产/组装）！</p>
+                <p>2、有办公地址，有租赁凭证及租赁合同，有租金收据和水电费发票！</p>
+                <p>3、无虚买进项进行骗税行为！必须是C级以上企业！</p>
+                <p>4、进出口权全套已经办理！</p>
+            </div>
+        </div>
+        <div class="rebate__item">
+            <div class="img__left fl">
+                <img src="images/rebate/A5.jpg" alt="">
+            </div>
+            <div class="desc fr">
+                <h2>工厂一般纳税人免抵退税</h2>
+                <p>1、免抵退税是我国现行出口货物增值税的退（免）税办法主要方法之一，这种方法适用于生产型出口企业！</p>
+                <p>2、“免”税是指对生产企业出口的自产货物，免征本企业生产销售环节增值税！</p>
+                <p>3、“抵”税是指生产企业出口自产货物所耗用的原材料、零部件、燃料动力等所 含应予退还的进项税额，抵顶内销货物的应纳税额！</p>
+                <p>4、“抵”税是指生产企业出口自产货物所耗用的原材料、零部件、燃料动力等所 含应予退还的进项税额，抵顶内销货物的应纳税额！</p>
+            </div>
         </div>
     </div>
-
-    <div class="row">
-        <h1>专利申请类型</h1>
-        <h2>及时申请专业保护，维权有据</h2>
-        <div class="sqlx">
-            <a>
-                <img src="images/patent/sudu.png">
-                <h1>专利快速申请</h1>
-                <span>一站式企业服务<br>省时省心省力</span>
-            </a>
-            <ul>
-                <li>
-                    <img src="images/patent/sqlx_1.png">
-                    <h2>发明专利</h2>
-                    <p>保护产品创新<br>保护范围广泛<br>专利价值最大</p>
-                </li>
-                <li>
-                    <img src="images/patent/sqlx_2.png">
-                    <h2>外观专利</h2>
-                    <p>保护产品独特设计<br>投资少、回报快</p>
-                </li>
-                <li>
-                    <img src="images/patent/sqlx_3.png">
-                    <h2>实用新型专利</h2>
-                    <p>保护结构形状创新<br>风险小、周期短</p>
-                </li>
-                <li>
-                    <img src="images/patent/sqlx_4.png">
-                    <h2>PCT国际专利</h2>
-                    <p>开拓市场，跨国保护</p>
-                </li>
-            </ul>
-        </div>
-        <img src="images/patent/ljbl.png" alt="" onclick="openChat()">
-    </div>
-
-    <div class="w_100">
-        <div class="row">
-            <h1>申请专利的好处</h1>
-            <h2>保护专利成果，实现价值转化</h2>
-        </div>
-        <img src="images/patent/good.jpg" alt="" onclick="openChat()">
-    </div>
-
-    <div class="row">
-        <h1>选择计账宝的理由</h1>
-        <h2>专、快、好、省</h2>
-        <img src="images/patent/liyou.jpg" alt="" onclick="openChat()">
-    </div>
-
-    <div class="row">
-        <h1>专利申请就找计账宝</h1>
-        <h2>多年行业经验，授权率高</h2>
-        <img src="images/patent/sq.png" alt="" onclick="openChat()">
-    </div>
-    <!-- <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()"> -->
-    <div class="row">
-        <h1>专利申请流程</h1>
-        <h2>规范流程，快捷办理</h2>
-        <img src="images/patent/lc.png" alt="" onclick="openChat()">
-    </div>
-    <div class="row">
-        <h1>更多专利业务</h1>
-        <h2>多种专利业务，一站式企业服务</h2>
-        <img src="images/patent/yw.png" alt="" onclick="openChat()">
-    </div>
-    <div class="row">
-        <h1>常见疑问</h1>
-        <h2>您关心的，我们都知道 </h2>
-        <img src="images/patent/cjyw.png" alt="" onclick="openChat()">
-        <img src="images/patent/fw.png" alt="" class="mar_t" onclick="openChat()">
-    </div>
-    <!-- <img src="images/patent/zxdh.png" alt="" class="mar_t" onclick="openChat()"> -->
-
+    <!--center end-->
 
 
 

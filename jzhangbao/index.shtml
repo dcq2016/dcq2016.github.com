@@ -39,7 +39,7 @@
                     <li><a id="nav6" href="patent.shtml">专利申请</a></li>
                     <li><a id="nav7" href="licence.shtml">许可证</a></li>
                     <li><a id="nav8" href="HK.shtml">香港公司注册</a></li>
-                    <li><a id="nav9" href="subsidy.shtml">创业补贴</a></li>
+                    <li><a id="nav9" href="rebate.shtml">出口退税</a></li>
                     <li><a id="nav10" href="about.shtml">关于我们</a></li>
                 </ul>
                 <div class="clear"></div>
@@ -256,7 +256,7 @@
                         <div class="question"><span class="tac">问</span>谁当公司法定代表人更合适？</div>
                         <div class="answer">创始人或者团队核心人员。法定代表人意味着权利和责任，由团队灵魂人物担任最合适不过。</div>
                         <div class="question"><span class="tac">问</span>没有注册地址怎么办？</div>
-                        <div class="answer">慧算账可以为您介绍入驻集中办公区，提供安全、可靠、低价的虚拟注册地址帮您注册公司。</div>
+                        <div class="answer">计账宝可以为您介绍入驻集中办公区，提供安全、可靠、低价的虚拟注册地址帮您注册公司。</div>
                     </li>
                     <li class="fl list-right">
                         <div class="question"><span class="tac">问</span>注册资本写多少合适？</div>
