@@ -1,4 +1,4 @@
-### this is a simple AngularJs demo
+### git 常用操作代码
 
 ``` bash
 git status 
