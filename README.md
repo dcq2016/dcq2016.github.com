@@ -3,9 +3,12 @@
 ``` bash
 git status 
 git add .
+# 描述说明
 git commit -m ":blush: :heartbeat: :cn: :blush: :update:"
-git push  上传
-git pull  下载
+# 上传
+git push
+# 下载
+git pull
 
 # 找回误删掉的文件
 git status
