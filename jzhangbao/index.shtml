@@ -10,13 +10,13 @@
     <meta content="计账宝 www.jzhangbao.com" name="design">
     <title>计账宝</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
     <!--[if lt IE 9]>
-  <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
-<![endif]-->
+    <script type="text/javascript" src="scripts/html5shiv.v3.72.min.js"></script>
+    <![endif]-->
 
     <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
-    <script type="text/javascript" src="scripts/jquery-pic.js"></script>
     <script type="text/javascript">
         var navID = "1";
     </script>
@@ -248,7 +248,7 @@
             <p class="hot-des tac">一些常见问题的描述及解答</p>
         </div>
         <div class="process-wrap">
-            <div class="vs-text" style="padding-bottom:15px;">
+            <div class="vs-text02" style="padding-bottom:15px;">
                 <ul class="clearfix process-tab5">
                     <li class="fl list-left">
                         <div class="question"><span class="tac">问</span>公司注册一般需要多长时间？</div>

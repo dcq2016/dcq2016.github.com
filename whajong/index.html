@@ -1,0 +1,646 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>深圳市华宗科技有限公司</title>
+    <meta name="keywords" content="深圳市华宗科技有限公司" />
+    <meta name="Description" content="深圳市华宗科技有限公司" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" href="cn/images/favicon.ico" />
+    <link href="cn/css/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="cn/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="cn/scripts/superslide.2.1.js"></script>
+    <script type="text/javascript" src="cn/scripts/jquery.smoove.js"></script>
+
+    <script type="text/javascript">
+        var navID = '1';
+    </script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+    <link href="cn/css/global.css" rel="stylesheet" type="text/css" />
+    <!-- <script type="text/javascript" src="/res/js/common.js"></script>
+<script type="text/javascript" src="/res/js/jquery.form.js"></script>
+<script type="text/javascript" src="/res/js/Jquery.Query.js"></script>
+<script type="text/javascript" websiteurl="/" src="/res/js/submitform_validator.js"></script>
+<script type="text/javascript" src="/res/js/DatePicker/WdatePicker.js"></script> -->
+
+</head>
+
+<body>
+    <div class="toper">
+        <div class="topbox">
+            <div class="logo">
+                <a href='/index.aspx'>
+                    <img src="cn/images/logo.png" alt="" />
+                </a>
+            </div>
+            <div class="telbox">
+                <div class="teltxt">拿起电话拨打<br />咨询电话</div>
+                <!-- <div class="teltxt">咨询电话</div> -->
+                <p class="telp banscan">0755-86351620</p>
+            </div>
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <div class="contain">
+                <ul class="clearfix">
+                    <li class="mnav1">
+                        <a href='/index.aspx' class="nava">首页</a>
+                    </li>
+
+                    <li id="mnav12">
+                        <a href='/about/index_18.aspx' class="nava">关于我们</a>
+                        <div class="subnav">
+                            <dl>
+
+                                <dd><a href="cn/about/index_18.aspx">公司简介</a></dd>
+
+                                <dd><a href="cn/about/index_19.aspx">企业文化</a></dd>
+
+                                <dd><a href="cn/about/index_20.aspx">荣誉资质</a></dd>
+
+                                <dd><a href="cn/index_45.aspx">营销方式</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li id="mnav13">
+                        <a href='/news/list_22.aspx' class="nava">新闻中心</a>
+                        <div class="subnav">
+                            <dl>
+
+                                <dd><a href="cn/news/list_22.aspx">公司新闻</a></dd>
+
+                                <dd><a href="cn/news/list_23.aspx">行业动态</a></dd>
+
+                                <dd><a href="cn/news/list_24.aspx">通知公告</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li id="mnav14">
+                        <a href='/products/index_25.aspx' class="nava">产品中心</a>
+                        <div class="subnav">
+                            <dl>
+
+                                <dd><a href="cn/products/index_25.aspx">盾构机</a></dd>
+
+                                <dd><a href="cn/products/index_26.aspx">顶管机</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                    <!-- <li id="mnav15">
+                        <a href='/CaseShow/list_15.aspx' class="nava">工程案例</a>
+                        <div class="subnav">
+                            <dl>
+
+                            </dl>
+                        </div>
+                    </li> -->
+
+                    <li id="mnav16">
+                        <a href='/Service/index_27.aspx' class="nava">服务中心</a>
+                        <div class="subnav">
+                            <dl>
+
+                                <dd><a href="cn/Service/index_27.aspx">服务理念</a></dd>
+
+                                <dd><a href="cn/Service/index_28.aspx">售后服务</a></dd>
+
+                                <dd><a href="cn/Service/index_29.aspx">在线留言</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                    <li id="mnav17">
+                        <a href='/Contactus/index_30.aspx' class="nava">联系我们</a>
+                        <div class="subnav">
+                            <dl>
+                                <dd><a href="cn/Contactus/index_30.aspx">招贤纳士</a></dd>
+
+                                <dd><a href="cn/Contactus/index_31.aspx">联系我们</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--nav e-->
+    </div>
+    <script type="text/javascript">
+        $('.mnav' + navID).addClass('on');
+        $(function () {
+            var $category = $(".subnav");
+            $category.hide();
+            $(".nav li").mouseleave(function () {
+                $(this).find(".subnav").stop(true, true).slideUp(500);
+            });
+            $(".nav li").mouseenter(function () {
+                $category.hide();
+                $(this).find(".subnav").stop(true, true).slideDown(500);
+            });
+        });
+        $(".nav ul li:last-child").children('.nava').css({
+            'border-right': 'none'
+        });
+        $(".subnav dd:last-child").css({
+            'border-radius': '0 0 5px 5px',
+        });
+    </script>
+
+    <!--homeban-->
+    <div class="homeban">
+        <div class="bd">
+            <ul>
+                <li style="background: url(uploadfiles/banner02.jpg) center top no-repeat;"><a href="#"></a></li>
+                <li style="background: url(uploadfiles/banner04.jpg) center top no-repeat;"><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="hd">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".homeban").slide({
+            mainCell: ".bd ul",
+            autoPlay: true,
+            delayTime: 3000
+        });
+    </script>
+    <!--homeban end-->
+    <!--服务-->
+    <div class="fwbox fadeInBlock" data-move-y="50px" data-move-x="0">
+        <div class="contain">
+            <div class="fw">
+                <ul class="clearfix">
+
+                    <li class="fw1">
+                        <div class="fwpic">
+                            <img src="uploadfiles/201707271629112911.png" />
+                        </div>
+                        <div class="fwtxt">
+                            <h3>团队经验</h3>
+                            <p>以优秀的设计团队和优良的生产设备，为顾客提供卓越产品和超值服务</p>
+                        </div>
+                    </li>
+
+
+                    <li class="fw2">
+                        <div class="fwpic">
+                            <img src="uploadfiles/20170727162902292.png" />
+                        </div>
+                        <div class="fwtxt">
+                            <h3>产品优势</h3>
+                            <p>以优秀的设计团队和优良的生产设备，为顾客提供卓越产品和超值服务</p>
+                        </div>
+                    </li>
+
+
+                    <li class="fw3">
+                        <div class="fwpic">
+                            <img src="uploadfiles/201707271628482848.png" />
+                        </div>
+                        <div class="fwtxt">
+                            <h3>服务与合作</h3>
+                            <p>以优秀的设计团队和优良的生产设备，为顾客提供卓越产品和超值服务</p>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--服务 end-->
+    <!--产品介绍-->
+    <div class="cpjs">
+        <div class="contain">
+            <div class="titl"><span class="en">Product introduction</span><br /><span class="cn">产品介绍</span></div>
+            <div class="cpbox clearfix">
+
+
+                <div class="cplf fadeInBlock" data-rotate-y="270deg" data-move-x="-150%"
+                    style="transition: all 2s ease, opacity 2s ease; opacity: 1;">
+                    <a href='cn/products/index_25.aspx'><img src="uploadfiles/20170728154803483.jpg" /></a>
+                </div>
+                <div class="cprt fadeInBlock" data-rotate-y="270deg" data-move-x="150%"
+                    style="transition: all 2s ease, opacity 2s ease; opacity: 1;">
+                    <div class="cptitl">产品简介：</div>
+                    <p>公司主要采用德国海瑞克盾构机技术，并吸收美、日先进技术经验，凭借技术和资金优势，在盾构机租赁及销售市场中与众多实力企业强强联手，在诸多领域展开深入的合作，是地铁、公路、管道、公用事业、水电、采矿、勘探等相关基础设施建设项目的最佳选择。公司依托大冶有色金属集团控股有限公司，正积极拓展施工总承包等业务<a
+                            href='cn/products/index_25.aspx' class="ckxq">[点击详情]</a></p>
+                    <dl class="cplist">
+                        <dd><a href='cn/products/index_25.aspx'> 盾构机的类型和用途</a></dd>
+                        <dd><a href='cn/products/index_25.aspx'> 盾构机的技术与参数</a></dd>
+                        <dd><a href='cn/products/index_26.aspx'> 顶管机的类型和用途</a></dd>
+                        <dd><a href='cn/products/index_26.aspx'> 顶管机的技术与参数</a></dd>
+                    </dl>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--产品介绍 end-->
+    <!--关于我们-->
+    <div class="gywm">
+        <div class="contain">
+            <div class="abt fadeInBlock" data-move-y="0px" data-move-x="-500px"
+                style="transition: all 2s ease, opacity 1.5s ease; opacity: 1;">
+                <div class="titl"><span class="en">About us</span><br /><span class="cn">关于我们</span></div>
+
+                <!-- 公司主要采用德国海瑞克盾构机技术，并吸收美、日先进技术经验，凭借技术和资金优势，在盾构机租赁及销售市场中与众多实力企业强强联手，在诸多领域展开深入的合作，是地铁、公路、管道、公用事业、水电、采矿、勘探等相关基础设施建设项目的优质选择。公司依托大冶有色金属集团控股有限公司，正积极拓展施工总承包等业务 -->
+                深圳市华宗科技有限公司是一家专业研发、生产、销售各种点胶、喷胶、视觉喷射点胶、自动锁螺丝、自动焊锡及相关配套定制设备的企业；成立于2008年，总部位于深圳，分别在厦门、江西、天津、成都及苏州拥有销售服务部，并于2014年成立深圳市晟威工业设备有限公司，并拥有自主的品牌和专利 。
+
+                <a href='cn/about/index_18.aspx' class="more">查看更多</a>
+            </div>
+            <div class="fzsx fadeInBlock" data-rotate-x="-90deg" data-move-z="-500px" data-move-y="200px"
+                style="transition: all 1s ease, opacity 1.5s ease; opacity: 1;">
+                <div class="fztxt">
+
+                    &nbsp;华宗科技以技术含量高、品种多样化、质量稳定、服务优质、开发力强等特点广泛服务于电子、家用电器、汽车零部件、航天器、五金、LED、半导体封装、电声、通讯、太阳能、电路板、电池、指纹识别、摄像头模组、VCM马达、扫地机器人、五金塑胶加工等行业。
+
+                </div>
+                <div class="titl"><span class="en">About us</span><br /><span class="cn">发展设想</span></div>
+            </div>
+        </div>
+    </div>
+    <!--关于我们 end-->
+    <!--新闻中心-->
+    <div class="xwzx">
+        <div class="contain">
+            <div class="titl"><span class="en">News Center</span><br /><span class="cn">新闻中心</span></div>
+            <div class="xwbox">
+
+                <div class="xwlf fadeInBlock" data-move-y="0px" data-move-x="-500px"
+                    style="transition: all 2s ease, opacity 1.5s ease; opacity: 1;">
+                    <a href='cn/news/info_22.aspx?itemid=18' class="xwpic"><img
+                            src="uploadfiles/201707281152285228.jpg" /></a>
+                    <div class="xwlftxt">
+                        <h3><a href="">华宗科技新闻</a></h3>
+                        <p class="xlftit"></p>
+                    </div>
+                </div>
+
+                <div class="xwrt">
+                    <ul>
+
+                        <li class="clearfix fadeInBlock" data-move-y="0px" data-move-x="500px"
+                            style="transition: all 2s ease, opacity 1.5s ease; opacity: 1;">
+                            <div class="xdate"><span class="rq">26<br /></span>2020-10</div>
+                            <div class="xwrtxt">
+                                <h3><a href='cn/news/info_23.aspx?itemid=22'>华宗科技新闻</a></h3>
+                                <p class="xrtit">央视网(cctv.com)新闻频道是面向全球,多语种,多终端的立体化新闻信息共享平台。以视听与互动为核心,24小时不间断提供最快捷,最权威</p>
+                            </div>
+                        </li>
+
+                        <li class="clearfix fadeInBlock" data-move-y="0px" data-move-x="500px"
+                            style="transition: all 2s ease, opacity 1.5s ease; opacity: 1;">
+                            <div class="xdate"><span class="rq">24<br /></span>2020-10</div>
+                            <div class="xwrtxt">
+                                <h3><a href='cn/news/info_22.aspx?itemid=21'>华宗科技新闻</a></h3>
+                                <p class="xrtit">央视网(cctv.com)新闻频道是面向全球,多语种,多终端的立体化新闻信息共享平台。以视听与互动为核心,24小时不间断提供最快捷,最权威</p>
+                            </div>
+                        </li>
+
+                        <li class="clearfix fadeInBlock" data-move-y="0px" data-move-x="500px"
+                            style="transition: all 2s ease, opacity 1.5s ease; opacity: 1;">
+                            <div class="xdate"><span class="rq">22<br /></span>2020-10</div>
+                            <div class="xwrtxt">
+                                <h3><a href='cn/news/info_24.aspx?itemid=23'>新闻频道_央视网(cctv.com)</a></h3>
+                                <p class="xrtit">央视网(cctv.com)新闻频道是面向全球,多语种,多终端的立体化新闻信息共享平台。以视听与互动为核心,24小时不间断提供最快捷,最权威
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--新闻中心 end-->
+    <!--联系我们-->
+    <div class="lxwm">
+        <div class="contain">
+            <div class="titl"><span class="en">Contact us</span><br /><span class="cn">联系我们</span></div>
+            <div class="lxbox clearfix fadeInBlock" data-move-y="300px" data-move-x="0px">
+                <!--百度地图容器-->
+                <div style="width:446px;height:260px;border:#e5e5e5 solid 1px;" id="dituContent"></div>
+                <div class="lxmid">
+
+                    <h3 style="font-size:16px;font-weight:bold;color:#2c2c2c;margin:5px 0px 10px;"> 深圳市华宗科技有限公司
+                    </h3>
+                    <p style="font-size:13px;color:#5e5d5d;line-height:20px;"> 地址：<span
+                            style="color:#5E5D5D;font-size:13px;white-space:normal;">深圳龙华新区大浪街道华兴路1号A栋3楼</span></p>
+                    <p style="font-size:13px;color:#5e5d5d;line-height:20px;">
+                        电话：<span>+86-0755-8635-1620</span><br /><span
+                            style="padding-left:39px;">+86-188-8888-8888</span>
+                    </p>
+                    <p style="font-size:13px;color:#5e5d5d;line-height:20px;"> 网址：www.whajong.cn &nbsp;&nbsp;</p>
+                    <div class="wx">
+                        <img src="uploadfiles/20170728115503553.jpg" style="float:left; width:83px; height:83px;" />
+                        <p style="margin:18px 0 0 18px; float:left;color:#2c2c2c;">扫一扫<br />关注二维码</p>
+                    </div>
+
+                </div>
+                <form id="whir_16" res="whirform">
+                    <div class="lxrt">
+                        <ul>
+                            <li class="name">
+                                <span>姓名：</span>
+                                <input type="text" value="请输入您的姓名" class="lxtxt" id="17862" name="17862"
+                                    onfocus="if (value =='请输入您的姓名'){value =''}"
+                                    onblur="if (value ==''){value='请输入您的姓名'}" />
+                            </li>
+                            <li class="dh">
+                                <span>电话：</span>
+                                <input type="text" value="请输入您的电话" class="lxtxt" id="17863" name="17863"
+                                    onfocus="if (value =='请输入您的电话'){value =''}"
+                                    onblur="if (value ==''){value='请输入您的电话'}" />
+                            </li>
+                            <li class="yx">
+                                <span>邮箱：</span>
+                                <input type="text" value="请输入您的邮箱" class="lxtxt" id="17864" name="17864"
+                                    onfocus="if (value =='请输入您的邮箱'){value =''}"
+                                    onblur="if (value ==''){value='请输入您的邮箱'}" />
+                            </li>
+                            <li class="ly">
+                                <span>留言：</span>
+                                <textarea value="请输入您的留言内容" id="lxarea" id="17867" name="17867"
+                                    onfocus="if (value =='请输入您的留言内容'){value =''}"
+                                    onblur="if (value ==''){value='请输入您的留言内容'}">请输入您的留言内容</textarea>
+                            </li>
+                            <li class="lxbtn">
+                                <span name="whirValidator" validatorfor="17862" required="True" requiredmsg="姓名为必填"
+                                    regexp="" errmsg="姓名验证不通过"></span>
+                                <span name="whirValidator" validatorfor="17867" required="False" requiredmsg="留言内容为必填"
+                                    regexp="" errmsg="留言内容验证不通过"></span>
+                                <span name="whirValidator" validatorfor="17863" required="False" requiredmsg="手机号码为必填"
+                                    regexp="^(1[3|4|5|8])(\d){9}$" errmsg="手机号码验证不通过"></span>
+                                <span name="whirValidator" validatorfor="17864" required="False" requiredmsg="电子邮箱为必填"
+                                    regexp="^\w+([-+.]\w+)*@\w+([-.]\\w+)*\.\w+([-.]\w+)*$" errmsg="电子邮箱验证不通过"></span>
+                                <input type="button" onclick="whir.form.submit('whir_16','29','0','16')" value="提交"
+                                    id="tj" />
+                                <input type="button" onclick="whir.form.reset('whir_16')" value="重置" id="cz" />
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--联系我们 end-->
+
+
+    <!--友情链接-->
+    <div class="link">
+        <div class="contain">
+            <div class="lktitl">友情链接</div>
+            <ul class="lk clearfix">
+
+                <li><a href='#'>深圳思方</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <!--友情链接 end-->
+    <div class="footer">
+        <div class="contain clearfix">
+            <div class="btmtop clearfix">
+                <div class="btmnav clearfix">
+                    <dl>
+                        <dt><a href='cn/news/list_13.aspx'>关于我们</a></dt>
+
+                        <dd><a href="cn/about/index_18.aspx">公司简介</a></dd>
+
+                        <dd><a href="cn/about/index_19.aspx">企业文化</a></dd>
+
+                        <dd><a href="cn/about/index_20.aspx">荣誉资质</a></dd>
+
+                        <dd><a href="cn/index_45.aspx">营销方式</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href='cn/news/list_22.aspx'>新闻中心</a></dt>
+
+                        <dd><a href="cn/news/list_22.aspx">公司新闻</a></dd>
+
+                        <dd><a href="cn/news/list_23.aspx">行业动态</a></dd>
+
+                        <dd><a href="cn/news/list_24.aspx">通知公告</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href='cn/products/index_25.aspx'>产品中心</a></dt>
+
+                        <dd><a href="cn/products/index_25.aspx">盾构机</a></dd>
+
+                        <dd><a href="cn/products/index_26.aspx">顶管机</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href='cn/CaseShow/list_15.aspx'>工程案例</a></dt>
+                        <dd><a href='cn/CaseShow/list_15.aspx'>工程案例</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href='cn/Service/index_27.aspx'>服务中心</a></dt>
+
+                        <dd><a href="cn/Service/index_27.aspx">服务理念</a></dd>
+
+                        <dd><a href="cn/Service/index_28.aspx">售后服务</a></dd>
+
+                        <dd><a href="cn/Service/index_29.aspx">在线留言</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href='cn/Contactus/index_30.aspx'>联系我们</a></dt>
+
+                        <dd><a href="cn/Contactus/index_30.aspx">招贤纳士</a></dd>
+
+                        <dd><a href="cn/Contactus/index_31.aspx">联系我们</a></dd>
+
+                    </dl>
+                </div>
+                <div class="btmrt">
+
+                    <dl class="clearfix">
+                        <dt>全国免费客热线：</dt>
+                        <dd>400-888-8888</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>微信公众二维码：</dt>
+                        <dd><img src="uploadfiles/201707281138583858.jpg"></dd>
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="contain clearfix">
+                <!-- <span class="fr">Designed by Dean</span> -->
+                Copyright © 2017 深圳市华宗科技有限公司. All Rights Reserved.
+                <!-- <a href="http://www.beian.miit.gov.cn" target="_blank">备案号666666号</a> -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //整站无图处理
+        jQuery.each(jQuery("img"), function (i, n) {
+            jQuery(n).error(function () {
+                n.src = 'uploadfiles/nopic.jpg';
+            });
+            n.src = n.src;
+        });
+        $('.btmrt dl:nth-child(2) dt').css({
+            height: '77px',
+            'line-height': '77px'
+        });
+        $('.btmrt dl:nth-child(2) dd img').css({
+            height: '77px',
+            'width': '77px'
+        });
+    </script>
+
+
+</body>
+
+</html>
+<script type="text/javascript">
+    $('.cplist dd:nth-child(1)').css({
+        background: '#eeeeee url(cn/images/abt1.png) 38px center no-repeat'
+    });
+    $('.cplist dd:nth-child(2)').css({
+        background: '#f7e6e5 url(cn/images/abt2.png) 38px center no-repeat'
+    });
+    $('.cplist dd:nth-child(3)').css({
+        background: '#eeeeee url(cn/images/abt3.png) 38px center no-repeat'
+    });
+    $('.cplist dd:nth-child(4)').css({
+        background: '#f7e6e5 url(cn/images/abt4.png) 38px center no-repeat'
+    });
+    $('.fadeInBlock').smoove({});
+</script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap() {
+        createMap(); //创建地图
+        setMapEvent(); //设置地图事件
+        addMapControl(); //向地图添加控件
+        addMarker(); //向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap() {
+        var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+        var point = new BMap.Point(114.427665, 30.474257); //定义一个中心点坐标
+        map.centerAndZoom(point, 17); //设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map; //将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent() {
+        map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+        map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard(); //启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl() {
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({
+            anchor: BMAP_ANCHOR_BOTTOM_LEFT
+        });
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{
+        title: "深圳市华宗科技有限公司",
+        content: "我的备注",
+        point: "114.427225|30.474397",
+        isOpen: 0,
+        icon: {
+            w: 21,
+            h: 21,
+            l: 0,
+            t: 0,
+            x: 6,
+            lb: 5
+        }
+    }];
+    //创建marker
+    function addMarker() {
+        for (var i = 0; i < markerArr.length; i++) {
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0, p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point, {
+                icon: iconImg
+            });
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title, {
+                "offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)
+            });
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor: "#808080",
+                color: "#333",
+                cursor: "pointer"
+            });
+
+            (function () {
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click", function () {
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open", function () {
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close", function () {
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click", function () {
+                    _marker.openInfoWindow(_iw);
+                })
+                if (!!json.isOpen) {
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i) {
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title +
+            "</b><div class='iw_poi_content'>" + json.content + "</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json) {
+        var icon = new BMap.Icon("cn/images/map.gif", new BMap.Size(json.w, json.h), {
+            imageOffset: new BMap.Size(-json.l, -json.t),
+            infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+            offset: new BMap.Size(json.x, json.h)
+        })
+        return icon;
+    }
+
+    initMap(); //创建和初始化地图
+</script>
